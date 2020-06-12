@@ -1,0 +1,1431 @@
+## intent:request_spend
+- How much spend do we have with supplier [ONE](supplier_name)?
+- How much money have we spent with supplier [IWEB](supplier_name)?
+- What is the spend for [RX](supplier_name)?
+- How much money have we spent with company [Rogers](supplier_name)?
+- What is the spend for supplier [ACA](supplier_name)?
+- How much spend do we have with supplier [RANATEC](supplier_name)?
+- How much money have we spent with supplier [AEROFLEX](supplier_name)?
+- What is the spend for [PRECISE](supplier_name)?
+- How much spend do we have with [RF-LAMBDA](supplier_name)?
+- How much money have we spent with [ACENTURY](supplier_name)?
+- What is the spend for company [THERMOTRON](supplier_name) company?
+- How much spend do we have with company [SYNTRONIC](supplier_name)?
+- How much money have we spent with company [RESPECT](supplier_name)?
+- What is the spend with [METAPLAST](supplier_name)?
+- What is the spend for supplier [RAYMOND](supplier_name)?
+- How much spend do we have with supplier [WEISS](supplier_name)?
+- How much money have we spent with supplier [KEYSIGHT](supplier_name)?
+- What is the spend for [ACE TECHNOLOGIES](supplier_name)?
+- How much spend do we have with [WUHAN](supplier_name)?
+- How much money have we spent with [KINGSIGNAL](supplier_name)?
+- What is the spend for company [SHENZHEN](supplier_name)?
+- What is the spend for supplier [CREOWAVE](supplier_name)?
+- How much spend do we have with supplier [BROOKFIELD](supplier_name)?
+- How much money have we spent with supplier [CUSHMAN](supplier_name)?
+- What is the spend for [THE WESBELL](supplier_name)?
+- How much spend do we have with [ROGERS](supplier_name)?
+- How much money have we spent with [TELUS](supplier_name), who can help me?
+- What is the spend for company [CAPELLO](supplier_name)?
+- How much spend do we have with company [VIDEOTRON](supplier_name)?
+- How much money have we spent with company [Shaw Direct](supplier_name)?
+- What is the spend with [ELECTRONIC](supplier_name)?
+- What is the spend for supplier [RICOH](supplier_name)?
+- How much spend do we have with supplier [FORGE](supplier_name)?
+- How much money have we spent with supplier [CANADA](supplier_name)?
+- What is the spend for [SOFTWARE](supplier_name)?
+- How much spend do we have with [KUEHNE](supplier_name)?
+- How much money have we spent with [CRST SPECIALIZED](supplier_name)?
+- What is the spend for company [GlobalTranz](supplier_name) company?
+- How much spend do we have with company [TEKNOTRANS](supplier_name)?
+- How much money have we spent with company [CANADIAN](supplier_name)?
+- What is the spend with [MAPLE](supplier_name)?
+- What is the spend for supplier [ENVY CREATE](supplier_name)?
+- How much spend do we have with supplier [INDUSTRIES](supplier_name)?
+- How much money have we spent with supplier [ECOLE](supplier_name)?
+- What is the spend for [MITACS](supplier_name)?
+- How much spend do we have with [CINTAS](supplier_name)?
+- How much money have we spent with [HYDRO-QUEBEC](supplier_name)?
+- What is the spend for company [SECURITAS](supplier_name)?
+- What is the spend for supplier [SUZHOU](supplier_name)?
+- How much spend do we have with supplier [SUZHOU](supplier_name)?
+- How much money have we spent with supplier [NEWARK](supplier_name)?
+- What is the spend for [OTTAWA](supplier_name)?
+- How much spend do we have with [LEGERE](supplier_name)?
+- How much money have we spent with [NOBLETON](supplier_name), who can help me?
+- What is the spend for company [JAYS](supplier_name)?
+- How much spend do we have with company [NATIONAL](supplier_name)?
+- How much money have we spent with company [CLARIVATE](supplier_name)?
+- What is the spend with [IPLYTICS](supplier_name)?
+- What is the spend for supplier [SWEDISH](supplier_name)?
+- How much spend do we have with supplier [MONTREAL](supplier_name)?
+- How much money have we spent with supplier [NATIONAL](supplier_name)?
+- What is the spend for [LEXISNEXIS](supplier_name)?
+- How much spend do we have with [SOCIETE](supplier_name)?
+- How much money have we spent with [AP](supplier_name)?
+- What is the spend for company [ONE2MANY](supplier_name) company?
+- How much spend do we have with company [Practising](supplier_name)?
+- How much money have we spent with company [DOCU-DEPOT](supplier_name)?
+- What is the spend with [Manulife](supplier_name)?
+- What is the spend for supplier [MINTO](supplier_name)?
+- How much spend do we have with supplier [CARMICHAEL](supplier_name)?
+- How much money have we spent with supplier [CONSTRUCTION](supplier_name)?
+- What is the spend for [IDENTICAM](supplier_name)?
+- How much spend do we have with [SENAB](supplier_name)?
+- How much money have we spent with [Novexco](supplier_name)?
+- What is the spend for company [LE](supplier_name)?
+- What is the spend for supplier [PROSPECTUS](supplier_name)?
+- How much spend do we have with supplier [BCF](supplier_name)?
+- How much money have we spent with supplier [FLEMING](supplier_name)?
+- What is the spend for [MACNO](supplier_name)?
+- How much spend do we have with [GTL](supplier_name)?
+- How much money have we spent with [TELECON](supplier_name), who can help me?
+- What is the spend for company [CAPTEL](supplier_name)?
+- How much spend do we have with company [Structure](supplier_name)?
+- How much money have we spent with company [STANTEC](supplier_name)?
+- What is the spend with [DARYL](supplier_name)?
+- What is the spend for supplier [JFW](supplier_name)?
+- How much spend do we have with supplier [RFMW](supplier_name)?
+- How much money have we spent with supplier [DUCOMMUN](supplier_name)?
+- What is the spend for [RICHARDSON](supplier_name)?
+- How much spend do we have with [PULSE](supplier_name)?
+- How much money have we spent with [CLEARFIELD](supplier_name)?
+- What is the spend for company [HEXATRONIC](supplier_name) company?
+- How much spend do we have with company [ANIXTER](supplier_name)?
+- How much money have we spent with company [VALLEN](supplier_name)?
+- What is the spend with [GASCON](supplier_name)?
+- What is the spend for supplier [CAROLINE](supplier_name)?
+- How much spend do we have with supplier [BARSALOU](supplier_name)?
+- How much money have we spent with supplier [DELOITTE](supplier_name)?
+- What is the spend for [MARSH](supplier_name)?
+- How much spend do we have with [YourCause](supplier_name)?
+- How much money have we spent with [INFOVISTA](supplier_name)?
+- What is the spend for company [INFOVISTA](supplier_name)?
+- What is the spend for supplier [MINI-CIRCUITS](supplier_name)?
+- How much spend do we have with supplier [MF LIGHTWAVE](supplier_name)?
+- How much money have we spent with supplier [DONLEN](supplier_name)?
+- What is the spend for [WHEELS](supplier_name)?
+- How much spend do we have with [Artech](supplier_name)?
+- How much money have we spent with [FINISAR](supplier_name), who can help me?
+- What is the spend for company [TELEPRO](supplier_name)?
+- How much spend do we have with company [KATHREIN](supplier_name)?
+- How much money have we spent with company [RADIO](supplier_name)?
+- What is the spend with [KATHREIN](supplier_name)?
+- What is the spend for supplier [COMMSCOPE](supplier_name)?
+- How much spend do we have with supplier [TOWERS](supplier_name)?
+- How much money have we spent with supplier [RAYMOND](supplier_name)?
+- What is the spend for [MERCER](supplier_name)?
+- How much spend do we have with [ACHIEVERS](supplier_name)?
+- How much money have we spent with [ORGANIZATIONAL](supplier_name)?
+- What is the spend for company [VIRGIN](supplier_name) company?
+- How much spend do we have with company [Equinoxe](supplier_name)?
+- How much money have we spent with company [THE UNIVERSITY](supplier_name)?
+- What is the spend with [ADECCO](supplier_name)?
+- What is the spend for supplier [FIRST](supplier_name)?
+- How much spend do we have with supplier [GROOM](supplier_name)?
+- How much money have we spent with supplier [SP CONSULTING](supplier_name)?
+- What is the spend for [MULTI-LANGUE](supplier_name)?
+- How much spend do we have with [CARVER](supplier_name)?
+- How much money have we spent with [GLOBAL](supplier_name)?
+- What is the spend for company [Lee](supplier_name)?
+- What is the spend for supplier [INTERNATIONAL](supplier_name)?
+- How much spend do we have with supplier [NIIT Learning](supplier_name)?
+- How much money have we spent with supplier [Collabera](supplier_name)?
+- What is the spend for [Morneau](supplier_name)?
+- How much spend do we have with [Retraite](supplier_name)?
+- How much money have we spent with [AMERICAN](supplier_name), who can help me?
+- What is the spend for company [COMBA](supplier_name)?
+- How much spend do we have with company [Tongyu](supplier_name)?
+- How much money have we spent with company [Comba](supplier_name)?
+- What is the spend with [HEXATRONIC](supplier_name)?
+- What is the spend for supplier [CONCEALFAB](supplier_name)?
+- How much spend do we have with supplier [VIDEOTRON](supplier_name)?
+- How much money have we spent with supplier [HUBER](supplier_name)?
+- What is the spend for [AMPHENOL](supplier_name)?
+- How much spend do we have with [VOLEX](supplier_name)?
+- How much money have we spent with [TYCO ELECTRONICS](supplier_name)?
+- What is the spend for company [BROOK](supplier_name) company?
+- How much spend do we have with company [ALFA QUALITY](supplier_name)?
+- How much money have we spent with company [MOLEX](supplier_name)?
+- What is the spend with [AMPHENOL](supplier_name)?
+- What is the spend for supplier [TYCO ELECTRONICS](supplier_name)?
+- How much spend do we have with supplier [AMPHENOL](supplier_name)?
+- How much money have we spent with supplier [JOHN MEZZALINGUA](supplier_name)?
+- What is the spend for [GOVA ADVANCED](supplier_name)?
+- How much spend do we have with [ROSENBERGER](supplier_name)?
+- How much money have we spent with [NKT INC](supplier_name)?
+- What is the spend for company [MICROLAB](supplier_name)?
+- What is the spend for supplier [GALTRONICS](supplier_name)?
+- How much spend do we have with supplier [DET](supplier_name)?
+- How much money have we spent with supplier [MICROSEMI](supplier_name)?
+- What is the spend for [WUHAN](supplier_name)?
+- How much spend do we have with [EFORE](supplier_name)?
+- How much money have we spent with [VERTIV](supplier_name), who can help me?
+- What is the spend for company [VERTIV](supplier_name)?
+- How much spend do we have with company [ELTEK](supplier_name)?
+- How much money have we spent with company [ASTEC](supplier_name)?
+- What is the spend with [EMCOMP](supplier_name)?
+- What is the spend for supplier [TELEPHONE](supplier_name)?
+- How much spend do we have with supplier [MODIS](supplier_name)?
+- How much money have we spent with supplier [MK](supplier_name)?
+- What is the spend for [MK](supplier_name)?
+- How much spend do we have with [HEWLETT-PACKARD](supplier_name)?
+- How much money have we spent with [Galtronics](supplier_name)?
+- What is the spend for company [ZENSAR](supplier_name) company?
+- How much spend do we have with company [HEWLETT](supplier_name)?
+- How much money have we spent with company [HEWLETT](supplier_name)?
+- What is the spend with [NETRICOM](supplier_name)?
+- What is the spend for supplier [WESTOWER](supplier_name)?
+- How much spend do we have with supplier [GAP](supplier_name)?
+- How much money have we spent with supplier [OBJECT](supplier_name)?
+- What is the spend for [TECHTALENT](supplier_name)?
+- How much spend do we have with [ERICSSON](supplier_name)?
+- How much money have we spent with [SIGMA](supplier_name)?
+- What is the spend for company [AF-Digital](supplier_name)?
+- What is the spend for supplier [WIPRO](supplier_name)?
+- How much spend do we have with supplier [TATA](supplier_name)?
+- How much money have we spent with supplier [SYNTRONIC](supplier_name)?
+- What is the spend for [GENWAVE](supplier_name)?
+- How much spend do we have with [DRAIN-ALL](supplier_name)?
+- How much money have we spent with [INTELLINET](supplier_name), who can help me?
+- What is the spend for company [ENTERPRISEDB](supplier_name)?
+- How much spend do we have with company [MAVENIR](supplier_name)?
+- How much money have we spent with company [WEDO](supplier_name)?
+- What is the spend with [MOVIRI](supplier_name)?
+- What is the spend for supplier [PURELOAD](supplier_name)?
+- How much spend do we have with supplier [WOLFSSL](supplier_name)?
+- How much money have we spent with supplier [SOFTWARE](supplier_name)?
+- What is the spend for [FOCUS](supplier_name)?
+- How much spend do we have with [FLEXERA](supplier_name)?
+- How much money have we spent with [MIRANTIS](supplier_name)?
+- What is the spend for company [VERSA](supplier_name) company?
+- How much spend do we have with company [WIND](supplier_name)?
+- How much money have we spent with company [BMC](supplier_name)?
+- What is the spend with [ORACLE](supplier_name)?
+- What is the spend for supplier [ORACLE](supplier_name)?
+- How much spend do we have with supplier [KGS](supplier_name)?
+- How much money have we spent with supplier [CALIAN](supplier_name)?
+- What is the spend for [DELL](supplier_name)?
+- How much spend do we have with [EMC](supplier_name)?
+- How much money have we spent with [EMC](supplier_name)?
+- What is the spend for company [CDW](supplier_name)?
+- What is the spend for supplier [ESIT](supplier_name)?
+- How much spend do we have with supplier [F5](supplier_name)?
+- How much money have we spent with supplier [JUNIPER](supplier_name)?
+- What is the spend for [EXTREME](supplier_name)?
+- How much spend do we have with [A](supplier_name)?
+- How much money have we spent with [ELITS](supplier_name), who can help me?
+- What is the spend for company [AMAZON](supplier_name)?
+- How much spend do we have with company [IWEDIA](supplier_name)?
+- How much money have we spent with company [PROACT](supplier_name)?
+- What is the spend with [PRISMA](supplier_name)?
+- What is the spend for supplier [ELECTRO](supplier_name)?
+- How much spend do we have with supplier [INTERFAX](supplier_name)?
+- How much money have we spent with supplier [ELECTRO](supplier_name)?
+- What is the spend for [GIGA-TRON](supplier_name)?
+- How much spend do we have with [EMPOWERED](supplier_name)?
+- How much money have we spent with [ANRITSU](supplier_name)?
+- What is the spend for company [ROHDE](supplier_name) company?
+- How much spend do we have with company [TEKTRONIX](supplier_name)?
+- How much money have we spent with company [CISCO](supplier_name)?
+- What is the spend with [CIG](supplier_name)?
+- What is the spend for supplier [JUNIPER](supplier_name)?
+- How much spend do we have with supplier [SOFTCHOICE](supplier_name)?
+- How much money have we spent with supplier [DIGI](supplier_name)?
+- What is the spend for [3236013](supplier_name)?
+- How much spend do we have with [MCMASTER-CARR](supplier_name)?
+- How much money have we spent with [GEMALTO](supplier_name)?
+- What is the spend for company [CONCORDIA](supplier_name)?
+- What is the spend for supplier [INTERTEK](supplier_name)?
+- How much spend do we have with supplier [MOUSER](supplier_name)?
+- How much money have we spent with supplier [ASIA](supplier_name)?
+- What is the spend for [DELTA](supplier_name)?
+- How much spend do we have with [AQ](supplier_name)?
+- How much money have we spent with [ELECTRON](supplier_name), who can help me?
+- What is the spend for company [FLEXTRONICS](supplier_name)?
+- How much spend do we have with company [FLEXTRONICS](supplier_name)?
+- How much money have we spent with company [NPS](supplier_name)?
+- What is the spend with [CIRCUITS](supplier_name)?
+- What is the spend for supplier [CHONGQING](supplier_name)?
+- How much spend do we have with supplier [NOLATO](supplier_name)?
+- How much money have we spent with supplier [JONES](supplier_name)?
+- What is the spend for [AXIS](supplier_name)?
+- How much spend do we have with [STANFORD](supplier_name)?
+- How much money have we spent with [SUZHOU](supplier_name)?
+- What is the spend for company [GEMALTO](supplier_name) company?
+- How much spend do we have with company [HP](supplier_name)?
+- How much money have we spent with company [SWITCH](supplier_name)?
+- What is the spend with [QUECTEL](supplier_name)?
+- What is the spend for supplier [GEMTEK](supplier_name)?
+- How much spend do we have with supplier [SEQUANS](supplier_name)?
+- How much money have we spent with supplier [L&T](supplier_name)?
+- What is the spend for [TV2](supplier_name)?
+- How much spend do we have with [ZCOM](supplier_name)?
+- How much money have we spent with [TECTONIC](supplier_name)?
+- What is the spend for company [DEWBERRY](supplier_name)?
+- What is the spend for supplier [Glaus](supplier_name)?
+- How much spend do we have with supplier [CASSON-MARK](supplier_name)?
+- How much money have we spent with supplier [CIK](supplier_name)?
+- What is the spend for [INFINITY](supplier_name)?
+- How much spend do we have with [INTEGRATED](supplier_name)?
+- How much money have we spent with [AIRWAVE](supplier_name), who can help me?
+- What is the spend for company [AERIAL](supplier_name)?
+- How much spend do we have with company [R](supplier_name)?
+- How much money have we spent with company [VELOCITEL](supplier_name)?
+- What is the spend with [BROKEN](supplier_name)?
+- What is the spend for supplier [CDW](supplier_name)?
+- How much spend do we have with supplier [REDAPT](supplier_name)?
+- How much money have we spent with supplier [ZENSAR](supplier_name)?
+- What is the spend for [MAINLINE](supplier_name)?
+- How much spend do we have with [HP](supplier_name)?
+- How much money have we spent with [TELECOM](supplier_name)?
+- What is the spend for company [TELECOMS](supplier_name) company?
+- How much spend do we have with company [SANMINA](supplier_name)?
+- How much money have we spent with company [JABIL](supplier_name)?
+- What is the spend with [SYNTRONIC](supplier_name)?
+- What is the spend for supplier [CELESTICA](supplier_name)?
+- How much spend do we have with supplier [JABIL](supplier_name)?
+- How much money have we spent with supplier [ASTEC](supplier_name)?
+- What is the spend for [WJF](supplier_name)?
+- How much spend do we have with [RENAISSANCE](supplier_name)?
+- How much money have we spent with [IBWAVE](supplier_name)?
+- What is the spend for company [TRS](supplier_name)?
+- What is the spend for supplier [KEYSIGHT](supplier_name)?
+- How much spend do we have with supplier [SOURCE](supplier_name)?
+- How much money have we spent with supplier [SMTC](supplier_name)?
+- What is the spend for [EMKAY](supplier_name)?
+- How much spend do we have with [BROOK](supplier_name)?
+- How much money have we spent with [ROMAN](supplier_name), who can help me?
+- What is the spend for company [AMPHENOL](supplier_name)?
+- How much spend do we have with company [RAYCAP](supplier_name)?
+- How much money have we spent with company [SUNBELT](supplier_name)?
+- What is the spend with [FULTON](supplier_name)?
+- What is the spend for supplier [Dave](supplier_name)?
+- How much spend do we have with supplier [INTEL](supplier_name)?
+- How much money have we spent with supplier [CORIANT](supplier_name)?
+- What is the spend for [Ribbon](supplier_name)?
+- How much spend do we have with [WORLD](supplier_name)?
+- How much money have we spent with [NETSCOUT](supplier_name)?
+- What is the spend for company [WESTCON](supplier_name) company?
+- How much spend do we have with company [PALO](supplier_name)?
+- How much money have we spent with company [APPLE](supplier_name)?
+- What is the spend with [TXM](supplier_name)?
+- What is the spend for supplier [COLLABERA](supplier_name)?
+- How much spend do we have with supplier [LOGIC](supplier_name)?
+- How much money have we spent with supplier [PIA-TEAM](supplier_name)?
+- What is the spend for [Global](supplier_name)?
+- How much spend do we have with [CompNova](supplier_name)?
+- How much money have we spent with [Ashwadh](supplier_name)?
+- What is the spend for company [IRON](supplier_name)?
+- What is the spend for supplier [PALINDROME](supplier_name)?
+- How much spend do we have with supplier [QUALITY](supplier_name)?
+- How much money have we spent with supplier [READYTECH](supplier_name)?
+- What is the spend for [TERREMARK](supplier_name)?
+- How much spend do we have with [KEEPITSAFE](supplier_name)?
+- How much money have we spent with [LOGILITY](supplier_name), who can help me?
+- What is the spend for company [LookBookHQ](supplier_name)?
+- How much spend do we have with company [DXC](supplier_name)?
+- How much money have we spent with company [PUBNUB](supplier_name)?
+- What is the spend with [MENTORCLIQ](supplier_name)?
+- What is the spend for supplier [HOLOBUILDER](supplier_name)?
+- How much spend do we have with supplier [Avetta](supplier_name)?
+- How much money have we spent with supplier [Artemis](supplier_name)?
+- What is the spend for [AT&T](supplier_name)?
+- How much spend do we have with [AT&T](supplier_name)?
+- How much money have we spent with [VERIZON](supplier_name)?
+- What is the spend for company [VERIZON](supplier_name) company?
+- How much spend do we have with company [SPRINT](supplier_name)?
+- How much money have we spent with company [VERIZON](supplier_name)?
+- What is the spend with [ZAYO](supplier_name)?
+- What is the spend for supplier [SPRINT](supplier_name)?
+- How much spend do we have with supplier [SOLEX](supplier_name)?
+- How much money have we spent with supplier [BOWLIN](supplier_name)?
+- What is the spend for [CBA](supplier_name)?
+- How much spend do we have with [Mastec](supplier_name)?
+- How much money have we spent with [WAVE](supplier_name)?
+- What is the spend for company [NUCELL](supplier_name)?
+- What is the spend for supplier [CAPITAL](supplier_name)?
+- How much spend do we have with supplier [FUSION](supplier_name)?
+- How much money have we spent with supplier [SUMMIT](supplier_name)?
+- What is the spend for [AIM](supplier_name)?
+- How much spend do we have with [WIRELESS](supplier_name)?
+- How much money have we spent with [TOWERCOMM](supplier_name), who can help me?
+- What is the spend for company [DJL](supplier_name)?
+- How much spend do we have with company [LIGHTSPEED](supplier_name)?
+- How much money have we spent with company [EASTERN](supplier_name)?
+- What is the spend with [L&M](supplier_name)?
+- What is the spend for supplier [CAPITAL](supplier_name)?
+- How much spend do we have with supplier [CENTURYLINK](supplier_name)?
+- How much money have we spent with supplier [T](supplier_name)?
+- What is the spend for [AT&T](supplier_name)?
+- How much spend do we have with [FRONTIER](supplier_name)?
+- How much money have we spent with [TIME](supplier_name)?
+- What is the spend for company [AT&T](supplier_name) company?
+- How much spend do we have with company [VERIZON](supplier_name)?
+- How much money have we spent with company [APPLIED](supplier_name)?
+- What is the spend with [AT&T](supplier_name)?
+- What is the spend for supplier [LEVEL](supplier_name)?
+- How much spend do we have with supplier [PINNACLE](supplier_name)?
+- How much money have we spent with supplier [MEMO](supplier_name)?
+- What is the spend for [ENCODE](supplier_name)?
+- How much spend do we have with [TELCOM](supplier_name)?
+- How much money have we spent with [WELDING](supplier_name)?
+- What is the spend for company [AIROSMITH](supplier_name)?
+- What is the spend for supplier [STC](supplier_name)?
+- How much spend do we have with supplier [NEOCOM](supplier_name)?
+- How much money have we spent with supplier [CROWN](supplier_name)?
+- What is the spend for [WESTELL](supplier_name)?
+- How much spend do we have with [CORNING](supplier_name)?
+- How much money have we spent with [SOLID](supplier_name), who can help me?
+- What is the spend for company [123EWireless](supplier_name)?
+- How much spend do we have with company [VERTIV](supplier_name)?
+- How much money have we spent with company [ALPHA](supplier_name)?
+- What is the spend with [PURCELL](supplier_name)?
+- What is the spend for supplier [PARSONS](supplier_name)?
+- How much spend do we have with supplier [VERIZON](supplier_name)?
+- How much money have we spent with supplier [UPLAND](supplier_name)?
+- What is the spend for [VERIZON](supplier_name)?
+- How much spend do we have with [MITEL](supplier_name)?
+- How much money have we spent with [AT&T](supplier_name)?
+- What is the spend for company [XO](supplier_name) company?
+- How much spend do we have with company [GRANITE](supplier_name)?
+- How much money have we spent with company [ADVANCED](supplier_name)?
+- What is the spend with [DYNASIGN](supplier_name)?
+- What is the spend for supplier [WEST](supplier_name)?
+- How much spend do we have with supplier [Digital](supplier_name)?
+- How much money have we spent with supplier [MASERGY](supplier_name)?
+- What is the spend for [CASS](supplier_name)?
+- How much spend do we have with [YERBA](supplier_name)?
+- How much money have we spent with [ENTERPRISE](supplier_name)?
+- What is the spend for company [CHARTER](supplier_name)?
+- What is the spend for supplier [RICOH](supplier_name)?
+- How much spend do we have with supplier [MIMEOCOM](supplier_name)?
+- How much money have we spent with supplier [CROWN](supplier_name)?
+- What is the spend for [DIGITAL](supplier_name)?
+- How much spend do we have with [DHL](supplier_name)?
+- How much money have we spent with [KGP](supplier_name), who can help me?
+- What is the spend for company [TEXAS](supplier_name)?
+- How much spend do we have with company [INFOVISION](supplier_name)?
+- How much money have we spent with company [RAY](supplier_name)?
+- What is the spend with [TILSON](supplier_name)?
+- What is the spend for supplier [JET](supplier_name)?
+- How much spend do we have with supplier [ROCKIN](supplier_name)?
+- How much money have we spent with supplier [Reliant](supplier_name)?
+- What is the spend for [GOTHAM](supplier_name)?
+- How much spend do we have with [VITAL](supplier_name)?
+- How much money have we spent with [Trans-Expedite](supplier_name)?
+- What is the spend for company [LE-AND](supplier_name) company?
+- How much spend do we have with company [CEVA](supplier_name)?
+- How much money have we spent with company [DHL](supplier_name)?
+- What is the spend with [JACK](supplier_name)?
+- What is the spend for supplier [Mecca](supplier_name)?
+- How much spend do we have with supplier [ATHORN](supplier_name)?
+- How much money have we spent with supplier [SALT](supplier_name)?
+- What is the spend for [451](supplier_name)?
+- How much spend do we have with [CODEX](supplier_name)?
+- How much money have we spent with [NORDIC](supplier_name)?
+- What is the spend for company [THINKBDA](supplier_name)?
+- What is the spend for supplier [ZEHNDER](supplier_name)?
+- How much spend do we have with supplier [KILICOM](supplier_name)?
+- How much money have we spent with supplier [CMGRP](supplier_name)?
+- What is the spend for [Brandon](supplier_name)?
+- How much spend do we have with [Burns](supplier_name)?
+- How much money have we spent with [MOVIDIAM](supplier_name), who can help me?
+- What is the spend for company [GCB](supplier_name)?
+- How much spend do we have with company [BROOK](supplier_name)?
+- How much money have we spent with company [STRATA](supplier_name)?
+- What is the spend with [TERRALINK](supplier_name)?
+- What is the spend for supplier [SQUAN](supplier_name)?
+- How much spend do we have with supplier [PACIFIC](supplier_name)?
+- How much money have we spent with supplier [PROCESS](supplier_name)?
+- What is the spend for [THE](supplier_name)?
+- How much spend do we have with [Evolution](supplier_name)?
+- How much money have we spent with [Faulk](supplier_name)?
+- What is the spend for company [PRAMIRA](supplier_name) company?
+- How much spend do we have with company [SweetRush](supplier_name)?
+- How much money have we spent with company [SEATTLE](supplier_name)?
+- What is the spend with [JACK](supplier_name)?
+- What is the spend for supplier [Entertainment](supplier_name)?
+- How much spend do we have with supplier [OPENSTACK](supplier_name)?
+- How much money have we spent with supplier [DALLAS](supplier_name)?
+- What is the spend for [RICHARDSON](supplier_name)?
+- How much spend do we have with [METHODIST](supplier_name)?
+- How much money have we spent with [UC](supplier_name)?
+- What is the spend for company [CHILDRENS](supplier_name)?
+- What is the spend for supplier [NEW](supplier_name)?
+- How much spend do we have with supplier [GIRL](supplier_name)?
+- How much money have we spent with supplier [GIRL](supplier_name)?
+- What is the spend for [NAYLOR](supplier_name)?
+- How much spend do we have with [STARCOM](supplier_name)?
+- How much money have we spent with [Time](supplier_name), who can help me?
+- What is the spend for company [Outstanding](supplier_name)?
+- How much spend do we have with company [ABI](supplier_name)?
+- How much money have we spent with company [TECHNOLOGY](supplier_name)?
+- What is the spend with [ANALYSYS](supplier_name)?
+- What is the spend for supplier [IPSOS](supplier_name)?
+- How much spend do we have with supplier [PR](supplier_name)?
+- How much money have we spent with supplier [451](supplier_name)?
+- What is the spend for [SiriusDecisions](supplier_name)?
+- How much spend do we have with [COLEMAN](supplier_name)?
+- How much money have we spent with [CELLULAR](supplier_name)?
+- What is the spend for company [THE](supplier_name) company?
+- How much spend do we have with company [SWEDISH](supplier_name)?
+- How much money have we spent with company [NORTH](supplier_name)?
+- What is the spend with [ORGANIZATION](supplier_name)?
+- What is the spend for supplier [INFORMATION](supplier_name)?
+- How much spend do we have with supplier [NATIONAL](supplier_name)?
+- How much money have we spent with supplier [UTILITIES](supplier_name)?
+- What is the spend for [Open](supplier_name)?
+- How much spend do we have with [Construction](supplier_name)?
+- How much money have we spent with [LEGEND](supplier_name)?
+- What is the spend for company [G](supplier_name)?
+- What is the spend for supplier [PROMOTIONS](supplier_name)?
+- How much spend do we have with supplier [XEROX](supplier_name)?
+- How much money have we spent with supplier [MARFIELD](supplier_name)?
+- What is the spend for [SRG](supplier_name)?
+- How much spend do we have with [AMERICAN](supplier_name)?
+- How much money have we spent with [Signals](supplier_name), who can help me?
+- What is the spend for company [PEOPLETICKER](supplier_name)?
+- How much spend do we have with company [M](supplier_name)?
+- How much money have we spent with company [CBRE](supplier_name)?
+- What is the spend with [SECURADYNE](supplier_name)?
+- What is the spend for supplier [JACOBS](supplier_name)?
+- How much spend do we have with supplier [REGUS](supplier_name)?
+- How much money have we spent with supplier [Augustine](supplier_name)?
+- What is the spend for [Boston](supplier_name)?
+- How much spend do we have with [STERLING](supplier_name)?
+- How much money have we spent with [WOODFIELD](supplier_name)?
+- What is the spend for company [Preferred](supplier_name) company?
+- How much spend do we have with company [NPC](supplier_name)?
+- How much money have we spent with company [TLF](supplier_name)?
+- What is the spend with [PREMIER](supplier_name)?
+- What is the spend for supplier [330](supplier_name)?
+- How much spend do we have with supplier [BOSTON](supplier_name)?
+- How much money have we spent with supplier [COLORADO](supplier_name)?
+- What is the spend for [31-43](supplier_name)?
+- How much spend do we have with [ADEX](supplier_name)?
+- How much money have we spent with [ELECTRIC](supplier_name)?
+- What is the spend for company [VERTICAL](supplier_name)?
+- What is the spend for supplier [CLEAR](supplier_name)?
+- How much spend do we have with supplier [X3](supplier_name)?
+- How much money have we spent with supplier [KMM](supplier_name)?
+- What is the spend for [REJV](supplier_name)?
+- How much spend do we have with [ROBERT](supplier_name)?
+- How much money have we spent with [LENOVO](supplier_name), who can help me?
+- What is the spend for company [GRAMERCY](supplier_name)?
+- How much spend do we have with company [HIGH](supplier_name)?
+- How much money have we spent with company [NALI](supplier_name)?
+- What is the spend with [Foothill](supplier_name)?
+- What is the spend for supplier [233](supplier_name)?
+- How much spend do we have with supplier [LCN](supplier_name)?
+- How much money have we spent with supplier [DRA](supplier_name)?
+- What is the spend for [WIM](supplier_name)?
+- How much spend do we have with [ATX](supplier_name)?
+- How much money have we spent with [Horizon](supplier_name)?
+- What is the spend for company [CHATTA](supplier_name) company?
+- How much spend do we have with company [Team](supplier_name)?
+- How much money have we spent with company [Vornado](supplier_name)?
+- What is the spend with [Commonwealth](supplier_name)?
+- What is the spend for supplier [Hall](supplier_name)?
+- How much spend do we have with supplier [QUEST](supplier_name)?
+- How much money have we spent with supplier [Kramer-Wilson](supplier_name)?
+- What is the spend for [PEAK](supplier_name)?
+- How much spend do we have with [HIGHLAND](supplier_name)?
+- How much money have we spent with [THE](supplier_name)?
+- What is the spend for company [MORLEY](supplier_name)?
+- What is the spend for supplier [IDG](supplier_name)?
+- How much spend do we have with supplier [CA](supplier_name)?
+- How much money have we spent with supplier [SILICON](supplier_name)?
+- What is the spend for [APPLIED](supplier_name)?
+- How much spend do we have with [ECI](supplier_name)?
+- How much money have we spent with [OLDCASTLE](supplier_name), who can help me?
+- What is the spend for company [HEXATRONIC](supplier_name)?
+- How much spend do we have with company [TESSCO](supplier_name)?
+- How much money have we spent with company [CENTERPOINT](supplier_name)?
+- What is the spend with [WIRELESS](supplier_name)?
+- What is the spend for supplier [WALKER](supplier_name)?
+- How much spend do we have with supplier [ENERTECH](supplier_name)?
+- How much money have we spent with supplier [GOCC](supplier_name)?
+- What is the spend for [ASTRON](supplier_name)?
+- How much spend do we have with [INSIGHT](supplier_name)?
+- How much money have we spent with [ANIXTER](supplier_name)?
+- What is the spend for company [INTEGRATED](supplier_name) company?
+- How much spend do we have with company [AMATEL](supplier_name)?
+- How much money have we spent with company [BIC](supplier_name)?
+- What is the spend with [SPECTRUM](supplier_name)?
+- What is the spend for supplier [ATC](supplier_name)?
+- How much spend do we have with supplier [ASH](supplier_name)?
+- How much money have we spent with supplier [Networkers](supplier_name)?
+- What is the spend for [GREEN](supplier_name)?
+- How much spend do we have with [CHAPMAN](supplier_name)?
+- How much money have we spent with [WASATCH](supplier_name)?
+- What is the spend for company [TIMBERLINE](supplier_name)?
+- What is the spend for supplier [AIR](supplier_name)?
+- How much spend do we have with supplier [ALPINE](supplier_name)?
+- How much money have we spent with supplier [BATTERY](supplier_name)?
+- What is the spend for [DESIGN](supplier_name)?
+- How much spend do we have with [ELECTRICAL](supplier_name)?
+- How much money have we spent with [FIKE](supplier_name), who can help me?
+- What is the spend for company [FREQUENCY](supplier_name)?
+- How much spend do we have with company [GMT](supplier_name)?
+- How much money have we spent with company [KNOLLWOOD](supplier_name)?
+- What is the spend with [MURPHY](supplier_name)?
+- What is the spend for supplier [GRAYBAR](supplier_name)?
+- How much spend do we have with supplier [NUWAVE](supplier_name)?
+- How much money have we spent with supplier [RIGHTECH](supplier_name)?
+- What is the spend for [S](supplier_name)?
+- How much spend do we have with [CROSSLINK](supplier_name)?
+- How much money have we spent with [T&B](supplier_name)?
+- What is the spend for company [THE](supplier_name) company?
+- How much spend do we have with company [YOH](supplier_name)?
+- How much money have we spent with company [KOLOGISKI](supplier_name)?
+- What is the spend with [JM](supplier_name)?
+- What is the spend for supplier [APEX](supplier_name)?
+- How much spend do we have with supplier [CRAFTON](supplier_name)?
+- How much money have we spent with supplier [METROPOLITAN](supplier_name)?
+- What is the spend for [MIDWEST](supplier_name)?
+- How much spend do we have with [METRO](supplier_name)?
+- How much money have we spent with [INFINITY](supplier_name)?
+- What is the spend for company [BETACOM](supplier_name)?
+- What is the spend for supplier [D](supplier_name)?
+- How much spend do we have with supplier [VINCO](supplier_name)?
+- How much money have we spent with supplier [TRUE](supplier_name)?
+- What is the spend for [HCL](supplier_name)?
+- How much spend do we have with [EARTHCOM](supplier_name)?
+- How much money have we spent with [CLINTON](supplier_name), who can help me?
+- What is the spend for company [NORTHCOMM](supplier_name)?
+- How much spend do we have with company [ROSENDIN](supplier_name)?
+- How much money have we spent with company [NEXGEN](supplier_name)?
+- What is the spend with [D&R](supplier_name)?
+- What is the spend for supplier [TITAN](supplier_name)?
+- How much spend do we have with supplier [NORTHEAST](supplier_name)?
+- How much money have we spent with supplier [IDAHO](supplier_name)?
+- What is the spend for [PINKHAM](supplier_name)?
+- How much spend do we have with [RFS](supplier_name)?
+- How much money have we spent with [IRISH](supplier_name)?
+- What is the spend for company [SITE](supplier_name) company?
+- How much spend do we have with company [NETWORK](supplier_name)?
+- How much money have we spent with company [IAN](supplier_name)?
+- What is the spend with [TELTECH](supplier_name)?
+- What is the spend for supplier [WIRELESS](supplier_name)?
+- How much spend do we have with supplier [HIGGINS](supplier_name)?
+- How much money have we spent with supplier [BKA](supplier_name)?
+- What is the spend for [TRISTAR](supplier_name)?
+- How much spend do we have with [PEARCE](supplier_name)?
+- How much money have we spent with [ESA](supplier_name)?
+- What is the spend for company [ROTH](supplier_name)?
+- What is the spend for supplier [Communications](supplier_name)?
+- How much spend do we have with supplier [WESTERN](supplier_name)?
+- How much money have we spent with supplier [DEEP](supplier_name)?
+- What is the spend for [EPIC](supplier_name)?
+- How much spend do we have with [DELTA](supplier_name)?
+- How much money have we spent with [AERIOR](supplier_name), who can help me?
+- What is the spend for company [WHITE](supplier_name)?
+- How much spend do we have with company [CENTERLINE](supplier_name)?
+- How much money have we spent with company [PACIFIC](supplier_name)?
+- What is the spend with [TRITON](supplier_name)?
+- What is the spend for supplier [WAVCOMM](supplier_name)?
+- How much spend do we have with supplier [FULL](supplier_name)?
+- How much money have we spent with supplier [CHRISTENSEN](supplier_name)?
+- What is the spend for [Ramapo](supplier_name)?
+- How much spend do we have with [TOWER](supplier_name)?
+- How much money have we spent with [4G](supplier_name)?
+- What is the spend for company [ENVIROBUSINESS](supplier_name) company?
+- How much spend do we have with company [PYRAMID](supplier_name)?
+- How much money have we spent with company [RADYN](supplier_name)?
+- What is the spend with [TRUENET](supplier_name)?
+- What is the spend for supplier [MK](supplier_name)?
+- How much spend do we have with supplier [TSC](supplier_name)?
+- How much money have we spent with supplier [TRILLIUM](supplier_name)?
+- What is the spend for [TRILEAF](supplier_name)?
+- How much spend do we have with [ANS](supplier_name)?
+- How much money have we spent with [NORTH](supplier_name)?
+- What is the spend for company [New](supplier_name)?
+- What is the spend for supplier [NRCI](supplier_name)?
+- How much spend do we have with supplier [TECHSICO](supplier_name)?
+- How much money have we spent with supplier [FCI](supplier_name)?
+- What is the spend for [DATALOGIX](supplier_name)?
+- How much spend do we have with [KFORCE](supplier_name)?
+- How much money have we spent with [ESSENTIAL](supplier_name), who can help me?
+- What is the spend for company [Riggio](supplier_name)?
+- How much spend do we have with company [MILICIA](supplier_name)?
+- How much money have we spent with company [MABECK](supplier_name)?
+- What is the spend with [ELECTRONIC](supplier_name)?
+- What is the spend for supplier [SIOUX](supplier_name)?
+- How much spend do we have with supplier [TMB](supplier_name)?
+- How much money have we spent with supplier [HYLAN](supplier_name)?
+- What is the spend for [KAKTOVIK](supplier_name)?
+- How much spend do we have with [Augusta](supplier_name)?
+- How much money have we spent with [EC](supplier_name)?
+- What is the spend for company [HERTZ](supplier_name) company?
+- How much spend do we have with company [BIGRENTZ](supplier_name)?
+- How much money have we spent with company [ODYSSIA](supplier_name)?
+- What is the spend with [Invertice](supplier_name)?
+- What is the spend for supplier [PYRAMID](supplier_name)?
+- How much spend do we have with supplier [KENWOOD](supplier_name)?
+- How much money have we spent with supplier [Sunsea](supplier_name)?
+- What is the spend for [NEWTON](supplier_name)?
+- How much spend do we have with [ATLANTIC](supplier_name)?
+- How much money have we spent with [SITESOL](supplier_name)?
+- What is the spend for company [DAVRIAL](supplier_name)?
+- What is the spend for supplier [Maxim](supplier_name)?
+- How much spend do we have with supplier [ITC](supplier_name)?
+- How much money have we spent with supplier [P](supplier_name)?
+- What is the spend for [JUS-COM](supplier_name)?
+- How much spend do we have with [AURORAVIEW](supplier_name)?
+- How much money have we spent with [PLEXUS](supplier_name), who can help me?
+- What is the spend for company [FORTUNE](supplier_name)?
+- How much spend do we have with company [GLOW](supplier_name)?
+- How much money have we spent with company [ECS](supplier_name)?
+- What is the spend with [Watch](supplier_name)?
+- What is the spend for supplier [TALON](supplier_name)?
+- How much spend do we have with supplier [James](supplier_name)?
+- How much money have we spent with supplier [RESOLVE](supplier_name)?
+- What is the spend for [CORESTAFF](supplier_name)?
+- How much spend do we have with [STEWART](supplier_name)?
+- How much money have we spent with [EF&I](supplier_name)?
+- What is the spend for company [SIGNAL](supplier_name) company?
+- How much spend do we have with company [CAPSTONE](supplier_name)?
+- How much money have we spent with company [ISP](supplier_name)?
+- What is the spend with [PEEK](supplier_name)?
+- What is the spend for supplier [STREAMLINE](supplier_name)?
+- How much spend do we have with supplier [JEFFREY](supplier_name)?
+- How much money have we spent with supplier [NEW](supplier_name)?
+- What is the spend for [VERSACOM](supplier_name)?
+- How much spend do we have with [JFC](supplier_name)?
+- How much money have we spent with [TSI](supplier_name)?
+- What is the spend for company [KEN](supplier_name)?
+- What is the spend for supplier [COMCELL](supplier_name)?
+- How much spend do we have with supplier [LEONE](supplier_name)?
+- How much money have we spent with supplier [SKYLINE](supplier_name)?
+- What is the spend for [CENTERLINE](supplier_name)?
+- How much spend do we have with [OSP](supplier_name)?
+- How much money have we spent with [Traffic](supplier_name), who can help me?
+- What is the spend for company [BAY](supplier_name)?
+- How much spend do we have with company [CBR](supplier_name)?
+- How much money have we spent with company [TRANSPERFECT](supplier_name)?
+- What is the spend with [INTRACOM](supplier_name)?
+- What is the spend for supplier [WIPRO](supplier_name)?
+- How much spend do we have with supplier [ARTECH](supplier_name)?
+- How much money have we spent with supplier [TATA](supplier_name)?
+- What is the spend for [EMBEDDED](supplier_name)?
+- How much spend do we have with [POPULUS](supplier_name)?
+- How much money have we spent with [A](supplier_name)?
+- What is the spend for company [CCM](supplier_name) company?
+- How much spend do we have with company [GLOBAL](supplier_name)?
+- How much money have we spent with company [IDEAN](supplier_name)?
+- What is the spend with [SIGMA](supplier_name)?
+- What is the spend for supplier [NORTH](supplier_name)?
+- How much spend do we have with supplier [TIETO](supplier_name)?
+- How much money have we spent with supplier [TERRALOGIC](supplier_name)?
+- What is the spend for [ELIASSEN](supplier_name)?
+- How much spend do we have with [GLOBALLOGIC](supplier_name)?
+- How much money have we spent with [CLOUDKINESYS](supplier_name)?
+- What is the spend for company [I](supplier_name)?
+- What is the spend for supplier [NATIONAL](supplier_name)?
+- How much spend do we have with supplier [UL](supplier_name)?
+- How much money have we spent with supplier [HP](supplier_name)?
+- What is the spend for [SMART](supplier_name)?
+- How much spend do we have with [E2](supplier_name)?
+- How much money have we spent with [STANLEY](supplier_name), who can help me?
+- What is the spend for company [MCNEAL](supplier_name)?
+- How much spend do we have with company [SHAH](supplier_name)?
+- How much money have we spent with company [Legacy](supplier_name)?
+- What is the spend with [GRAPEVINE](supplier_name)?
+- What is the spend for supplier [SKYWARD](supplier_name)?
+- How much spend do we have with supplier [GRAFOKETT](supplier_name)?
+- How much money have we spent with supplier [PROGRESSIVE](supplier_name)?
+- What is the spend for [NEFAB](supplier_name)?
+- How much spend do we have with [VERVEBA](supplier_name)?
+- How much money have we spent with [HORIZON](supplier_name)?
+- What is the spend for company [PEAK](supplier_name) company?
+- How much spend do we have with company [INFINIGY](supplier_name)?
+- How much money have we spent with company [Alternative](supplier_name)?
+- What is the spend with [MOBILECOMM](supplier_name)?
+- What is the spend for supplier [CARRICK](supplier_name)?
+- How much spend do we have with supplier [GOFF](supplier_name)?
+- How much money have we spent with supplier [Motive](supplier_name)?
+- What is the spend for [SECTORSITE](supplier_name)?
+- How much spend do we have with [NU](supplier_name)?
+- How much money have we spent with [ARTESYN](supplier_name)?
+- What is the spend for company [FLEXTRONICS](supplier_name)?
+- What is the spend for supplier [FLEXTRONICS](supplier_name)?
+- How much spend do we have with supplier [VERTICAL](supplier_name)?
+- How much money have we spent with supplier [FULLERTON](supplier_name)?
+- What is the spend for [THRAILKILL](supplier_name)?
+- How much spend do we have with [TOWER](supplier_name)?
+- How much money have we spent with [NORTH](supplier_name), who can help me?
+- What is the spend for company [ACCTON](supplier_name)?
+- How much spend do we have with company [JABIL](supplier_name)?
+- How much money have we spent with company [JABIL](supplier_name)?
+- What is the spend with [FUTUREQUEST](supplier_name)?
+- What is the spend for supplier [dormakaba](supplier_name)?
+- How much spend do we have with supplier [WRIGHT](supplier_name)?
+- How much money have we spent with supplier [COR-O-VAN](supplier_name)?
+- What is the spend for [MORRISON](supplier_name)?
+- How much spend do we have with [DDD](supplier_name)?
+- How much money have we spent with [CUSHMAN](supplier_name)?
+- What is the spend for company [MOBILENET](supplier_name) company?
+- How much spend do we have with company [GTL](supplier_name)?
+- How much money have we spent with company [SCARLETT](supplier_name)?
+- What is the spend with [Velex](supplier_name)?
+- What is the spend for supplier [SOUTHEAST](supplier_name)?
+- How much spend do we have with supplier [Orin](supplier_name)?
+- How much money have we spent with supplier [TTS](supplier_name)?
+- What is the spend for [WAVSYS](supplier_name)?
+- How much spend do we have with [DTEL](supplier_name)?
+- How much money have we spent with [SENDERA](supplier_name)?
+- What is the spend for company [SENTENIA](supplier_name)?
+- What is the spend for supplier [Legacy](supplier_name)?
+- How much spend do we have with supplier [SRU](supplier_name)?
+- How much money have we spent with supplier [CCSI](supplier_name)?
+- What is the spend for [VK](supplier_name)?
+- How much spend do we have with [INDEPENDENT](supplier_name)?
+- How much money have we spent with [Hayden](supplier_name), who can help me?
+- What is the spend for company [LANDAIR](supplier_name)?
+- How much spend do we have with company [SELECTIVE](supplier_name)?
+- How much money have we spent with company [Ironbo](supplier_name)?
+- What is the spend with [ROHDE](supplier_name)?
+- What is the spend for supplier [LDDF](supplier_name)?
+- How much spend do we have with supplier [PITNEY](supplier_name)?
+- How much money have we spent with supplier [COMPUTER](supplier_name)?
+- What is the spend for [NOKIA](supplier_name)?
+- How much spend do we have with [COMPUTER](supplier_name)?
+- How much money have we spent with [ACCUVER](supplier_name)?
+- What is the spend for company [6WIND](supplier_name) company?
+- How much spend do we have with company [SYNCHRONOSS](supplier_name)?
+- How much money have we spent with company [HARMAN](supplier_name)?
+- What is the spend with [C](supplier_name)?
+- What is the spend for supplier [JOBSITE](supplier_name)?
+- How much spend do we have with supplier [IMIMOBILE](supplier_name)?
+- How much money have we spent with supplier [MONOLITH](supplier_name)?
+- What is the spend for [ANOVA](supplier_name)?
+- How much spend do we have with [DEVELOPING](supplier_name)?
+- How much money have we spent with [Basis](supplier_name)?
+- What is the spend for company [INTELIGHT](supplier_name)?
+- What is the spend for supplier [TIBCO](supplier_name)?
+- How much spend do we have with supplier [INTERNATIONAL](supplier_name)?
+- How much money have we spent with supplier [MICROSOFT](supplier_name)?
+- What is the spend for [ELM](supplier_name)?
+- How much spend do we have with [NEUSTAR](supplier_name)?
+- How much money have we spent with [SPLUNK](supplier_name), who can help me?
+- What is the spend for company [CORPUS](supplier_name)?
+- How much spend do we have with company [ALTERYX](supplier_name)?
+- How much money have we spent with company [EVERBRIDGE](supplier_name)?
+- What is the spend with [IMPARTX](supplier_name)?
+- What is the spend for supplier [CLOUDERA](supplier_name)?
+- How much spend do we have with supplier [DOMO](supplier_name)?
+- How much money have we spent with supplier [Flowscape](supplier_name)?
+- What is the spend for [ELASTICSEARCH](supplier_name)?
+- How much spend do we have with [ThoughtSpot](supplier_name)?
+- How much money have we spent with [VMWARE](supplier_name)?
+- What is the spend for company [CITYSIDE](supplier_name) company?
+- How much spend do we have with company [PACIFIC](supplier_name)?
+- How much money have we spent with company [PACIFIC](supplier_name)?
+- What is the spend with [COMPASS](supplier_name)?
+- What is the spend for supplier [American](supplier_name)?
+- How much spend do we have with supplier [CINTAS](supplier_name)?
+- How much money have we spent with supplier [SECURITAS](supplier_name)?
+- What is the spend for [ALAMON](supplier_name)?
+- How much spend do we have with [AWS](supplier_name)?
+- How much money have we spent with [Repeat](supplier_name)?
+- What is the spend for company [LARSON](supplier_name)?
+- What is the spend for supplier [XCELL](supplier_name)?
+- How much spend do we have with supplier [TOTAL](supplier_name)?
+- How much money have we spent with supplier [ATLAS](supplier_name)?
+- What is the spend for [DEVELOPMENT](supplier_name)?
+- How much spend do we have with [ALLPRO](supplier_name)?
+- How much money have we spent with [SURESITE](supplier_name), who can help me?
+- What is the spend for company [RULLEX](supplier_name)?
+- How much spend do we have with company [Onsite](supplier_name)?
+- How much money have we spent with company [RFI](supplier_name)?
+- What is the spend with [TYCO](supplier_name)?
+- What is the spend for supplier [WORKPLACE](supplier_name)?
+- How much spend do we have with supplier [EDSBYN](supplier_name)?
+- How much money have we spent with supplier [OFFICE](supplier_name)?
+- What is the spend for [CUSTOMER](supplier_name)?
+- How much spend do we have with [JUTECHNOLOGY](supplier_name)?
+- How much money have we spent with [McKinsey](supplier_name)?
+- What is the spend for company [ProcureAbility](supplier_name) company?
+- How much spend do we have with company [Holland](supplier_name)?
+- How much money have we spent with company [CapRock](supplier_name)?
+- What is the spend with [Starr](supplier_name)?
+- What is the spend for supplier [JAMES](supplier_name)?
+- How much spend do we have with supplier [WICK](supplier_name)?
+- How much money have we spent with supplier [BORDEN](supplier_name)?
+- What is the spend for [BIRD](supplier_name)?
+- How much spend do we have with [BAKER](supplier_name)?
+- How much money have we spent with [MANNING](supplier_name)?
+- What is the spend for company [FRAGOMEN](supplier_name)?
+- What is the spend for supplier [HAYNES](supplier_name)?
+- How much spend do we have with supplier [LIECHTY](supplier_name)?
+- How much money have we spent with supplier [RED](supplier_name)?
+- What is the spend for [FISCHER](supplier_name)?
+- How much spend do we have with [VERTEX](supplier_name)?
+- How much money have we spent with [MCAFEE](supplier_name), who can help me?
+- What is the spend for company [SHI](supplier_name)?
+- How much spend do we have with company [OneStream](supplier_name)?
+- How much money have we spent with company [ORACLE](supplier_name)?
+- What is the spend with [TIETO](supplier_name)?
+- What is the spend for supplier [DIGITAL](supplier_name)?
+- How much spend do we have with supplier [ARICENT](supplier_name)?
+- How much money have we spent with supplier [POLYSTAR](supplier_name)?
+- What is the spend for [NEXTGEN](supplier_name)?
+- How much spend do we have with [MapR](supplier_name)?
+- How much money have we spent with [RADAPTIVE](supplier_name)?
+- What is the spend for company [KeyBank](supplier_name) company?
+- How much spend do we have with company [OPTIV](supplier_name)?
+- How much money have we spent with company [Digicert](supplier_name)?
+- What is the spend with [WINDSTREAM](supplier_name)?
+- What is the spend for supplier [MOBILE](supplier_name)?
+- How much spend do we have with supplier [TAOS](supplier_name)?
+- How much money have we spent with supplier [MURPHY](supplier_name)?
+- What is the spend for [SALESFORCECOM](supplier_name)?
+- How much spend do we have with [MINDSOURCE](supplier_name)?
+- How much money have we spent with [COALFIRE](supplier_name)?
+- What is the spend for company [PYRAMID](supplier_name)?
+- What is the spend for supplier [REBACA](supplier_name)?
+- How much spend do we have with supplier [Kansys](supplier_name)?
+- How much money have we spent with supplier [RSM](supplier_name)?
+- What is the spend for [IMAGINEA](supplier_name)?
+- How much spend do we have with [MOBILE](supplier_name)?
+- How much money have we spent with [Akvelon](supplier_name), who can help me?
+- What is the spend for company [5thColumn](supplier_name)?
+- How much spend do we have with company [ACCU-TECH](supplier_name)?
+- How much money have we spent with company [ANRITSU](supplier_name)?
+- What is the spend with [ETS-LINDGREN](supplier_name)?
+- What is the spend for supplier [VIAVI](supplier_name)?
+- How much spend do we have with supplier [PRODUCTION](supplier_name)?
+- How much money have we spent with supplier [EXFO](supplier_name)?
+- What is the spend for [SIMCO](supplier_name)?
+- How much spend do we have with [NOKIA](supplier_name)?
+- How much money have we spent with [INSITE](supplier_name)?
+- What is the spend for company [RL](supplier_name) company?
+- How much spend do we have with company [Utiligi](supplier_name)?
+- How much money have we spent with company [ENGINEERED](supplier_name)?
+- What is the spend with [SPEELMAN](supplier_name)?
+- What is the spend for supplier [TOTAL](supplier_name)?
+- How much spend do we have with supplier [AMF](supplier_name)?
+- How much money have we spent with supplier [TELKORE](supplier_name)?
+- What is the spend for [NESBITT](supplier_name)?
+- How much spend do we have with [SHARRETTS](supplier_name)?
+- How much money have we spent with [THE](supplier_name)?
+- What is the spend for company [MCKOOL](supplier_name)?
+- What is the spend for supplier [BAKER](supplier_name)?
+- How much spend do we have with supplier [STIKEMAN](supplier_name)?
+- How much money have we spent with supplier [LITTLER](supplier_name)?
+- What is the spend for [MORAN](supplier_name)?
+- How much spend do we have with [THE](supplier_name)?
+- How much money have we spent with [WILKINSON](supplier_name), who can help me?
+- What is the spend for company [BERRY](supplier_name)?
+- How much spend do we have with company [HOLLAND](supplier_name)?
+- How much money have we spent with company [ANN-KITT](supplier_name)?
+- What is the spend with [OGLETREE](supplier_name)?
+- What is the spend for supplier [Hirschfeld](supplier_name)?
+- How much spend do we have with supplier [FOLEY](supplier_name)?
+- How much money have we spent with supplier [GREENBERG](supplier_name)?
+- What is the spend for [McELROY](supplier_name)?
+- How much spend do we have with [Hubbard](supplier_name)?
+- How much money have we spent with [OBLON](supplier_name)?
+- What is the spend for company [DUANE](supplier_name) company?
+- How much spend do we have with company [WINSTON](supplier_name)?
+- How much money have we spent with company [DLA](supplier_name)?
+- What is the spend with [MCDERMOTT](supplier_name)?
+- What is the spend for supplier [MILLER](supplier_name)?
+- How much spend do we have with supplier [MEGEL](supplier_name)?
+- How much money have we spent with supplier [DAVIS](supplier_name)?
+- What is the spend for [Gillam](supplier_name)?
+- How much spend do we have with [Law](supplier_name)?
+- How much money have we spent with [INVENTUS](supplier_name)?
+- What is the spend for company [Abrams](supplier_name)?
+- What is the spend for supplier [Curley](supplier_name)?
+- How much spend do we have with supplier [Orrick](supplier_name)?
+- How much money have we spent with supplier [MOLOLAMKEN](supplier_name)?
+- What is the spend for [NEWHOUSE](supplier_name)?
+- How much spend do we have with [STOUT](supplier_name)?
+- How much money have we spent with [Monique](supplier_name), who can help me?
+- What is the spend for company [Cesari](supplier_name)?
+- How much spend do we have with company [DELOITTE](supplier_name)?
+- How much money have we spent with company [PRICEWATERHOUSECOOPERS](supplier_name)?
+- What is the spend with [DNV](supplier_name)?
+- What is the spend for supplier [PRICEWATERHOUSE](supplier_name)?
+- How much spend do we have with supplier [DAVIS](supplier_name)?
+- How much money have we spent with supplier [KPMG](supplier_name)?
+- What is the spend for [BKD](supplier_name)?
+- How much spend do we have with [CORPORATION](supplier_name)?
+- How much money have we spent with [OUTSOURCE](supplier_name)?
+- What is the spend for company [DELOITTE](supplier_name) company?
+- How much spend do we have with company [KIRKPATRICK](supplier_name)?
+- How much money have we spent with company [FTI](supplier_name)?
+- What is the spend with [GME](supplier_name)?
+- What is the spend for supplier [Alltech](supplier_name)?
+- How much spend do we have with supplier [Puget](supplier_name)?
+- How much money have we spent with supplier [City](supplier_name)?
+- What is the spend for [VERIZON](supplier_name)?
+- How much spend do we have with [NIKON](supplier_name)?
+- How much money have we spent with [Avalon](supplier_name)?
+- What is the spend for company [ALLIED](supplier_name)?
+- What is the spend for supplier [Arris](supplier_name)?
+- How much spend do we have with supplier [CITIBANK](supplier_name)?
+- How much money have we spent with supplier [CITIBANK](supplier_name)?
+- What is the spend for [CARLSON](supplier_name)?
+- How much spend do we have with [CONCUR](supplier_name)?
+- How much money have we spent with [J](supplier_name), who can help me?
+- What is the spend for company [ONE](supplier_name)?
+- How much spend do we have with company [OTV](supplier_name)?
+- How much money have we spent with company [OTV](supplier_name)?
+- What is the spend with [SINCH](supplier_name)?
+- What is the spend for supplier [SWEEPMASTERS](supplier_name)?
+- How much spend do we have with supplier [SYSREL](supplier_name)?
+- How much money have we spent with supplier [Medley](supplier_name)?
+- What is the spend for [SEATTLE](supplier_name)?
+- How much spend do we have with [CITY](supplier_name)?
+- How much money have we spent with [CITY](supplier_name)?
+- What is the spend for company [ATC](supplier_name) company?
+- How much spend do we have with company [City](supplier_name)?
+- How much money have we spent with company [City](supplier_name)?
+- What is the spend with [City](supplier_name)?
+- What is the spend for supplier [INSITE](supplier_name)?
+- How much spend do we have with supplier [SABRE](supplier_name)?
+- How much money have we spent with supplier [AMCHEL](supplier_name)?
+- What is the spend for [TEKMARK](supplier_name)?
+- How much spend do we have with [COMMERCIAL](supplier_name)?
+- How much money have we spent with [INDUSTRIAL](supplier_name)?
+- What is the spend for company [TOTAL](supplier_name)?
+- What is the spend for supplier [BLUESTREAM](supplier_name)?
+- How much spend do we have with supplier [SLC](supplier_name)?
+- How much money have we spent with supplier [LEVEST](supplier_name)?
+- What is the spend for [QUALITY](supplier_name)?
+- How much spend do we have with [COMMUNICATION](supplier_name)?
+- How much money have we spent with [BSI](supplier_name), who can help me?
+- What is the spend for company [UNITED](supplier_name)?
+- How much spend do we have with company [THE](supplier_name)?
+- How much money have we spent with company [MARSH](supplier_name)?
+- What is the spend with [EXTEND](supplier_name)?
+- What is the spend for supplier [ACE](supplier_name)?
+- How much spend do we have with supplier [CORVEL](supplier_name)?
+- How much money have we spent with supplier [CORPTAX](supplier_name)?
+- What is the spend for [CITY](supplier_name)?
+- How much spend do we have with [AON](supplier_name)?
+- How much money have we spent with [WILLIS](supplier_name)?
+- What is the spend for company [FAMILY](supplier_name) company?
+- How much spend do we have with company [AETNA](supplier_name)?
+- How much money have we spent with company [WORKCARE](supplier_name)?
+- What is the spend with [INFINITE](supplier_name)?
+- What is the spend for supplier [CROWE](supplier_name)?
+- How much spend do we have with supplier [MAXIM](supplier_name)?
+- How much money have we spent with supplier [Express](supplier_name)?
+- What is the spend for [SSI](supplier_name)?
+- How much spend do we have with [BAYARD](supplier_name)?
+- How much money have we spent with [TMP](supplier_name)?
+- What is the spend for company [HEIDRICK](supplier_name)?
+- What is the spend for supplier [PONTOON](supplier_name)?
+- How much spend do we have with supplier [TALENT](supplier_name)?
+- How much money have we spent with supplier [CLICK](supplier_name)?
+- What is the spend for [WARRIORS](supplier_name)?
+- How much spend do we have with [Hyland](supplier_name)?
+- How much money have we spent with [TelForce](supplier_name), who can help me?
+- What is the spend for company [JIBE](supplier_name)?
+- How much spend do we have with company [Wynden](supplier_name)?
+- How much money have we spent with company [Interviewstreet](supplier_name)?
+- What is the spend with [GLOBAL](supplier_name)?
+- What is the spend for supplier [TELEDROM](supplier_name)?
+- How much spend do we have with supplier [SOUTHERN](supplier_name)?
+- How much money have we spent with supplier [INTERCULTURAL](supplier_name)?
+- What is the spend for [LEE](supplier_name)?
+- How much spend do we have with [NEUEDA](supplier_name)?
+- How much money have we spent with [SAFETYFIRST](supplier_name)?
+- What is the spend for company [ALIGN4PROFIT](supplier_name) company?
+- How much spend do we have with company [SONIC](supplier_name)?
+- How much money have we spent with company [CENTER](supplier_name)?
+- What is the spend with [TenStep](supplier_name)?
+- What is the spend for supplier [JENNIFER](supplier_name)?
+- How much spend do we have with supplier [RAKM](supplier_name)?
+- How much money have we spent with supplier [Louise](supplier_name)?
+- What is the spend for [Scaled](supplier_name)?
+- How much spend do we have with [NIIT](supplier_name)?
+- How much money have we spent with [ADEPT](supplier_name)?
+- What is the spend for company [The](supplier_name)?
+- What is the spend for supplier [Pierpont](supplier_name)?
+- How much spend do we have with supplier [COURSERA](supplier_name)?
+- How much money have we spent with supplier [CERIDIAN](supplier_name)?
+- What is the spend for [SD](supplier_name)?
+- How much spend do we have with [PRUDENTIAL](supplier_name)?
+- How much money have we spent with [RELIASTAR](supplier_name), who can help me?
+- What is the spend for company [Midwest](supplier_name)?
+- How much spend do we have with company [THE](supplier_name)?
+- How much money have we spent with company [SITETEL](supplier_name)?
+- What is the spend with [LAIRD](supplier_name)?
+- What is the spend for supplier [QUINTEL](supplier_name)?
+- How much spend do we have with supplier [CYBERBRIDGE](supplier_name)?
+- How much money have we spent with supplier [City](supplier_name)?
+- What is the spend for [BNSF](supplier_name)?
+- How much spend do we have with [Atlas](supplier_name)?
+- How much money have we spent with [Point](supplier_name)?
+- What is the spend for company [SatTel](supplier_name) company?
+- How much spend do we have with company [Ievolv](supplier_name)?
+- How much money have we spent with company [Vertical](supplier_name)?
+- What is the spend with [Zenisco](supplier_name)?
+- What is the spend for supplier [CITY](supplier_name)?
+- How much spend do we have with supplier [Wireless](supplier_name)?
+- How much money have we spent with supplier [Heights](supplier_name)?
+- What is the spend for [Blue](supplier_name)?
+- How much spend do we have with [DIVERSIFIED](supplier_name)?
+- How much money have we spent with [MICROWAVE](supplier_name)?
+- What is the spend for company [SBA](supplier_name)?
+- What is the spend for supplier [FUTURE](supplier_name)?
+- How much spend do we have with supplier [PWR](supplier_name)?
+- How much money have we spent with supplier [STEALTH](supplier_name)?
+- What is the spend for [PIROD](supplier_name)?
+- How much spend do we have with [LARSON](supplier_name)?
+- How much money have we spent with [SOLAR](supplier_name), who can help me?
+- What is the spend for company [COMMUNICATIONS](supplier_name)?
+- How much spend do we have with company [MORRISON](supplier_name)?
+- How much money have we spent with company [AerialWorks](supplier_name)?
+- What is the spend with [Sunstate](supplier_name)?
+- What is the spend for supplier [SPEC](supplier_name)?
+- How much spend do we have with supplier [ARIZONA](supplier_name)?
+- How much money have we spent with supplier [Apex](supplier_name)?
+- What is the spend for [KMB](supplier_name)?
+- How much spend do we have with [RADIANT](supplier_name)?
+- How much money have we spent with [PHILIPS](supplier_name)?
+- What is the spend for company [ADVANCED](supplier_name) company?
+- How much spend do we have with company [Amnet](supplier_name)?
+- How much money have we spent with company [DELL](supplier_name)?
+- What is the spend with [WSD](supplier_name)?
+- What is the spend for supplier [TKK](supplier_name)?
+- How much spend do we have with supplier [BH](supplier_name)?
+- How much money have we spent with supplier [American](supplier_name)?
+- What is the spend for [UCI2](supplier_name)?
+- How much spend do we have with [AXIS](supplier_name)?
+- How much money have we spent with [TELEWORLD](supplier_name)?
+- What is the spend for company [TERACOM](supplier_name)?
+- What is the spend for supplier [DANNIC](supplier_name)?
+- How much spend do we have with supplier [ROSENBERGER](supplier_name)?
+- How much money have we spent with supplier [TRILOGY](supplier_name)?
+- What is the spend for [HEXATRONIC](supplier_name)?
+- How much spend do we have with [TRINITY](supplier_name)?
+- How much money have we spent with [DELTA](supplier_name), who can help me?
+- What is the spend for company [JABIL](supplier_name)?
+- How much spend do we have with company [SHANGHAI](supplier_name)?
+- How much money have we spent with company [DURAMOULD](supplier_name)?
+- What is the spend with [MR](supplier_name)?
+- What is the spend for supplier [MOVE](supplier_name)?
+- How much spend do we have with supplier [BRIDGEWATER](supplier_name)?
+- How much money have we spent with supplier [TEMPEST](supplier_name)?
+- What is the spend for [MONTI](supplier_name)?
+- How much spend do we have with [TSJ](supplier_name)?
+- How much money have we spent with [JOHNSON](supplier_name)?
+- What is the spend for company [STRUCTURED](supplier_name) company?
+- How much spend do we have with company [EMF](supplier_name)?
+- How much money have we spent with company [DYROS](supplier_name)?
+- What is the spend with [Spectra](supplier_name)?
+- What is the spend for supplier [DETERRENT](supplier_name)?
+- How much spend do we have with supplier [DIGITAL](supplier_name)?
+- How much money have we spent with supplier [BUSINESS](supplier_name)?
+- What is the spend for [KINNARPS](supplier_name)?
+- How much spend do we have with [ONE](supplier_name)?
+- How much money have we spent with [VEOLIA](supplier_name)?
+- What is the spend for company [ZINNOV](supplier_name)?
+- What is the spend for supplier [WINDWARD](supplier_name)?
+- How much spend do we have with supplier [GNOSIS](supplier_name)?
+- How much money have we spent with supplier [CONNXUS](supplier_name)?
+- What is the spend for [Jabian](supplier_name)?
+- How much spend do we have with [QUALCOMM](supplier_name)?
+- How much money have we spent with [SAS](supplier_name), who can help me?
+- What is the spend for company [MAVENIR](supplier_name)?
+- How much spend do we have with company [PURELOAD](supplier_name)?
+- How much money have we spent with company [SMARTSIGN](supplier_name)?
+- What is the spend with [Puppet](supplier_name)?
+- What is the spend for supplier [ENTRUST](supplier_name)?
+- How much spend do we have with supplier [ExtraHop](supplier_name)?
+- How much money have we spent with supplier [NOK](supplier_name)?
+- What is the spend for [DENODO](supplier_name)?
+- How much spend do we have with [PARAMETRIC](supplier_name)?
+- How much money have we spent with [TRIMBLE](supplier_name)?
+- What is the spend for company [MICRO](supplier_name) company?
+- How much spend do we have with company [TIMEWATCH](supplier_name)?
+- How much money have we spent with company [OneTrust](supplier_name)?
+- What is the spend with [BEYONDTRUST](supplier_name)?
+- What is the spend for supplier [RiggingCalc](supplier_name)?
+- How much spend do we have with supplier [INNOVATIVE](supplier_name)?
+- How much money have we spent with supplier [Appian](supplier_name)?
+- What is the spend for [VERITAS](supplier_name)?
+- How much spend do we have with [SOLARWINDS](supplier_name)?
+- How much money have we spent with [COMPUWARE](supplier_name)?
+- What is the spend for company [CRYPTZONE](supplier_name)?
+- What is the spend for supplier [HAZELCAST](supplier_name)?
+- How much spend do we have with supplier [BMC](supplier_name)?
+- How much money have we spent with supplier [CAPITOL](supplier_name)?
+- What is the spend for [SIMPSON](supplier_name)?
+- How much spend do we have with [TRICOM](supplier_name)?
+- How much money have we spent with [TUCKER](supplier_name), who can help me?
+- What is the spend for company [EXIDE](supplier_name)?
+- How much spend do we have with company [WINDELS](supplier_name)?
+- How much money have we spent with company [Poyner](supplier_name)?
+- What is the spend with [RYAN](supplier_name)?
+- What is the spend for supplier [PROTIVITI](supplier_name)?
+- How much spend do we have with supplier [WORLD](supplier_name)?
+- How much money have we spent with supplier [L&Y](supplier_name)?
+- What is the spend for [BELAZOR](supplier_name)?
+- How much spend do we have with [FAST](supplier_name)?
+- How much money have we spent with [PEABODY](supplier_name)?
+- What is the spend for company [TAXWARE](supplier_name) company?
+- How much spend do we have with company [CONSTITUTION](supplier_name)?
+- How much money have we spent with company [Grand](supplier_name)?
+- What is the spend with [LISA](supplier_name)?
+- What is the spend for supplier [LINKEDIN](supplier_name)?
+- How much spend do we have with supplier [HIGHER�ED�AS](supplier_name)?
+- How much money have we spent with supplier [BTS](supplier_name)?
+- What is the spend for [DUKE](supplier_name)?
+- How much spend do we have with [J](supplier_name)?
+- How much money have we spent with [Decker](supplier_name)?
+- What is the spend for company [DEVELOPMENT](supplier_name)?
+- What is the spend for supplier [ClickSafetycom](supplier_name)?
+- How much spend do we have with supplier [COGNIXIA](supplier_name)?
+- How much money have we spent with supplier [JP](supplier_name)?
+- What is the spend for [LINDA](supplier_name)?
+- How much spend do we have with [AMERICAN](supplier_name)?
+- How much money have we spent with [NETVISION](supplier_name), who can help me?
+- What is the spend for company [DELL](supplier_name)?
+- How much spend do we have with company [DSI](supplier_name)?
+- How much money have we spent with company [SINNOTT](supplier_name)?
+- What is the spend with [DELL](supplier_name)?
+- What is the spend for supplier [NETWORK](supplier_name)?
+- How much spend do we have with supplier [KIMLEY-HORN](supplier_name)?
+- How much money have we spent with supplier [HEWLETT](supplier_name)?
+- What is the spend for [MACCABEE](supplier_name)?
+- How much spend do we have with [SYNNEX](supplier_name)?
+- How much money have we spent with [BEC](supplier_name)?
+- What is the spend for company [Teleste](supplier_name) company?
+- How much spend do we have with company [CAPGEMINI](supplier_name)?
+- How much money have we spent with company [MATRIX](supplier_name)?
+- What is the spend with [Security7](supplier_name)?
+- What is the spend for supplier [ORIGAMI](supplier_name)?
+- How much spend do we have with supplier [Equinix](supplier_name)?
+- How much money have we spent with supplier [SYSTEMS](supplier_name)?
+- What is the spend for [NXG](supplier_name)?
+- How much spend do we have with [PHOENIX](supplier_name)?
+- How much money have we spent with [AERIAL](supplier_name)?
+- What is the spend for company [Niksen](supplier_name)?
+- What is the spend for supplier [Sky](supplier_name)?
+- How much spend do we have with supplier [Current](supplier_name)?
+- How much money have we spent with supplier [PORTLAND](supplier_name)?
+- What is the spend for [TIM](supplier_name)?
+- How much spend do we have with [MCI](supplier_name)?
+- How much money have we spent with [CAROUSEL](supplier_name), who can help me?
+- What is the spend for company [BROADVIEW](supplier_name)?
+- How much spend do we have with company [MCPHEE](supplier_name)?
+- How much money have we spent with company [CEVA](supplier_name)?
+- What is the spend with [TOWER](supplier_name)?
+- What is the spend for supplier [PEARSON](supplier_name)?
+- How much spend do we have with supplier [SEVENTY](supplier_name)?
+- How much money have we spent with supplier [Mayo](supplier_name)?
+- What is the spend for [EMOTIVE](supplier_name)?
+- How much spend do we have with [Velocity](supplier_name)?
+- How much money have we spent with [Oath](supplier_name)?
+- What is the spend for company [CENTER](supplier_name) company?
+- How much spend do we have with company [TELECOMMUNICATIONS](supplier_name)?
+- How much money have we spent with company [AUDIO](supplier_name)?
+- What is the spend with [MOGUL](supplier_name)?
+- What is the spend for supplier [NATIONAL](supplier_name)?
+- How much spend do we have with supplier [ADAPTIVE](supplier_name)?
+- How much money have we spent with supplier [SHARMA](supplier_name)?
+- What is the spend for [IEEE](supplier_name)?
+- How much spend do we have with [SKYLINE](supplier_name)?
+- How much money have we spent with [Seattle](supplier_name)?
+- What is the spend for company [TELEMED](supplier_name)?
+- What is the spend for supplier [DALLAS](supplier_name)?
+- How much spend do we have with supplier [Kansas](supplier_name)?
+- How much money have we spent with supplier [KANSAS](supplier_name)?
+- What is the spend for [DIVERSITYCOMM](supplier_name)?
+- How much spend do we have with [PENNWELL](supplier_name)?
+- How much money have we spent with [IHS](supplier_name), who can help me?
+- What is the spend for company [KNOWLEDGE](supplier_name)?
+- How much spend do we have with company [GERSON](supplier_name)?
+- How much money have we spent with company [MoffettNathanson](supplier_name)?
+- What is the spend with [THE](supplier_name)?
+- What is the spend for supplier [SOCIETY](supplier_name)?
+- How much spend do we have with supplier [WORLD](supplier_name)?
+- How much money have we spent with supplier [TECHNOLOGY](supplier_name)?
+- What is the spend for [WORLD](supplier_name)?
+- How much spend do we have with [LEGACY](supplier_name)?
+- How much money have we spent with [WARE](supplier_name)?
+- What is the spend for company [TECH](supplier_name) company?
+- How much spend do we have with company [HOFFMANN](supplier_name)?
+- How much money have we spent with company [INSIGHT](supplier_name)?
+- What is the spend with [ROCKROSE](supplier_name)?
+- What is the spend for supplier [PBC](supplier_name)?
+- How much spend do we have with supplier [ELM](supplier_name)?
+- How much money have we spent with supplier [DDM](supplier_name)?
+- What is the spend for [ALPHA](supplier_name)?
+- How much spend do we have with [GE](supplier_name)?
+- How much money have we spent with [VERTIV](supplier_name)?
+- What is the spend for company [CHARLES](supplier_name)?
+- What is the spend for supplier [MSF](supplier_name)?
+- How much spend do we have with supplier [SPECTRUM](supplier_name)?
+- How much money have we spent with supplier [Freedom](supplier_name)?
+- What is the spend for [Centennial](supplier_name)?
+- How much spend do we have with [SEALY](supplier_name)?
+- How much money have we spent with [Lonnie](supplier_name), who can help me?
+- What is the spend for company [Robinson](supplier_name)?
+- How much spend do we have with company [THE](supplier_name)?
+- How much money have we spent with company [City](supplier_name)?
+- What is the spend with [ARTECH](supplier_name)?
+- What is the spend for supplier [KAELUS](supplier_name)?
+- How much spend do we have with supplier [](supplier_name)?
+- How much money have we spent with supplier [Pinnacle](supplier_name)?
+- What is the spend for [RSDS](supplier_name)?
+- How much spend do we have with [SIGNAL](supplier_name)?
+- How much money have we spent with [FIERCEMARKETS](supplier_name)?
+- What is the spend for company [HOUSE](supplier_name) company?
+- How much spend do we have with company [Macadena](supplier_name)?
+- How much money have we spent with company [MAXWELL](supplier_name)?
+- What is the spend with [KNECT365](supplier_name)?
+- What is the spend for supplier [GSMA](supplier_name)?
+- How much spend do we have with supplier [ARDEN](supplier_name)?
+- How much money have we spent with supplier [PROCASE](supplier_name)?
+- What is the spend for [Business](supplier_name)?
+- How much spend do we have with [Motivo](supplier_name)?
+- How much money have we spent with [SISU](supplier_name)?
+- What is the spend for company [RW](supplier_name)?
+- What is the spend for supplier [WIRELESS](supplier_name)?
+- How much spend do we have with supplier [SWIM](supplier_name)?
+- How much money have we spent with supplier [NEW](supplier_name)?
+- What is the spend for [SELLBRANCH](supplier_name)?
+- How much spend do we have with [AdColony](supplier_name)?
+- How much money have we spent with [FORTUNE](supplier_name), who can help me?
+- What is the spend for company [THE](supplier_name)?
+- How much spend do we have with company [NORTHERN](supplier_name)?
+- How much money have we spent with company [ORGANIZATION](supplier_name)?
+- What is the spend with [Thomson](supplier_name)?
+- What is the spend for supplier [UNITED](supplier_name)?
+- How much spend do we have with supplier [THE](supplier_name)?
+- How much money have we spent with supplier [CBRS](supplier_name)?
+- What is the spend for [WIRELESS](supplier_name)?
+- How much spend do we have with [CONCEALFAB](supplier_name)?
+- How much money have we spent with [PERFECTVISION](supplier_name)?
+- What is the spend for company [INFINITE](supplier_name) company?
+- How much spend do we have with company [US](supplier_name)?
+- How much money have we spent with company [U](supplier_name)?
+- What is the spend with [BUDD](supplier_name)?
+- What is the spend for supplier [STERLING](supplier_name)?
+- How much spend do we have with supplier [WEWORK](supplier_name)?
+- How much money have we spent with supplier [AKIN](supplier_name)?
+- What is the spend for [FRILOT](supplier_name)?
+- How much spend do we have with [FOLEY](supplier_name)?
+- How much money have we spent with [WILLIAMS](supplier_name)?
+- What is the spend for company [MORRIS](supplier_name)?
+- What is the spend for supplier [Hanna](supplier_name)?
+- How much spend do we have with supplier [The](supplier_name)?
+- How much money have we spent with supplier [KMW](supplier_name)?
+- What is the spend for [TATA](supplier_name)?
+- How much spend do we have with [CoMedia](supplier_name)?
+- How much money have we spent with [The](supplier_name), who can help me?
+- What is the spend for company [ARISTA](supplier_name)?
+- How much spend do we have with company [MODERN](supplier_name)?
+- How much money have we spent with company [Sanctuary](supplier_name)?
+- What is the spend with [Dublin](supplier_name)?
+- What is the spend for supplier [ROBBINS](supplier_name)?
+- How much spend do we have with supplier [OPS](supplier_name)?
+- How much money have we spent with supplier [CROWN](supplier_name)?
+- What is the spend for [HARSCH](supplier_name)?
+- How much spend do we have with [Arrow](supplier_name)?
+- How much money have we spent with [BOWRING](supplier_name)?
+- What is the spend for company [Iconic](supplier_name) company?
+- How much spend do we have with company [MARSH](supplier_name)?
+- How much money have we spent with company [FRANKLINCOVEY](supplier_name)?
+- What is the spend with [ATTERSTAM](supplier_name)?
+- What is the spend for supplier [SUMITOMO](supplier_name)?
+- How much spend do we have with supplier [CIVIL](supplier_name)?
+- How much money have we spent with supplier [JOHNSON](supplier_name)?
+- What is the spend for [LAZER](supplier_name)?
+- How much spend do we have with [GM](supplier_name)?
+- How much money have we spent with [T](supplier_name)?
+- What is the spend for company [REGENCY](supplier_name)?
+- What is the spend for supplier [MAFI](supplier_name)?
+- How much spend do we have with supplier [T3](supplier_name)?
+- How much money have we spent with supplier [EMERSON](supplier_name)?
+- What is the spend for [DELTA](supplier_name)?
+- How much spend do we have with [ACRF](supplier_name)?
+- How much money have we spent with [CIVIL](supplier_name), who can help me?
+- What is the spend for company [WIRELESS](supplier_name)?
+- How much spend do we have with company [KING](supplier_name)?
+- How much money have we spent with company [Maicom](supplier_name)?
+- What is the spend with [ACTIX](supplier_name)?
+- What is the spend for supplier [SYMANTEC](supplier_name)?
+- How much spend do we have with supplier [INVIGO](supplier_name)?
+- How much money have we spent with supplier [ESI](supplier_name)?
+- What is the spend for [NUANCE](supplier_name)?
+- How much spend do we have with [ASG](supplier_name)?
+- How much money have we spent with [GEOTEL](supplier_name)?
+- What is the spend for company [6D](supplier_name) company?
+- How much spend do we have with company [SIMPLESOFT](supplier_name)?
+- How much money have we spent with company [ACOM](supplier_name)?
+- What is the spend with [GOENGINEER](supplier_name)?
+- What is the spend for supplier [ORACLE](supplier_name)?
+- How much spend do we have with supplier [COLLABNET](supplier_name)?
+- How much money have we spent with supplier [HITACHI](supplier_name)?
+- What is the spend for [Communique](supplier_name)?
+- How much spend do we have with [Career](supplier_name)?
+- How much money have we spent with [WIND](supplier_name)?
+- What is the spend for company [RED](supplier_name)?
+- What is the spend for supplier [SINCERA](supplier_name)?
+- How much spend do we have with supplier [QUEST](supplier_name)?
+- How much money have we spent with supplier [ABSTRACT](supplier_name)?
+- What is the spend for [ASPERII](supplier_name)?
+- How much spend do we have with [MANN](supplier_name)?
+- How much money have we spent with [Kurtz](supplier_name), who can help me?
+- What is the spend for company [KING](supplier_name)?
+- How much spend do we have with company [Courtyard](supplier_name)?
+- How much money have we spent with company [Embassy](supplier_name)?
+- What is the spend with [MCKINSEY](supplier_name)?
+- What is the spend for supplier [Maritz](supplier_name)?
+- How much spend do we have with supplier [BOUCHARD](supplier_name)?
+- How much money have we spent with supplier [QUANTUM](supplier_name)?
+- What is the spend for [Pacific](supplier_name)?
+- How much spend do we have with [3S](supplier_name)?
+- How much money have we spent with [Alamo](supplier_name)?
+- What is the spend for company [MAVERICK](supplier_name) company?
+- How much spend do we have with company [LG](supplier_name)?
+- How much money have we spent with company [TMG](supplier_name)?
+- What is the spend with [Site](supplier_name)?
+- What is the spend for supplier [ELECTRO](supplier_name)?
+- How much spend do we have with supplier [WIRELESS](supplier_name)?
+- How much money have we spent with supplier [DB](supplier_name)?
+- What is the spend for [FMK](supplier_name)?
+- How much spend do we have with [ZURICH](supplier_name)?
+- How much money have we spent with [Metropolitan](supplier_name)?
+- What is the spend for company [AT](supplier_name)?
+- What is the spend for supplier [DATO](supplier_name)?
+- How much spend do we have with supplier [Halcyon](supplier_name)?
+- How much money have we spent with supplier [PCRG](supplier_name)?
+- What is the spend for [LEMCON](supplier_name)?
+- How much spend do we have with [NORTH](supplier_name)?
+- How much money have we spent with [GENERAL](supplier_name), who can help me?
+- What is the spend for company [TELETECH](supplier_name)?
+- How much spend do we have with company [MD7](supplier_name)?
+- How much money have we spent with company [SBA](supplier_name)?
+- What is the spend with [Core](supplier_name)?
+- What is the spend for supplier [Caldwell](supplier_name)?
+- How much spend do we have with supplier [MAGNESS](supplier_name)?
+- How much money have we spent with supplier [CONFLUENT](supplier_name)?
+- What is the spend for [NATIONAL](supplier_name)?
+- How much spend do we have with [PLEXUS](supplier_name)?
+- How much money have we spent with [HADELAND](supplier_name)?
+- What is the spend for company [SISELECTRON](supplier_name) company?
+- How much spend do we have with company [MONITORIZACION](supplier_name)?
+- How much money have we spent with company [IMAGINE](supplier_name)?
+- What is the spend with [INTERNATIONAL](supplier_name)?
+- What is the spend for supplier [HEARTLAND](supplier_name)?
+- How much spend do we have with supplier [DELTACOM](supplier_name)?
+- How much money have we spent with supplier [DHL](supplier_name)?
+- What is the spend for [UPS](supplier_name)?
+- How much spend do we have with [UNITED](supplier_name)?
+- How much money have we spent with [Team](supplier_name)?
+- What is the spend for company [SISELECTRON](supplier_name)?
+- What is the spend for supplier [DHL](supplier_name)?
+- How much spend do we have with supplier [AGENCIA](supplier_name)?
+- How much money have we spent with supplier [BCI](supplier_name)?
+- What is the spend for [Communications](supplier_name)?
+- How much spend do we have with [SOUTHERN](supplier_name)?

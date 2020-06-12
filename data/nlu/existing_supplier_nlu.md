@@ -1,0 +1,208 @@
+## intent:request_supplier_existing
+- Do we have a supplier called [MONTECONTROL](supplier_name)
+- Do we do business with [ACA TMETRIX INC](supplier_name)
+- Do we have [ACENTURY INC](supplier_name) as a supplier
+- Do we have this company [Lee Hecht Harisson - Canada Corp](supplier_name) as a supplier
+- Is [HP INC](supplier_name) an Ericsson supplier
+- Do we have a supplier [JABIL CIRCUIT INC](supplier_name) 
+- Is there a supplier called [ONE2MANY BV](supplier_name)
+- Do we have a supplier called [FUSION TECHNICAL SOLUTIONS LLC](supplier_name)
+- Is [Mobilaris](supplier_name) an Ericsson Supplier
+- Do we have a supplier called [Sysha Canada Inc](supplier_name)
+- Do we have an mus id [ONE TIME VENDOR BUSINESS FOREIGN](supplier_name) 
+- Do we have [IWEB TECHNOLOGIES INC](supplier_name) as a supplier
+- Do we have this company [RX NETWORKS INC](supplier_name) as a supplier
+- Is [BELL DISTRIBUTION INC](supplier_name) an Ericsson supplier
+- Do we do business with [BELL MOBILITY INC](supplier_name)
+- Is there a supplier called [ZAYO CANADA INC](supplier_name)
+- Do we have a supplier called [BELL CANADA INC X](supplier_name)
+- Is [Rogers Communications Canada Inc](supplier_name) an Ericsson Supplier
+- Do we have a supplier called [VIAVI SOLUTIONS INC](supplier_name)
+- Do we have a supplier called [TOTAL TELCO SPECIALIST INC](supplier_name)
+- Do we have a supplier called [SWEEPMASTERS LLC](supplier_name)
+- Do we have a supplier called [TELEDROM LTD](supplier_name)
+- Do we have a supplier called [SPEC SERVICES LLC](supplier_name)
+- Do we have a supplier called [TKK LLC](supplier_name)
+- Do we have a supplier called [WINDWARD CONSULTING GROUP INC](supplier_name)
+- Do we have a supplier called [WIRELESS HISTORY FOUNDATION](supplier_name)
+- Do we have a supplier called [UNITED STATES TELECOMMUNICATIONS](supplier_name)
+- Do we have a supplier called [STERLING CORPORATION](supplier_name)
+- Do we have a supplier called [SUMITOMO ELECTRIC DEVICE](supplier_name)
+- Do we have a supplier called [SYMANTEC CORPORATION](supplier_name)
+- Is there a supplier called [ONE TIME VENDOR BUSINESS FOREIGN](supplier_name)
+- Is there a supplier called [RANATEC INSTRUMENT AB](supplier_name)
+- Is there a supplier called [WEISS ENVIROTRONICS INC](supplier_name)
+- Is there a supplier called [BROOKFIELD GLOBAL INTEGRATED](supplier_name)
+- Is there a supplier called [FORGE LABS INC](supplier_name)
+- Is there a supplier called [INDUSTRIES CANADA](supplier_name)
+- Is there a supplier called [SUZHOU DONGSHAN PRECISION](supplier_name)
+- Is there a supplier called [MONTREAL INTERNATIONAL](supplier_name)
+- Is there a supplier called [CARMICHAEL ENGINEERING LTD](supplier_name)
+- Is there a supplier called [BCF S E N C R L](supplier_name)
+- Is there a supplier called [RFMW LTD](supplier_name)
+- Is there a supplier called [BARSALOU LAWSON RHEAULT](supplier_name)
+- Is there a supplier called [MF LIGHTWAVE INC](supplier_name)
+- Is there a supplier called [TOWERS WATSON CANADA INC](supplier_name)
+- Is there a supplier called [GROOM & ASSOCIES LTEE](supplier_name)
+- Is there a supplier called [NIIT Learning Solutions](supplier_name)
+- Is there a supplier called [VIDEOTRON LTEE](supplier_name)
+- Is there a supplier called [AMPHENOL TECHNOLOGY ZHUHAI CO LTD](supplier_name)
+- Is there a supplier called [DET LOGISTICS USA CORP](supplier_name)
+- Is there a supplier called [MODIS](supplier_name)
+- Is there a supplier called [GAP WIRELESS INC](supplier_name)
+- Does [IWEB TECHNOLOGIES INC](supplier_name) exists as an Ericsson supplier
+- Does [RX NETWORKS INC](supplier_name) exists as an Ericsson supplier
+- Does [BELL DISTRIBUTION INC](supplier_name) exists as an Ericsson supplier
+- Does [BELL MOBILITY INC](supplier_name) exists as an Ericsson supplier
+- Does [ZAYO CANADA INC](supplier_name) exists as an Ericsson supplier
+- Does [BELL CANADA INC X](supplier_name) exists as an Ericsson supplier
+- Does [Rogers Communications Canada Inc](supplier_name) exists as an Ericsson supplier
+- Does [SUNSTRONG INTERNATIONAL](supplier_name) exists as an Ericsson supplier
+- Does [AEROFLEX LIMITED](supplier_name) exists as an Ericsson supplier
+- Does [PRECISE METAFAB INC](supplier_name) exists as an Ericsson supplier
+- Does [RF-LAMBDA USA LLC](supplier_name) exists as an Ericsson supplier
+- Does [ACENTURY INC](supplier_name) exists as an Ericsson supplier
+- Does [THERMOTRON INDUSTRIES](supplier_name) exists as an Ericsson supplier
+- Does [SYNTRONIC PRODUCTION SERVICES AB](supplier_name) exists as an Ericsson supplier
+- Does [RESPECT INDUSTRIES CORPORATION](supplier_name) exists as an Ericsson supplier
+- Does [METAPLAST CIRCUITS LIMITED](supplier_name) exists as an Ericsson supplier
+- Does [KEYSIGHT TECHNOLOGIES CANADA INC](supplier_name) exists as an Ericsson supplier
+- Does [ACE TECHNOLOGIES CORP](supplier_name) exists as an Ericsson supplier
+- Does [WUHAN FINGU ELECTRONIC TECHNOLOGY](supplier_name) exists as an Ericsson supplier
+- Does [KINGSIGNAL TECHNOLOGY CO LTD](supplier_name) exists as an Ericsson supplier
+- Does [SHENZHEN GRENTECH RF COMMUNICATION](supplier_name) exists as an Ericsson supplier
+- Does [CUSHMAN & WAKEFIELD FACILITY](supplier_name) exists as an Ericsson supplier
+- Does [THE WESBELL GROUP OF COMPANIES INC](supplier_name) exists as an Ericsson supplier
+- Does [ROGERS BUSINESS SOLUTIONS](supplier_name) exists as an Ericsson supplier
+- Does [TELUS MOBILITY](supplier_name) exists as an Ericsson supplier
+- Does [CAPELLO AUDIO ELECTRONICS LIMITED](supplier_name) exists as an Ericsson supplier
+- Does [VIDEOTRON SENC](supplier_name) exists as an Ericsson supplier
+- Does [Shaw Direct](supplier_name) exists as an Ericsson supplier
+- Does [ELECTRONIC PRODUCTS RECYCLING](supplier_name) exists as an Ericsson supplier
+- Does [CANADA BELL](supplier_name) exists as an Ericsson supplier
+- Does [SOFTWARE SOLUTIONS UNLIMITED INC](supplier_name) exists as an Ericsson supplier
+- Does [KUEHNE + NAGEL INC](supplier_name) exists as an Ericsson supplier
+- Does [CRST SPECIALIZED TRANSPORATION INC](supplier_name) exists as an Ericsson supplier
+- Does [GlobalTranz Enterprises Inc](supplier_name) exists as an Ericsson supplier
+- Does [TEKNOTRANS AB](supplier_name) exists as an Ericsson supplier
+- Does [CANADIAN WIRELESS TELE ASSOC](supplier_name) exists as an Ericsson supplier
+- Does [MAPLE LEAF SPORTS LTD](supplier_name) exists as an Ericsson supplier
+- Does [ECOLE POLYTECHNIQUE](supplier_name) exists as an Ericsson supplier
+- Does [MITACS INC](supplier_name) exists as an Ericsson supplier
+- Does [CINTAS CANADA LIMITED](supplier_name) exists as an Ericsson supplier
+- Does [HYDRO-QUEBEC](supplier_name) exists as an Ericsson supplier
+- Does [SECURITAS CANADA LIMITED](supplier_name) exists as an Ericsson supplier
+- Does [NEWARK ELECTRONICS CORPORATION](supplier_name) exists as an Ericsson supplier
+- Do we have [CBA SITE SERVICES INC](supplier_name) as a supplier
+- Do we have [Mastec Network Solutions LLC](supplier_name) as a supplier
+- Do we have [WAVE LINK CORPORATION](supplier_name) as a supplier
+- Do we have [NUCELL COMMUNICATIONS INC](supplier_name) as a supplier
+- Do we have [SUMMIT COMM INC](supplier_name) as a supplier
+- Do we have [AIM Technical Consultants Inc](supplier_name) as a supplier
+- Do we have [WIRELESS INNOVATION NATION LLC](supplier_name) as a supplier
+- Do we have [TOWERCOMM INC](supplier_name) as a supplier
+- Do we have [DJL CONSTRUCTION CORP](supplier_name) as a supplier
+- Do we have [LIGHTSPEED ASSOCIATES LLC](supplier_name) as a supplier
+- Do we have [EASTERN CRANE AND RIGGING](supplier_name) as a supplier
+- Do we have [L&M CRANE & RIGGING CORP](supplier_name) as a supplier
+- Do we have [T MOBILE](supplier_name) as a supplier
+- Do we have [AT&T WIRELESS SERVICES](supplier_name) as a supplier
+- Do we have [FRONTIER COMMUNICATIONS NORTHWEST](supplier_name) as a supplier
+- Do we have [TIME WARNER CABLE](supplier_name) as a supplier
+- Do we have [AT&T CORP](supplier_name) as a supplier
+- Do we have [VERIZON BUSINESS NETWORK SERVICES](supplier_name) as a supplier
+- Do we have [APPLIED GLOBAL TECHNOLOGIES](supplier_name) as a supplier
+- Do we have [AT&T MOBILITY LLC](supplier_name) as a supplier
+- Do we have [MEMO LLC DBA M2 ENGINEERS](supplier_name) as a supplier
+- Do we have [ENCODE INC](supplier_name) as a supplier
+- Do we have [TELCOM ENGINEERING GROUP INC](supplier_name) as a supplier
+- Do we have [WELDING IMPROVEMENT COMPANY](supplier_name) as a supplier
+- Do we have [AIROSMITH INC](supplier_name) as a supplier
+- Do we have [CELLULAR TELECOMMUNICATIONS](supplier_name) as a supplier
+- Is [THE SWEDISH-AMERICAN CHAMBER](supplier_name) an Ericsson supplier
+- Is [SWEDISH AMERICAN CHAMBER OF](supplier_name) an Ericsson supplier
+- Is [NORTH TEXAS WOMENS BUSINESS](supplier_name) an Ericsson supplier
+- Is [ORGANIZATION FOR INTERNATIONAL](supplier_name) an Ericsson supplier
+- Is [UTILITIES TELECOM COUNCIL UTC](supplier_name) an Ericsson supplier
+- Is [Open Networking Foundation](supplier_name) an Ericsson supplier
+- Is [Construction Management Association](supplier_name) an Ericsson supplier
+- Is [LEGEND SALES AND CONSULTING LLC](supplier_name) an Ericsson supplier
+- Is [G & G Outfitters Inc](supplier_name) an Ericsson supplier
+- Is [MARFIELD INC](supplier_name) an Ericsson supplier
+- Is [SRG Research and Consulting](supplier_name) an Ericsson supplier
+- Is [AMERICAN ASSOCIATION FOR](supplier_name) an Ericsson supplier
+- Is [Signals and Systems Telecom Ltd](supplier_name) an Ericsson supplier
+- Is [PEOPLETICKER LLC](supplier_name) an Ericsson supplier
+- Is [M ARTHUR GENSLER JR](supplier_name) an Ericsson supplier
+- Is [CBRE Inc](supplier_name) an Ericsson supplier
+- Is [SECURADYNE SYSTEMS](supplier_name) an Ericsson supplier
+- Is [Augustine Bowers LLC](supplier_name) an Ericsson supplier
+- Is [Boston Properties Limited](supplier_name) an Ericsson supplier
+- Is [STERLING REALTY ORGANIZATION CO](supplier_name) an Ericsson supplier
+- Is [WOODFIELD CORNERS LLC](supplier_name) an Ericsson supplier
+- Is [Preferred Office Network LLC](supplier_name) an Ericsson supplier
+- Is [NPC HOLDINGS LLC](supplier_name) an Ericsson supplier
+- Is [TLF LOGISTICS II LAKEPOINTE](supplier_name) an Ericsson supplier
+- Is [PREMIER PLAZA](supplier_name) an Ericsson supplier
+- Is [COLORADO CORPORATE PARTNERS LLC](supplier_name) an Ericsson supplier
+- Is [31-43 NAGOG PARK LLC](supplier_name) an Ericsson supplier
+- Is [ADEX CORPORATION](supplier_name) an Ericsson supplier
+- Is [ELECTRIC TECH CONSTRUCTION INC](supplier_name) an Ericsson supplier
+- Is [VERTICAL LIMIT CONSTRUCTION LLC](supplier_name) an Ericsson supplier
+- Is [KMM TELECOMMUNICATIONS](supplier_name) an Ericsson supplier
+- Is [REJV CONCOURSE ATLANTA LLC](supplier_name) an Ericsson supplier
+- Is [ROBERT A BOTHMAN](supplier_name) an Ericsson supplier
+- Is [LENOVO UNITED STATES INC](supplier_name) an Ericsson supplier
+- Is [GRAMERCY PROPERTY TRUST](supplier_name) an Ericsson supplier
+- Is [HIGH FAMILY PARTNERSHIP I LP](supplier_name) an Ericsson supplier
+- Is [NALI Portfolio LLC](supplier_name) an Ericsson supplier
+- Is [Foothill Land LLC](supplier_name) an Ericsson supplier
+- Is [DRA G&I FUND IX REIT LLC](supplier_name) an Ericsson supplier
+- Is [WIM CORE PORTFOLIO LLC](supplier_name) an Ericsson supplier
+- Is [ATX JLL Plaza LLC](supplier_name) an Ericsson supplier
+- Is [Horizon Real Estate Investors LLC](supplier_name) an Ericsson supplier
+- Is [CHATTA CORNERS DELAWARE LLC](supplier_name) an Ericsson supplier
+- Is [Team Player LLC](supplier_name) an Ericsson supplier
+- Is [Vornado Realty LP](supplier_name) an Ericsson supplier
+- Is [Commonwealth Development LLC](supplier_name) an Ericsson supplier
+- Is [Kramer-Wilson Company Inc](supplier_name) an Ericsson supplier
+- Is [PEAK PARKING LP](supplier_name) an Ericsson supplier
+- Is [HIGHLAND REALTY AND DEVELOPMENT LTD](supplier_name) an Ericsson supplier
+- Do we do business with [Niksen LLC](supplier_name)
+- Do we do business with [PORTLAND GENERAL ELECTRIC COMPANY](supplier_name)
+- Do we do business with [TIM BONANNO GENERAL CONTRACTOR LLC](supplier_name)
+- Do we do business with [MCI COMM SERVICE](supplier_name)
+- Do we do business with [CAROUSEL INDUSTRIES OF](supplier_name)
+- Do we do business with [BROADVIEW NETWORKS INC](supplier_name)
+- Do we do business with [MCPHEE ELECTRIC LTD](supplier_name)
+- Do we do business with [CEVA FREIGHT LLC](supplier_name)
+- Do we do business with [TOWER RESOURCE MANAGEMENT](supplier_name)
+- Do we do business with [Mayo Production and Equipment Inc](supplier_name)
+- Do we do business with [EMOTIVE FILM CO](supplier_name)
+- Do we do business with [Velocity Partners US Inc](supplier_name)
+- Do we do business with [Oath Americas Inc](supplier_name)
+- Do we do business with [CENTER OPERATING COMPANY LP](supplier_name)
+- Do we do business with [TELECOMMUNICATIONS INDUSTRY](supplier_name)
+- Do we do business with [AUDIO VISUAL SERVICES GROUP](supplier_name)
+- Do we do business with [MOGUL SOLUTIONS LLC](supplier_name)
+- Do we do business with [SHARMA HOLDINGS LLC](supplier_name)
+- Do we do business with [IEEE INTERNATIONAL LLC](supplier_name)
+- Do we do business with [SKYLINE RETAIL ACQUISITION I LLC](supplier_name)
+- Do we do business with [Seattle Soccer LLC](supplier_name)
+- Do we do business with [TELEMED MEDICAL SYSTEMS SRL](supplier_name)
+- Do we do business with [KANSAS CITY CHIEFS FOOTBALL CLUB](supplier_name)
+- Do we do business with [DIVERSITYCOMM INC](supplier_name)
+- Do we do business with [PENNWELL CORPORATION](supplier_name)
+- Do we do business with [IHS GLOBAL INC](supplier_name)
+- Do we do business with [KNOWLEDGE SYSTEMS & RESEARCH INC](supplier_name)
+- Do we do business with [GERSON LEHRMAN GROUP](supplier_name)
+- Do we do business with [MoffettNathanson LLC](supplier_name)
+- Do we do business with [THE MASIE CENTER INC](supplier_name)
+- Do we do business with [TECHNOLOGY INDUSTRY GROUP](supplier_name)
+- MUS ID for [juniper](supplier_name)
+- MUSID for [juniper](supplier_name)
+- what is the mus id of supplier [juniper](supplier_name)
+- what is the musid of suplier [juniper](supplier_name)
+- what is the mus id supplir [juniper](supplier_name)
+- is [One2Many](supplier_name) an ericsson supplier
+- Do we have a supplier called [One2](supplier_name)

@@ -1,0 +1,89 @@
+language: en
+
+pipeline:
+
+- name: ConveRTTokenizer
+
+- name: ConveRTFeaturizer
+
+#- name: WhitespaceTokenizer
+
+#  case_sensitive: false
+
+- name: RegexFeaturizer
+
+- name: LexicalSyntacticFeaturizer
+
+- name: CountVectorsFeaturizer
+
+- name: CountVectorsFeaturizer
+
+  analyzer: char_wb
+
+  min_ngram: 1
+
+  max_ngram: 4
+
+- name: DIETClassifier
+
+  epochs: 100
+
+- name: EntitySynonymMapper
+
+#  - name: DucklingHTTPExtractor
+
+#    url: http://localhost:8000
+
+#    dimensions:
+
+#    - amount-of-money
+
+#    - time
+
+#    - number
+
+#  - name: "SpacyNLP"
+
+#    model: "en_core_web_md"
+
+#  - name: "SpacyEntityExtractor"
+
+#    dimensions: ["PERSON"]
+
+
+
+policies:
+
+  - name: TwoStageFallbackPolicy
+
+    nlu_threshold: 0.45
+
+    ambiguity_threshold: 0.04
+
+    core_threshold: 0.45
+
+    fallback_core_action_name: "action_default_fallback"
+
+    fallback_nlu_action_name: "action_default_fallback"
+
+    deny_suggestion_intent_name: "smalltalk_confirmation_no"
+
+  - name: AugmentedMemoizationPolicy
+
+    max_history: 4
+
+  - name: FormPolicy
+
+  - name: MappingPolicy
+
+  - name: TEDPolicy
+
+    max_history: 4
+
+    epochs: 200
+
+    batch_size:
+
+    - 32
+
+    - 64

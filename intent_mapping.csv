@@ -1,0 +1,113 @@
+intent,button
+chart_type,chart type
+askgraph,Graph
+askgraph_by_month,Graph by Month
+askgraph_by_supplier,Graph by Supplier
+askgraph_by_company,Graph by Company
+askgraph_by_customer,Graph by Customer
+askgraph_by_businessunit,Graph by Business Unit
+askgraph_by_marketarea,Graph by Market Area
+request_supplier_contract,Contract for a Supplier
+request_supplier_spend,Spend for a Supplier
+request_category_spend,Spend for a Category
+request_another_supplier,Request Another Supplier
+date,Date
+ask_whatspossible,What can I do
+smalltalk_agent_acquaintance,acquaintance
+smalltalk_agent_age,what is my Age
+smalltalk_agent_annoying,annoying
+smalltalk_agent_answer_my_question,to answer your question
+smalltalk_agent_bad,if im bad
+smalltalk_agent_be_clever,be clever
+smalltalk_agent_beautiful,beautiful
+smalltalk_agent_birth_date,my birth date
+smalltalk_agent_boring,boring
+smalltalk_agent_boss,boss
+smalltalk_agent_busy,busy
+smalltalk_agent_chatbot,chatbot
+smalltalk_agent_clever,clever
+smalltalk_agent_crazy,crazy
+smalltalk_agent_fired,fired
+smalltalk_agent_funny,funny
+smalltalk_agent_good,good
+smalltalk_agent_happy,happy
+smalltalk_agent_hungry,hungry
+smalltalk_agent_marry_user,Marry you
+smalltalk_agent_my_friend,be a friends
+smalltalk_agent_occupation,my occupation
+smalltalk_agent_origin,origin
+smalltalk_agent_ready,if im ready
+smalltalk_agent_real,if im real 
+smalltalk_agent_residence,my residence
+smalltalk_agent_right,right
+smalltalk_confirmation_yes,affirmative confirmation
+smalltalk_agent_sure,sure
+smalltalk_agent_talk_to_me,talk to you
+smalltalk_agent_there,if im here
+smalltalk_appraisal_bad,is a bad review
+smalltalk_appraisal_good,is a good review
+smalltalk_appraisal_no_problem,there is no problem
+smalltalk_appraisal_thank_you,thanks
+smalltalk_appraisal_welcome,welcome
+smalltalk_appraisal_well_done,is well done
+smalltalk_confirmation_cancel,to cancel
+smalltalk_confirmation_no,no 
+smalltalk_dialog_hold_on,that should I wait
+smalltalk_dialog_hug,a hug
+smalltalk_dialog_i_do_not_care,you dont care
+smalltalk_dialog_sorry,you sorry 
+smalltalk_dialog_what_do_you_mean,something else
+smalltalk_dialog_wrong,this is wrong
+smalltalk_emotions_ha_ha,ha ha 
+smalltalk_emotions_wow,is amazing
+smalltalk_greetings_bye,bye
+smalltalk_greetings_goodevening,goodevening
+smalltalk_greetings_goodmorning,goodmorning
+smalltalk_greetings_goodnight,goodnight
+smalltalk_greetings_hello,hello
+smalltalk_greetings_how_are_you,how are you
+smalltalk_greetings_nice_to_meet_you,nice to meet you
+smalltalk_greetings_nice_to_see_you,nice to see you
+smalltalk_greetings_nice_to_talk_to_you,nice to talk with  you
+smalltalk_greetings_whatsup,whats going on
+smalltalk_user_angry,angry
+smalltalk_user_back,back
+smalltalk_user_bored,bored
+smalltalk_user_busy,busy
+smalltalk_user_can_not_sleep,cant sleep
+smalltalk_user_does_not_want_to_talk,you dont want to talk
+smalltalk_user_excited,you are excited
+smalltalk_user_going_to_bed,your leaving
+smalltalk_user_good,you are good
+smalltalk_user_happy,your happy
+smalltalk_user_has_birthday,its your birthday
+smalltalk_user_here,you are back
+smalltalk_user_tell_me_joke,you want a joke
+smalltalk_user_joking,your joking
+smalltalk_user_likes_agent,I like you
+smalltalk_user_lonely,your lonely
+smalltalk_user_looks_like,looks like..
+smalltalk_user_loves_agent,you love me
+smalltalk_user_misses_agent,miss me 
+smalltalk_user_needs_advice,need an advice
+smalltalk_user_sad,your felling sad
+smalltalk_user_sleepy,your felling sleepy
+smalltalk_user_testing_agent,your testing me
+smalltalk_user_tired,you are tired
+smalltalk_user_waits,your wating
+smalltalk_user_wants_to_see_agent_again,you need me
+smalltalk_user_wants_to_talk,you need to talk
+smalltalk_user_will_be_back,your coming back
+request_another_date,Request Another Date
+market_area,Market Area
+get_started,get started
+bot_challenge,you want to challenge me
+ask_weather,weather
+request_weather_location,weather location
+wolframalpha_whatis,what is
+request_category_category_manager,Manager of a Category
+request_supplier_category_manager,Manager of a Supplier
+request_supplier_onboarding_status,Supplier Onboarding Status
+easter_egg,Easter Egg
+request_sourcing_wigs,Where are the Sourcing Wigs
+request_supplier_justification_form,Where is the Supplier Justification Form

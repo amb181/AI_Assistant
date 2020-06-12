@@ -1,0 +1,664 @@
+## intent:request_spend
+- What is the spend for supplier [Sysha Canada Inc](supplier_name)
+- How much spend do we have with supplier [ONE TIME VENDOR BUSINESS FOREIGN](supplier_name)
+- How much money have we spent with supplier [IWEB TECHNOLOGIES INC](supplier_name)
+- What is the spend for [RX NETWORKS INC](supplier_name)
+- How much spend do we have with [BELL DISTRIBUTION INC](supplier_name)
+- How much money have we spent with [BELL MOBILITY INC](supplier_name), who can help me
+- What is the spend for company [ZAYO CANADA INC](supplier_name)
+- How much spend do we have with company [BELL CANADA INC X](supplier_name)
+- How much money have we spent with company [Rogers Communications Canada Inc](supplier_name)
+- What is the spend with [SUNSTRONG INTERNATIONAL](supplier_name)
+- What is the spend for supplier [ACA TMETRIX INC](supplier_name)
+- How much spend do we have with supplier [RANATEC INSTRUMENT AB](supplier_name)
+- How much money have we spent with supplier [AEROFLEX LIMITED](supplier_name)
+- What is the spend for [PRECISE METAFAB INC](supplier_name)
+- How much spend do we have with [RF-LAMBDA USA LLC](supplier_name)
+- How much money have we spent with [ACENTURY INC](supplier_name)
+- What is the spend for company [THERMOTRON INDUSTRIES](supplier_name) company
+- How much spend do we have with company [SYNTRONIC PRODUCTION SERVICES AB](supplier_name)
+- How much money have we spent with company [RESPECT INDUSTRIES CORPORATION](supplier_name)
+- What is the spend with [METAPLAST CIRCUITS LIMITED](supplier_name)
+- What is the spend for supplier [RAYMOND EMC ENCLOSURES LTD](supplier_name)
+- How much spend do we have with supplier [WEISS ENVIROTRONICS INC](supplier_name)
+- How much money have we spent with supplier [KEYSIGHT TECHNOLOGIES CANADA INC](supplier_name)
+- What is the spend for [ACE TECHNOLOGIES CORP](supplier_name)
+- How much spend do we have with [WUHAN FINGU ELECTRONIC TECHNOLOGY](supplier_name)
+- How much money have we spent with [KINGSIGNAL TECHNOLOGY CO LTD](supplier_name)
+- What is the spend for company [SHENZHEN GRENTECH RF COMMUNICATION](supplier_name)
+- What is the spend for supplier [CREOWAVE FILTERS OY](supplier_name)
+- How much spend do we have with supplier [BROOKFIELD GLOBAL INTEGRATED](supplier_name)
+- How much money have we spent with supplier [CUSHMAN & WAKEFIELD FACILITY](supplier_name)
+- What is the spend for [THE WESBELL GROUP OF COMPANIES INC](supplier_name)
+- How much spend do we have with [ROGERS BUSINESS SOLUTIONS](supplier_name)
+- How much money have we spent with [TELUS MOBILITY](supplier_name), who can help me
+- What is the spend for company [CAPELLO AUDIO ELECTRONICS LIMITED](supplier_name)
+- How much spend do we have with company [VIDEOTRON SENC](supplier_name)
+- How much money have we spent with company [Shaw Direct](supplier_name)
+- What is the spend with [ELECTRONIC PRODUCTS RECYCLING](supplier_name)
+- What is the spend for supplier [RICOH CANADA INC](supplier_name)
+- How much spend do we have with supplier [FORGE LABS INC](supplier_name)
+- How much money have we spent with supplier [CANADA BELL](supplier_name)
+- What is the spend for [SOFTWARE SOLUTIONS UNLIMITED INC](supplier_name)
+- How much spend do we have with [KUEHNE + NAGEL INC](supplier_name)
+- How much money have we spent with [CRST SPECIALIZED TRANSPORATION INC](supplier_name)
+- What is the spend for company [GlobalTranz Enterprises Inc](supplier_name) company
+- How much spend do we have with company [TEKNOTRANS AB](supplier_name)
+- How much money have we spent with company [CANADIAN WIRELESS TELE ASSOC](supplier_name)
+- What is the spend with [MAPLE LEAF SPORTS LTD](supplier_name)
+- What is the spend for supplier [ENVY CREATE LLC](supplier_name)
+- How much spend do we have with supplier [INDUSTRIES CANADA](supplier_name)
+- How much money have we spent with supplier [ECOLE POLYTECHNIQUE](supplier_name)
+- What is the spend for [MITACS INC](supplier_name)
+- How much spend do we have with [CINTAS CANADA LIMITED](supplier_name)
+- How much money have we spent with [HYDRO-QUEBEC](supplier_name)
+- What is the spend for company [SECURITAS CANADA LIMITED](supplier_name)
+- What is the spend for supplier [SUZHOU YONGCHUANG METAL SCIENCE AND](supplier_name)
+- How much spend do we have with supplier [SUZHOU DONGSHAN PRECISION](supplier_name)
+- How much money have we spent with supplier [NEWARK ELECTRONICS CORPORATION](supplier_name)
+- What is the spend for [OTTAWA FASTENER SUPPLY LTD](supplier_name)
+- How much spend do we have with [LEGERE INDUSTRIAL SUPPLIES](supplier_name)
+- How much money have we spent with [NOBLETON LAKES GOLF CLUB](supplier_name), who can help me
+- What is the spend for company [JAYS CARE FOUNDATION](supplier_name)
+- How much spend do we have with company [NATIONAL PUBLIC RELATIONS CANADA](supplier_name)
+- How much money have we spent with company [CLARIVATE ANALYTICS US LLC](supplier_name)
+- What is the spend with [IPLYTICS GMBH](supplier_name)
+- What is the spend for supplier [SWEDISH CHAMBER OF COMMERCE INC](supplier_name)
+- How much spend do we have with supplier [MONTREAL INTERNATIONAL](supplier_name)
+- How much money have we spent with supplier [NATIONAL RESEARCH COUNCIL CANADA](supplier_name)
+- What is the spend for [LEXISNEXIS CANADA INC](supplier_name)
+- How much spend do we have with [SOCIETE DU QUARTIER DE LINNOVATION](supplier_name)
+- How much money have we spent with [AP CONCEPT PLUS INC](supplier_name)
+- What is the spend for company [ONE2MANY BV](supplier_name) company
+- How much spend do we have with company [Practising Law Institute](supplier_name)
+- How much money have we spent with company [DOCU-DEPOT INC](supplier_name)
+- What is the spend with [Manulife Ontario Property](supplier_name)
+- What is the spend for supplier [MINTO APARTMENT LIMITED PARTNERSHIP](supplier_name)
+- How much spend do we have with supplier [CARMICHAEL ENGINEERING LTD](supplier_name)
+- How much money have we spent with supplier [CONSTRUCTION ANJINNOV INC](supplier_name)
+- What is the spend for [IDENTICAM SYSTEM CANADA LTD](supplier_name)
+- How much spend do we have with [SENAB AB](supplier_name)
+- How much money have we spent with [Novexco](supplier_name)
+- What is the spend for company [LE GROUPE CAI GLOBAL INC](supplier_name)
+- What is the spend for supplier [PROSPECTUS ASSOCIATES](supplier_name)
+- How much spend do we have with supplier [BCF S E N C R L](supplier_name)
+- How much money have we spent with supplier [FLEMING COMMUNICATIONS INC FCI](supplier_name)
+- What is the spend for [MACNO TELECOM INC](supplier_name)
+- How much spend do we have with [GTL CANADA INC](supplier_name)
+- How much money have we spent with [TELECON INC](supplier_name), who can help me
+- What is the spend for company [CAPTEL INC](supplier_name)
+- How much spend do we have with company [Structure Tone Global Services LLC](supplier_name)
+- How much money have we spent with company [STANTEC CONSULTING LTD](supplier_name)
+- What is the spend with [DARYL FLOOD LOGISTICS INC](supplier_name)
+- What is the spend for supplier [JFW INDUSTRIES INCORPORATED](supplier_name)
+- How much spend do we have with supplier [RFMW LTD](supplier_name)
+- How much money have we spent with supplier [DUCOMMUN LABARGE TECHNOLOGIES](supplier_name)
+- What is the spend for [RICHARDSON RFPD CANADA INC](supplier_name)
+- How much spend do we have with [PULSE ELECTRONICS SINGAPORE PTE L](supplier_name)
+- How much money have we spent with [CLEARFIELD INC](supplier_name)
+- What is the spend for company [HEXATRONIC US INC](supplier_name) company
+- How much spend do we have with company [ANIXTER CANADA INC](supplier_name)
+- How much money have we spent with company [VALLEN DISTRIBUTION INC](supplier_name)
+- What is the spend with [GASCON & ASSOCIES SENCRL](supplier_name)
+- What is the spend for supplier [CAROLINE S HOLLAND](supplier_name)
+- How much spend do we have with supplier [BARSALOU LAWSON RHEAULT](supplier_name)
+- How much money have we spent with supplier [DELOITTE SENCRL](supplier_name)
+- What is the spend for [MARSH CANADA LIMITED](supplier_name)
+- How much spend do we have with [YourCause LLC](supplier_name)
+- How much money have we spent with [INFOVISTA CORPORATION](supplier_name)
+- What is the spend for company [INFOVISTA NETWORK TESTING INC](supplier_name)
+- What is the spend for supplier [MINI-CIRCUITS](supplier_name)
+- How much spend do we have with supplier [MF LIGHTWAVE INC](supplier_name)
+- How much money have we spent with supplier [DONLEN CORPORATION](supplier_name)
+- What is the spend for [WHEELS INC](supplier_name)
+- How much spend do we have with [Artech Technology Canada Limited](supplier_name)
+- How much money have we spent with [FINISAR CORPORATION](supplier_name), who can help me
+- What is the spend for company [TELEPRO INC](supplier_name)
+- How much spend do we have with company [KATHREIN SE](supplier_name)
+- How much money have we spent with company [RADIO FREQUENCY SYSTEMS INC](supplier_name)
+- What is the spend with [KATHREIN USA INC](supplier_name)
+- What is the spend for supplier [COMMSCOPE TECHNOLOGIES LLC](supplier_name)
+- How much spend do we have with supplier [TOWERS WATSON CANADA INC](supplier_name)
+- How much money have we spent with supplier [RAYMOND VEILLEUX](supplier_name)
+- What is the spend for [MERCER US INC](supplier_name)
+- How much spend do we have with [ACHIEVERS LLC](supplier_name)
+- How much money have we spent with [ORGANIZATIONAL SOLUTIONS INC](supplier_name)
+- What is the spend for company [VIRGIN PULSE INC](supplier_name) company
+- How much spend do we have with company [Equinoxe Virtual Clinic Corp](supplier_name)
+- How much money have we spent with company [THE UNIVERSITY OF WATERLOO](supplier_name)
+- What is the spend with [ADECCO EMPLOYMENT SERVICES LIMITED](supplier_name)
+- What is the spend for supplier [FIRST ADVANTAGE LNS SCREENING](supplier_name)
+- How much spend do we have with supplier [GROOM & ASSOCIES LTEE](supplier_name)
+- How much money have we spent with supplier [SP CONSULTING AB](supplier_name)
+- What is the spend for [MULTI-LANGUE SAYKALY MLS INC](supplier_name)
+- How much spend do we have with [CARVER INSTITUTE INC](supplier_name)
+- How much money have we spent with [GLOBAL KNOWLEDGE NETWORK](supplier_name)
+- What is the spend for company [Lee Hecht Harisson - Canada Corp](supplier_name)
+- What is the spend for supplier [INTERNATIONAL INSTITUTE FOR](supplier_name)
+- How much spend do we have with supplier [NIIT Learning Solutions](supplier_name)
+- How much money have we spent with supplier [Collabera Canada Inc](supplier_name)
+- What is the spend for [Morneau Shepell Ltd](supplier_name)
+- How much spend do we have with [Retraite Quebec](supplier_name)
+- How much money have we spent with [AMERICAN INTERNATIONAL RELOCATION](supplier_name), who can help me
+- What is the spend for company [COMBA TELECOM LIMITED](supplier_name)
+- How much spend do we have with company [Tongyu Communication Inc](supplier_name)
+- How much money have we spent with company [Comba Telecom Inc](supplier_name)
+- What is the spend with [HEXATRONIC FIBEROPTIC AB](supplier_name)
+- What is the spend for supplier [CONCEALFAB CORPORATION](supplier_name)
+- How much spend do we have with supplier [VIDEOTRON LTEE](supplier_name)
+- How much money have we spent with supplier [HUBER + SUHNER INC](supplier_name)
+- What is the spend for [AMPHENOL CONNEXUS AB](supplier_name)
+- How much spend do we have with [VOLEX INC](supplier_name)
+- How much money have we spent with [TYCO ELECTRONICS CORPORATION](supplier_name)
+- What is the spend for company [BROOK VMS](supplier_name) company
+- How much spend do we have with company [ALFA QUALITY MOVING AB](supplier_name)
+- How much money have we spent with company [MOLEX INCORPORATED](supplier_name)
+- What is the spend with [AMPHENOL FIBER OPTICS PRODUCTS](supplier_name)
+- What is the spend for supplier [TYCO ELECTRONICS](supplier_name)
+- How much spend do we have with supplier [AMPHENOL TECHNOLOGY ZHUHAI CO LTD](supplier_name)
+- How much money have we spent with supplier [JOHN MEZZALINGUA ASSOCIATES LLC](supplier_name)
+- What is the spend for [GOVA ADVANCED MATERIAL TECH CO LTD](supplier_name)
+- How much spend do we have with [ROSENBERGER SITE SOLUTIONS LLC](supplier_name)
+- How much money have we spent with [NKT INC](supplier_name)
+- What is the spend for company [MICROLAB FXR](supplier_name)
+- What is the spend for supplier [GALTRONICS CORPORATION LTD](supplier_name)
+- How much spend do we have with supplier [DET LOGISTICS USA CORP](supplier_name)
+- How much money have we spent with supplier [MICROSEMI FREQUENCY AND](supplier_name)
+- What is the spend for [WUHAN TELECOMMUNICATION DEVICES](supplier_name)
+- How much spend do we have with [EFORE OYJ](supplier_name)
+- How much money have we spent with [VERTIV CANADA ULC](supplier_name), who can help me
+- What is the spend for company [VERTIV CORPORATION](supplier_name)
+- How much spend do we have with company [ELTEK INC](supplier_name)
+- How much money have we spent with company [ASTEC AMERICA LLC](supplier_name)
+- What is the spend with [EMCOMP INTERNATIONAL AB](supplier_name)
+- What is the spend for supplier [TELEPHONE SWITCHING SERVICES](supplier_name)
+- How much spend do we have with supplier [MODIS](supplier_name)
+- How much money have we spent with supplier [MK SYSTEMS USA INC](supplier_name)
+- What is the spend for [MK MEDIATECH CANADA INC](supplier_name)
+- How much spend do we have with [HEWLETT-PACKARD SVERIGE AB](supplier_name)
+- How much money have we spent with [Galtronics USA Inc](supplier_name)
+- What is the spend for company [ZENSAR TECHNOLOGIES IM BV](supplier_name) company
+- How much spend do we have with company [HEWLETT PACKARD ENTERPRISE COMPANY](supplier_name)
+- How much money have we spent with company [HEWLETT PACKARD ENTERPRISE CANADA](supplier_name)
+- What is the spend with [NETRICOM](supplier_name)
+- What is the spend for supplier [WESTOWER COMMUNICATIONS LTD](supplier_name)
+- How much spend do we have with supplier [GAP WIRELESS INC](supplier_name)
+- How much money have we spent with supplier [OBJECT TECHNOLOGY SOLUTIONS INC](supplier_name)
+- What is the spend for [TECHTALENT CONSULTING &](supplier_name)
+- How much spend do we have with [ERICSSON NIKOLA TESLA DD](supplier_name)
+- How much money have we spent with [SIGMA TECHNOLOGY HUNGARY LTD](supplier_name)
+- What is the spend for company [AF-Digital Solutions AB](supplier_name)
+- What is the spend for supplier [WIPRO LIMITED](supplier_name)
+- How much spend do we have with supplier [TATA CONSULTANCY SERVICES CANADA](supplier_name)
+- How much money have we spent with supplier [SYNTRONIC RESEARCH AND DEVELOPMENT](supplier_name)
+- What is the spend for [GENWAVE TECHNOLOGIES INC](supplier_name)
+- How much spend do we have with [DRAIN-ALL LTD](supplier_name)
+- How much money have we spent with [INTELLINET TECHNOLOGIES INC](supplier_name), who can help me
+- What is the spend for company [ENTERPRISEDB CORPORATE](supplier_name)
+- How much spend do we have with company [MAVENIR SYSTEMS NORTH AMERICA LTD](supplier_name)
+- How much money have we spent with company [WEDO TECHNOLOGIES AMERICAS INC](supplier_name)
+- What is the spend with [MOVIRI INC](supplier_name)
+- What is the spend for supplier [PURELOAD SOFTWARE CANADA INC](supplier_name)
+- How much spend do we have with supplier [WOLFSSL INC](supplier_name)
+- How much money have we spent with supplier [SOFTWARE HOUSE INTERNATIONAL INC](supplier_name)
+- What is the spend for [FOCUS MICRO ONDES INC](supplier_name)
+- How much spend do we have with [FLEXERA SOFTWARE INC](supplier_name)
+- How much money have we spent with [MIRANTIS INC](supplier_name)
+- What is the spend for company [VERSA NETWORKS INC](supplier_name) company
+- How much spend do we have with company [WIND RIVER INTERNATIONAL LIMITED](supplier_name)
+- How much money have we spent with company [BMC SOFTWARE CANADA INC](supplier_name)
+- What is the spend with [ORACLE AMERICA INC](supplier_name)
+- What is the spend for supplier [ORACLE CANADA ULC](supplier_name)
+- How much spend do we have with supplier [KGS BUILDINGS LLC](supplier_name)
+- How much money have we spent with supplier [CALIAN LTD](supplier_name)
+- What is the spend for [DELL CANADA INC](supplier_name)
+- How much spend do we have with [EMC CORPORATION OF CANADA](supplier_name)
+- How much money have we spent with [EMC CORPORATION](supplier_name)
+- What is the spend for company [CDW CANADA INC](supplier_name)
+- What is the spend for supplier [ESIT CANADA ENTERPRISE SERVICES CO](supplier_name)
+- How much spend do we have with supplier [F5 NETWORKS INC](supplier_name)
+- How much money have we spent with supplier [JUNIPER NETWORKS US INC](supplier_name)
+- What is the spend for [EXTREME NETWORKS INC](supplier_name)
+- How much spend do we have with [A Society Consulting Inc](supplier_name)
+- How much money have we spent with [ELITS CANADA INC](supplier_name), who can help me
+- What is the spend for company [AMAZON WEB SERVICES LLC](supplier_name)
+- How much spend do we have with company [IWEDIA SA](supplier_name)
+- How much money have we spent with company [PROACT IT SWEDEN AB](supplier_name)
+- What is the spend with [PRISMA TELECOM TESTING SRL](supplier_name)
+- What is the spend for supplier [ELECTRO RENT CORPORATION](supplier_name)
+- How much spend do we have with supplier [INTERFAX SYSTEMS INC](supplier_name)
+- How much money have we spent with supplier [ELECTRO RENT CORP](supplier_name)
+- What is the spend for [GIGA-TRON ASSOCIATES LIMITED](supplier_name)
+- How much spend do we have with [EMPOWERED NETWORKS INC](supplier_name)
+- How much money have we spent with [ANRITSU ELECTRONICS LTD](supplier_name)
+- What is the spend for company [ROHDE & SCHWARZ CANADA INC](supplier_name) company
+- How much spend do we have with company [TEKTRONIX INC](supplier_name)
+- How much money have we spent with company [CISCO SYSTEMS INC](supplier_name)
+- What is the spend with [CIG SHANGHAI CO LTD](supplier_name)
+- What is the spend for supplier [JUNIPER NETWORKS CANADA INC](supplier_name)
+- How much spend do we have with supplier [SOFTCHOICE LP](supplier_name)
+- How much money have we spent with supplier [DIGI KEY CORPORATION](supplier_name)
+- What is the spend for [3236013 CANADA INC](supplier_name)
+- How much spend do we have with [MCMASTER-CARR SUPPLY COMPANY](supplier_name)
+- How much money have we spent with [GEMALTO INC](supplier_name)
+- What is the spend for company [CONCORDIA UNIVERSITY](supplier_name)
+- What is the spend for supplier [INTERTEK TESTING SERVICES NA INC](supplier_name)
+- How much spend do we have with supplier [MOUSER ELECTRONICS INC](supplier_name)
+- How much money have we spent with supplier [ASIA VITAL COMPONENTS CO LTD](supplier_name)
+- What is the spend for [DELTA ELECTRONICS THAILAND](supplier_name)
+- How much spend do we have with [AQ ENCLOSURE SYSTEMS AB](supplier_name)
+- How much money have we spent with [ELECTRON METAL AIG INC](supplier_name), who can help me
+- What is the spend for company [FLEXTRONICS ELECTRONICS TECHNOLOGY](supplier_name)
+- How much spend do we have with company [FLEXTRONICS CANADA DESIGN](supplier_name)
+- How much money have we spent with company [NPS LABS](supplier_name)
+- What is the spend with [CIRCUITS CMR LTD](supplier_name)
+- What is the spend for supplier [CHONGQING DAJIANG MILLISON](supplier_name)
+- How much spend do we have with supplier [NOLATO SILIKONTEKNIK AB](supplier_name)
+- How much money have we spent with supplier [JONES TECH PLC](supplier_name)
+- What is the spend for [AXIS PROTOTYPES](supplier_name)
+- How much spend do we have with [STANFORD RESEARCH SYSTEMS INC](supplier_name)
+- How much money have we spent with [SUZHOU CHUNXING PRECISION](supplier_name)
+- What is the spend for company [GEMALTO CANADA INC](supplier_name) company
+- How much spend do we have with company [HP CANADA CO](supplier_name)
+- How much money have we spent with company [SWITCH AUTOMATION INC](supplier_name)
+- What is the spend with [QUECTEL WIRELESS SOLUTIONS CO LTD](supplier_name)
+- What is the spend for supplier [GEMTEK TECHNOLOGY CO LTD](supplier_name)
+- How much spend do we have with supplier [SEQUANS COMMUNICATIONS](supplier_name)
+- How much money have we spent with supplier [L&T TECHNOLOGY SERVICES LIMITED](supplier_name)
+- What is the spend for [TV2 CONSULTING LLC](supplier_name)
+- How much spend do we have with [ZCOM SYSTEMS GROUP INC](supplier_name)
+- How much money have we spent with [TECTONIC ENGINEERING & SURVEYING](supplier_name)
+- What is the spend for company [DEWBERRY ENGINEERS INC](supplier_name)
+- What is the spend for supplier [Glaus Pyle Schomer Burns](supplier_name)
+- How much spend do we have with supplier [CASSON-MARK CORPORATION](supplier_name)
+- How much money have we spent with supplier [CIK POWER DISTRIBUTORS LLC](supplier_name)
+- What is the spend for [INFINITY COMMUNICATIONS LLC](supplier_name)
+- How much spend do we have with [INTEGRATED INSTALLATIONS INC](supplier_name)
+- How much money have we spent with [AIRWAVE TELECOMMUNICATION](supplier_name), who can help me
+- What is the spend for company [AERIAL WIRELESS SERVICES LLC](supplier_name)
+- How much spend do we have with company [R D ENGINEERING & CONSTRUCTION](supplier_name)
+- How much money have we spent with company [VELOCITEL INC](supplier_name)
+- What is the spend with [BROKEN ARROW COMMUNICATIONS INC](supplier_name)
+- What is the spend for supplier [CDW DIRECT LLC](supplier_name)
+- How much spend do we have with supplier [REDAPT INC](supplier_name)
+- How much money have we spent with supplier [ZENSAR TECHNOLOGIES IM INC](supplier_name)
+- What is the spend for [MAINLINE INFORMATION SYSTEMS INC](supplier_name)
+- How much spend do we have with [HP INC](supplier_name)
+- How much money have we spent with [TELECOM SOURCING NETWORK INC](supplier_name)
+- What is the spend for company [TELECOMS TRADERS LTD](supplier_name) company
+- How much spend do we have with company [SANMINA CORPORATION](supplier_name)
+- How much money have we spent with company [JABIL CIRCUIT INC](supplier_name)
+- What is the spend with [SYNTRONIC AFTERMARKET SERVICES AB](supplier_name)
+- What is the spend for supplier [CELESTICA ROMANIA SRL](supplier_name)
+- How much spend do we have with supplier [JABIL CIRCUIT ITALIA SRL CON SOCIO](supplier_name)
+- How much money have we spent with supplier [ASTEC INTERNATIONAL LIMITED](supplier_name)
+- What is the spend in market area [MANA](market_area)
+- How much have we spent with [fusion](supplier_name) in market area [MELA](market_area)
+- What is the spend for [fusion](supplier_name)
+- what amount of money have we spent in [MOAI](market_area)
+- What is the spend for [aca](supplier_name)
+- what is the spend with [hp](supplier_name)
+- What is the spend for [wipro](supplier_name)
+- What is the spend for [insight](supplier_name)
+- What is the spend for [insight global](supplier_name)
+- What is the spend for [infosys](supplier_name)
+- what is the spend for [insight](supplier_name)
+- what did we spend with [Taxware](supplier_name)
+- what is the spend for [taxware](supplier_name)
+- What did we spend with [One2Many](supplier_name)
+- [Adex](supplier_name) spend
+- what is the [2019](date) spend with [oracle](supplier_name)
+- How much did we spend with [GME](supplier_name) in [2019](date)
+- What is our spend with [Mobilaris](supplier_name)
+- how much did we spend with [centerline](supplier_name)
+- What did we spend with Supplier [Centerline Communications](supplier_name)
+- What did we spend with [Ironbo](supplier_name)
+- Spend with [Ironbo](supplier_name)
+- spend for [apex](supplier_name)
+- [Apex](supplier_name)
+- can you help me find spend details on [Amphenol](supplier_name) [last year]{"entity": "date", "value": "last year"}
+- can you help me find spend details on [Amphenol](supplier_name)
+- [Amphenol Connexus](supplier_name)
+- what did we spend with [mirantis](supplier_name)
+- What is the spend for [AMERICAN EXPRESS](supplier_name) in [2019](date) for [MANA](market_area)
+- what did we spend with [amatel](supplier_name) in [2019](date) for [all market areas](market_area)
+- What is the spend for [AMERICAN EXPRESS](supplier_name) for [MANA](market_area) in [2019](date)
+- what did we spend with [amatel](supplier_name) for [all market areas](market_area) in [2019](date)
+
+
+- What is the spend for category [Accessories](category_name)
+- How much spend do we have with category [Advanced LLD](category_name)
+- How much money have we spent with category [After Market Brokers](category_name)
+- What is the spend for [Aftermarket and Reversed Logistics](category_name)
+- How much spend do we have in [Air Travel](category_name)
+- How much money have we spent in [Antennas](category_name)
+- What is the spend for category [ARP](category_name)
+- How much spend do we have in category [Banking](category_name)
+- How much money have we spent under category [Base Station Antennas](category_name)
+- What is the spend with [Batteries](category_name)
+- What is the spend for category [Benefit Insurance](category_name)
+- How much spend do we have with category [Brand Royalties](category_name)
+- How much money have we spent with category [Branded Promotional Merchandise](category_name)
+- What is the spend for [Broadcast Consultancy Services](category_name)
+- How much spend do we have with [Buy back - Temporary](category_name)
+- How much money have we spent with [Cable Assemblies](category_name)
+- What is the spend in category [Civil Work Services](category_name)
+- How much spend do we have with category [Cleaning & Waste](category_name)
+- How much money have we spent with category [Climate](category_name)
+- What is the spend with [Cloud & Platform Services](category_name)
+- What is the spend for category [Conferences](category_name)
+- How much spend do we have with category [Contract Logistics](category_name)
+- How much money have we spent with category [Corporate Cards](category_name)
+- What is the spend for [Corporate Insurance](category_name)
+- How much spend do we have with [CPE Customer Premises Equipment & Wi-Fi](category_name)
+- How much money have we spent with [Customs Clearance](category_name)
+- What is the spend with category [DC/DC](category_name)
+- How much spend do we have with category [Dedicated IC](category_name)
+- How much money have we spent with category [Development Tools](category_name)
+- What is the spend with [Die Casting](category_name)
+- What is the spend for category [Die Casting & Extrusion](category_name)
+- How much spend do we have with category [Digital Content and Rights](category_name)
+- How much money have we spent with category [Digital Workspace](category_name)
+- What is the spend for [Drive Test](category_name)
+- How much spend do we have in [Ecology Management](category_name)
+- How much money have we spent in [Education & Training Services](category_name)
+- What is the spend for category [Embedded antennas](category_name)
+- How much spend do we have in category [Embedded Climate](category_name)
+- How much money have we spent under category [Embedded Interconnect](category_name)
+- What is the spend with [Embedded Power](category_name)
+- what is the spend for [server & storage](category_name) in [all markets](market_area) in [all years](date)?
+- what is the spend for [Cloud & Platform Services](category_name) in [all markets](market_area) for [all years](date)?
+- what is the spend for [Field and Site Infrastructure Maintenance](category_name) in [all markets](market_area) for [all years](date)? 
+- What is the spend for category [Emerging Technologies](category_name)
+- How much spend do we have with category [EMS](category_name)
+- How much money have we spent with category [EMS Repair](category_name)
+- What is the spend for [Enclosure Systems](category_name)
+- How much spend do we have with [Energy & Water](category_name)
+- How much money have we spent with [Energy Products & Solutions](category_name)
+- What is the spend in category [Enterprise Core & IT Operations](category_name)
+- How much spend do we have with category [Events & Exhibitions](category_name)
+- How much money have we spent with category [Express, Courier and Parcel](category_name)
+- What is the spend with [Feeder Systems](category_name)
+- What is the spend for category [Fiber solutions services](category_name)
+- How much spend do we have with category [Field and Site Infrastructure Maintenance](category_name)
+- How much money have we spent with category [Filter Modules](category_name)
+- What is the spend for [Finance Consultancy Services](category_name)
+- How much spend do we have with [Fleet Cars](category_name)
+- How much money have we spent with [Fleet Fuel](category_name)
+- What is the spend with category [Fleet Management Systems](category_name)
+- How much spend do we have with category [Food & Beverages](category_name)
+- How much money have we spent with category [Fuel Management](category_name)
+- What is the spend with [Ground Transportation](category_name)
+- What is the spend for category [Healthcare Services](category_name)
+- How much spend do we have with category [Hotels](category_name)
+- How much money have we spent with category [HR Recruitment Services](category_name)
+- What is the spend for [In-Building Solutions](category_name)
+- How much spend do we have in [Independent Repair Suppliers](category_name)
+- How much money have we spent in [Infrastructure SW](category_name)
+- What is the spend for category [Installation Material and Tools](category_name)
+- How much spend do we have in category [Installation Services Access](category_name)
+- How much money have we spent under category [Installation Services Core](category_name)
+- What is the spend with [Integrated Facility Management](category_name)
+- What is the spend for category [Interconnect](category_name)
+- How much spend do we have with category [International Freight](category_name)
+- How much money have we spent with category [IT Accessories](category_name)
+- What is the spend for [IT Consultancy Services](category_name)
+- How much spend do we have with [IT Line Consultants](category_name)
+- How much money have we spent with [Law Firm Services](category_name)
+- What is the spend in category [Lease & Rental](category_name)
+- How much spend do we have with category [Licenses & Fees](category_name)
+- How much money have we spent with category [Management Consultancy Services](category_name)
+- What is the spend with [MarCom Agency Services](category_name)
+- What is the spend for category [Market Research](category_name)
+- How much spend do we have with category [Media/Advertising](category_name)
+- How much money have we spent with category [Memberships/ Membership organizations](category_name)
+- What is the spend for [Memories](category_name)
+- How much spend do we have with [Mounting Support](category_name)
+- How much money have we spent with [MW Antennas](category_name)
+- What is the spend with category [Network Appliances](category_name)
+- How much spend do we have with category [Network Design, "Line of Sight" and Site Survey](category_name)
+- How much money have we spent with category [Network Functions & Applications](category_name)
+- What is the spend with [Network Optimization & Tuning](category_name)
+- What is the spend for category [Network Synchronization](category_name)
+- How much spend do we have with category [OEM Repair & Spares](category_name)
+- How much money have we spent with category [Office Furniture](category_name)
+- What is the spend for [Office Supplies](category_name)
+- How much spend do we have in [Optical Transceivers](category_name)
+- How much money have we spent in [Optics](category_name)
+- What is the spend for category [Packaging](category_name)
+- How much spend do we have in category [Passive Fiber Solutions](category_name)
+- How much money have we spent under category [Patent Consultancy Services](category_name)
+- What is the spend with [Payroll Services](category_name)
+- What is the spend for category [PCB](category_name)
+- How much spend do we have with category [Pension Services](category_name)
+- How much money have we spent with category [Physical and Personal Security](category_name)
+- What is the spend for [Platform SW](category_name)
+- How much spend do we have with [Playout and Media Management Systems](category_name)
+- How much money have we spent with [Positioning & Synchronization](category_name)
+- What is the spend in category [Power](category_name)
+- How much spend do we have with category [Print and Distribution](category_name)
+- How much money have we spent with category [Production Equipment including service and accessories](category_name)
+- What is the spend with [R&D External Workforce](category_name)
+- What is the spend for category [RCL](category_name)
+- How much spend do we have with category [Real Estate Construction & Contractors](category_name)
+- How much money have we spent with category [Real Estate Consultants](category_name)
+- What is the spend for [Real Estate Rental and Lease](category_name)
+- How much spend do we have with [Relocation and Expatriate Services](category_name)
+- How much money have we spent with [Remote Site Management](category_name)
+- What is the spend with category [Rental, Site Consumables & Construction](category_name)
+- How much spend do we have with category [RF Components](category_name)
+- How much money have we spent with category [Security Applications](category_name)
+- What is the spend with [Server & Storage](category_name)
+- What is the spend for category [Service Delivery Tools](category_name)
+"- How much spend do we have with category [Service Delivery Tools Internal](category_name)"
+- How much money have we spent with category [Service Delivery Tools Internal](category_name)
+- What is the spend for [Service Delivery Tools Projects](category_name)
+- How much spend do we have in [Sheet Metal](category_name)
+- How much money have we spent in [SI Services](category_name)
+- What is the spend for category [Site Acquisition Services](category_name)
+- How much spend do we have in category [Site Cable Assemblies](category_name)
+- How much money have we spent under category [Site Energy Systems](category_name)
+- What is the spend with [Site Engineering Services](category_name)
+- What is the spend for category [Small Cells](category_name)
+- How much spend do we have with category [Small Mechanics](category_name)
+- How much money have we spent with category [Sponsorships](category_name)
+- What is the spend for [Standard LLD](category_name)
+- How much spend do we have with [Subscription/ Publishers](category_name)
+- How much money have we spent with [Taxes](category_name)
+- What is the spend in category [Temporary Administrative and Office resources](category_name)
+- How much spend do we have with category [Temporary Blue Collar Services](category_name)
+- How much money have we spent with category [Test & Measurement Equipment](category_name)
+- What is the spend with [Test House](category_name)
+- What is the spend for category [Total Staff Compensation Services](category_name)
+- How much spend do we have with category [Towers and Masts](category_name)
+- How much money have we spent with category [Travel Management Services](category_name)
+- What is the spend for [Unified Comm & WAN](category_name)
+- How much spend do we have with [Universities](category_name)
+- How much money have we spent with [Vehicle Leasing or Renting](category_name)
+- What is the spend with category [Walk-in housing/Shelters](category_name)
+- How much spend do we have with category [Workspace & Collaboration](category_name)
+- How much have we spent with [APR](category_name) in market area [MELA](market_area)
+- What is the spend for [Engineering Services](category_name)
+- What is the spend for [Office Supplies](category_name)
+- what is the spend with [Servers](category_name)
+- What is the spend for [Drive Testing](category_name)
+- [Vehicles](category_name) spend
+- what is the [2019](date) spend with [Vehicles](category_name)
+- How much did we spend with [Small Cells](category_name) in [2019](date)
+- What is our spend with [Towers](category_name)
+- how much did we spend with [Office Supplies](category_name)
+- Spend with [Vehicles](category_name)
+- spend for [Lease & Rental](category_name)
+- [Lease & Rental](category_name)
+- can you help me find spend details on [Vehicles](category_name) [last year]{"entity": "date", "value": "last year"}
+- can you help me find spend details on [Vehicles](category_name)
+- [arp](category_name) spend
+- [Accessories](category_name) spend
+- [Advanced LLD](category_name) spend
+- [After Market Brokers](category_name) spend
+- [Aftermarket and Reversed Logistics](category_name) spend
+- [Air Travel](category_name) spend
+- [Antennas](category_name) spend
+- [ARP](category_name) spend
+- [Banking](category_name) spend
+- [Base Station Antennas](category_name) spend
+- [Batteries](category_name) spend
+- [Benefit Insurance](category_name) spend
+- [Brand Royalties](category_name) spend
+- [Branded Promotional Merchandise](category_name) spend
+- [Broadcast Consultancy Services](category_name) spend
+- [Buy back - Temporary](category_name) spend
+- [Cable Assemblies](category_name) spend
+- [Civil Work Services](category_name) spend
+- [Cleaning & Waste](category_name) spend
+- [Climate](category_name) spend
+- [Cloud & Platform Services](category_name) spend
+- [Conferences](category_name) spend
+- [Contract Logistics](category_name) spend
+- [Corporate Cards](category_name) spend
+- [Corporate Insurance](category_name) spend
+- [CPE (Customer Premises Equipment) & Wi-Fi](category_name) spend
+- [Customs Clearance](category_name) spend
+- [DC/DC](category_name) spend
+- [Dedicated IC](category_name) spend
+- [Development Tools](category_name) spend
+- [Die Casting](category_name) spend
+- [Die Casting & Extrusion](category_name) spend
+- [Digital Content and Rights](category_name) spend
+- [Digital Workspace](category_name) spend
+- [Drive Test](category_name) spend
+- [Ecology Management](category_name) spend
+- [Education & Training Services](category_name) spend
+- [Embedded antennas](category_name) spend
+- [Embedded Climate](category_name) spend
+- [Embedded Interconnect](category_name) spend
+- [Embedded Power](category_name) spend
+- [Emerging Technologies](category_name) spend
+- [EMS](category_name) spend
+- [EMS Repair](category_name) spend
+- [Enclosure Systems](category_name) spend
+- [Energy & Water](category_name) spend
+- [Energy Products & Solutions](category_name) spend
+- [Enterprise Core & IT Operations](category_name) spend
+- [Events & Exhibitions](category_name) spend
+- [Express, Courier and Parcel](category_name) spend
+- [Feeder Systems](category_name) spend
+- [Fiber solutions services](category_name) spend
+- [Field and Site Infrastructure Maintenance](category_name) spend
+- [Filter Modules](category_name) spend
+- [Finance Consultancy Services](category_name) spend
+- [Fleet Cars](category_name) spend
+- [Fleet Fuel](category_name) spend
+- [Fleet Management Systems](category_name) spend
+- [Food & Beverages](category_name) spend
+- [Fuel Management](category_name) spend
+- [Ground Transportation](category_name) spend
+- [Healthcare Services](category_name) spend
+- [Hotels](category_name) spend
+- [HR Recruitment Services](category_name) spend
+- [In-Building Solutions](category_name) spend
+- [Independent Repair Suppliers](category_name) spend
+- [Infrastructure SW](category_name) spend
+- [Installation Material and Tools](category_name) spend
+- [Installation Services Access](category_name) spend
+- [Installation Services Core](category_name) spend
+- [Integrated Facility Management](category_name) spend
+- [Interconnect](category_name) spend
+- [International Freight](category_name) spend
+- [IT Accessories](category_name) spend
+- [IT Consultancy Services](category_name) spend
+- [IT Line Consultants](category_name) spend
+- [Law Firm Services](category_name) spend
+- [Lease & Rental](category_name) spend
+- [Licenses & Fees](category_name) spend
+- [Management Consultancy Services](category_name) spend
+- [MarCom Agency Services](category_name) spend
+- [Market Research](category_name) spend
+- [Media/Advertising](category_name) spend
+- [Memberships/ Membership organizations](category_name) spend
+- [Memories](category_name) spend
+- [Mounting Support](category_name) spend
+- [MW Antennas](category_name) spend
+- [Network Appliances](category_name) spend
+- [Network Design Line of Sight and Site Survey](category_name) spend
+- [Network Functions & Applications](category_name) spend
+- [Network Optimization & Tuning](category_name) spend
+- [Network Synchronization](category_name) spend
+- [OEM Repair & Spares](category_name) spend
+- [Office Furniture](category_name) spend
+- [Office Supplies](category_name) spend
+- [Optical Transceivers](category_name) spend
+- [Optics](category_name) spend
+- [Packaging](category_name) spend
+- [Passive Fiber Solutions](category_name) spend
+- [Patent Consultancy Services](category_name) spend
+- [Payroll Services](category_name) spend
+- [PCB](category_name) spend
+- [Pension Services](category_name) spend
+- [Physical and Personal Security](category_name) spend
+- [Platform SW](category_name) spend
+- [Playout and Media Management Systems](category_name) spend
+- [Positioning & Synchronization](category_name) spend
+- [Power](category_name) spend
+- [Print and Distribution](category_name) spend
+- [Production Equipment including service and accessories](category_name) spend
+- [R&D External Workforce](category_name) spend
+- [RCL](category_name) spend
+- [Real Estate Construction & Contractors](category_name) spend
+- [Real Estate Consultants](category_name) spend
+- [Real Estate Rental and Lease](category_name) spend
+- [Relocation and Expatriate Services](category_name) spend
+- [Remote Site Management](category_name) spend
+- [Rental, Site Consumables & Construction](category_name) spend
+- [RF Components](category_name) spend
+- [Security Applications](category_name) spend
+- [Server & Storage](category_name) spend
+- [Service Delivery Tools](category_name) spend
+- [Service Delivery Tools Internal](category_name) spend"
+- [Service Delivery Tools Internal](category_name) spend
+- [Service Delivery Tools Projects](category_name) spend
+- [Sheet Metal](category_name) spend
+- [SI Services](category_name) spend
+- [Site Acquisition Services](category_name) spend
+- [Site Cable Assemblies](category_name) spend
+- [Site Energy Systems](category_name) spend
+- [Site Engineering Services](category_name) spend
+- [Small Cells](category_name) spend
+- [Small Mechanics](category_name) spend
+- [Sponsorships](category_name) spend
+- [Standard LLD](category_name) spend
+- [Subscription/ Publishers](category_name) spend
+- [Taxes](category_name) spend
+- [Temporary Administrative and Office resources](category_name) spend
+- [Temporary Blue Collar Services](category_name) spend
+- [Test & Measurement Equipment](category_name) spend
+- [Test House](category_name) spend
+- [Total Staff Compensation Services](category_name) spend
+- [Towers and Masts](category_name) spend
+- [Travel Management Services](category_name) spend
+- [Unified Comm & WAN](category_name) spend
+- [Universities](category_name) spend
+- [Vehicle Leasing or Renting](category_name) spend
+- [Walk-in housing/Shelters](category_name) spend
+- [Workspace & Collaboration](category_name) spend
+- How much spend do we have with category [Service Delivery Tools Internal](category_name) in [All Years](date)
+- How much money have we spent with category [Service Delivery Tools Internal](category_name) in [This Year](date)
+- What is the spend with [Network Optimization & Tuning](category_name) in [MELA](market_area) for [All Years](date)
+- What is the spend for category [Network Synchronization](category_name) in [MELA](market_area) for [This Year](date)
+- How much spend do we have with category [Service Delivery Tools Internal](category_name) in [MELA](market_area)
+- How much money have we spent with category [Service Delivery Tools Internal](category_name) in [MELA](market_area)
+- What is the spend with [Service Delivery Tools Internal](category_name) in [MELA](market_area) for [This Year](date)
+- What is the spend with [Service Delivery Tools Internal](category_name) in [MELA](market_area) for [Last Year](date)
+
+- What is the spend for [this year](date)?
+- What is the spend for [2020](date)?
+- What was the spend [last year](date)?
+- What was the spend for [2019](date)?
+- What is the spend for [mela](market_area)?
+- What is the spend for [moai](market_area)?
+
+- what is the spend?
+- Can you help me with spend
+- Can you show me spend
+- and the spend
+- How much do we spend with them
