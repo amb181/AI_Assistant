@@ -25,12 +25,17 @@ logger = logging.getLogger(__name__)
 #            return [FollowupAction('category_lookup_for_category_manager')]
 
 
-#[9:59 AM] Jorge Alberto Herrera
+
 class RequestCategoryManager(Action):
     def name(self):
         return 'action_request_category_manager'
    
     def run(self, dispatcher, tracker, domain):
+        with open('data/lookup-tables/categories.txt') as f:
+            entity = tracker.get_slot('supplier_name')
+            if entity in f:
+                return [SlotSet("category_name", entity), SlotSet("supplier_name", None)]
+
         if not tracker.latest_message['entities']:
             for e in reversed(tracker.events):
                 if e['event'] == "action":
@@ -55,3 +60,10 @@ class RequestCategoryManager(Action):
             category = tracker.get_slot('category_name')
             print("{} is a category".format(category))
             return [SlotSet("supplier_name", None), FollowupAction('category_lookup_for_category_manager')]
+        else:
+            supplier = tracker.get_slot('supplier_name')
+            category = tracker.get_slot('category_name')
+            if (supplier != None):
+                return [SlotSet("category_name", None), FollowupAction('supplier_lookup_for_category_manager')]
+            elif (category != None):
+                return [SlotSet("supplier_name", None), FollowupAction('category_lookup_for_category_manager')]

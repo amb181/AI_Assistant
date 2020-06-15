@@ -72,7 +72,7 @@ class Supplier_Lookup_For_Contract(Action):
                         suppliernamecontractlookup = row[0]
                         message = ''
                         print(suppliernamecontractlookup)
-                        return SlotSet('supplier_name', suppliernamecontractlookup), FollowupAction(
+                        return SlotSet('supplier_name', suppliernamecontractlookup), SlotSet('category_name', None),FollowupAction(
                             'supplier_contract_form')
                 elif len(results) > 1:
                     for row in results:
@@ -148,7 +148,7 @@ class Supplier_ContractLookup(Action):
                     response = "I found an agreement with the name {} for supplier {} that has been in effect since {} in {}.".format(
                         "<b>"+contractname+"</b>", "<b>"+suppliernamecontractlookup+"</b>", "<b>"+effectivedate+"</b>", "<b>"+marketarea+"</b>")
                 dispatcher.utter_message(response)
-                # return [AllSlotsReset()]
+                return [SlotSet('category_name', None)]
                 # return[SlotSet("supplier_name", None)]
             except:
                 print("Error fetching data.")

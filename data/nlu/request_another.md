@@ -247,8 +247,8 @@
 - What about [Server & Storage](category_name) in [mela](market_area)
 - What about [Service Delivery Tools](category_name)
 - What about [Service Delivery Tools Internal](category_name)
-- What about [Service Delivery Tools Internal](category_name)
-- What about [Service Delivery Tools Projects](category_name)
+- What about [antennas](category_name)
+- What about [memories](category_name)?
 - And for [Sheet Metal](category_name)
 - And for [SI Services](category_name)
 - And for [Site Acquisition Services](category_name) in [mela](market_area)
@@ -299,6 +299,9 @@
 - How about [last year](date)
 - How about [2019](date)
 - And for [2018](date)
+- and for [last year](date)
+- and for [this year](date)
+- and for [2019](date)
 - Ok, how about [2019](date)
 - and for [last year](date)?
 - and [last year](date)?
@@ -313,3 +316,15 @@
 - [MXOT]{"entity": "market_area", "value": "MXOT"}
 - [all markets]{"entity": "market_area", "value": "ALL Market Areas"}
 - [ALL Market Areas]{"entity": "market_area", "value": "ALL Market Areas"}
+- and for [mana](market_area)
+- and for [mela](market_area)
+- and for [mmea](market_area)
+- and for [mnea](market_area)?
+- and for [moai](market_area)?
+- and for [mxot](market_area)?
+- what about [mana](market_area)?
+- what about [mela](market_area)?
+- what about [mmea](market_area)?
+- what about [mnea](market_area)?
+- what about [moai](market_area)?
+- what about [mxot](market_area)?

@@ -48,10 +48,6 @@ class Supplier_Lookup_for_Existing(Action):
 
     def run(self, dispatcher, tracker, domain):
         suppliername = tracker.get_slot('supplier_name')
-        market_area_lookup = tracker.get_slot('market_area')
-        print("EXISTING SuPPLIER")
-        print(suppliername)
-        print(market_area_lookup)
 
         if not suppliername:
             response = "I don't recognize this supplier name"
@@ -73,8 +69,7 @@ class Supplier_Lookup_for_Existing(Action):
                         suppliername = row[0]
                         message = ''
                         print(suppliername)
-                        return SlotSet('supplier_name', suppliername), FollowupAction(
-                            'supplier_existing_form')
+                        return SlotSet('supplier_name', suppliername), FollowupAction('supplier_existing_form')
                 elif len(results) > 1:
                     for row in results:
                         # if a multiple suppliers are found, display buttons of all possible supplier matches back to user then trigger spend form
@@ -84,8 +79,7 @@ class Supplier_Lookup_for_Existing(Action):
                         print(payload)
                         buttons.append(
                             {"title": "{}".format(suppliername.title()), "payload": payload})
-                        message = "I found {} suppliers that also match that name, which one are you inquiring about?".format(
-                            len(buttons))
+                        message = "I found {} suppliers that also match that name, which one are you inquiring about?".format(len(buttons))
                 else:
                     response = "I couldn't find any suppliers that match that name"
                     dispatcher.utter_message(response)
@@ -123,14 +117,11 @@ class Supplier_Lookup_Existing(Action):
         if not suppliernameexisting:
             response = "I don't recognize this supplier name"
             dispatcher.utter_message(response)
-        if not market_area_lookup:
-            response = "I didn't catch the market area"
-            dispatcher.utter_message(response)
         else:
             musid = 0
             db = pymysql.connect('localhost', 'ebromic', 'Ericsson1', 'ai')
             cursor = db.cursor()
-            sql = "SELECT Vendor, MUS_ID FROM `ab_hana_sami_spend` WHERE Vendor LIKE '%s' AND MarketArea LIKE '%s' ORDER BY InvoiceClearingDate DESC LIMIT 1;" % (
+            sql = "SELECT Vendor, MUS_ID, MarketArea FROM `ab_hana_sami_spend` WHERE Vendor LIKE '%s' AND MarketArea LIKE '%s' ORDER BY InvoiceClearingDate DESC LIMIT 1;" % (
                         '%' + suppliernameexisting + '%', '%' + market_area_lookup + '%')
             print(sql)
             try:
@@ -139,6 +130,7 @@ class Supplier_Lookup_Existing(Action):
                 for row in results:
                     suppliernameexisting = row[0]
                     musid = row[1]
+                    market = row[2]
             except:
                 print("Error fetching data.")
             finally:
@@ -148,6 +140,6 @@ class Supplier_Lookup_Existing(Action):
                 response = """I could not find {} as an Ericsson Supplier in {}.""".format(
                     suppliernameexisting, market_area_lookup)
             else:
-                response = """Yes, the supplier {} was found as an Ericsson Supplier, with MusID {} in {}.""".format(
-                    "<b>"+suppliernameexisting+"</b>", "<b>"+musid+"</b>", "<b>"+market_area_lookup+"</b>")
+                response = "Yes, the supplier {} was found as an Ericsson Supplier, with MusID {} in {}.".format(
+                    "<b>"+suppliernameexisting+"</b>", "<b>"+musid+"</b>", "<b>"+market+"</b>")
             dispatcher.utter_message(response)

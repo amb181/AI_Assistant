@@ -1,105 +1,157 @@
+ARP
 Accessories
 Advanced LLD
 After Market Brokers
 Aftermarket and Reversed Logistics
 Air Travel
-Antennas
 Antenna
-ARP
+Antennas
 Banking
+Base
 Base Station Antennas
 Batteries
 Benefit Insurance
+Brand
 Brand Royalties
+Branded
 Branded Promotional Merchandise
 Broadcast Consultancy Services
 Buy back - Temporary
+CPE (Customer Premises Equipment) & Wi-Fi
 Cable Assemblies
 Civil Work Services
 Cleaning & Waste
 Climate
 Cloud & Platform Services
 Conferences
+Corporate
 Contract Logistics
 Corporate Cards
 Corporate Insurance
-CPE (Customer Premises Equipment) & Wi-Fi
 Customs Clearance
 DC/DC
 Dedicated IC
 Development Tools
+Die
 Die Casting
 Die Casting & Extrusion
 Digital Content and Rights
 Digital Workspace
 Drive Test
+EB Enabled
+EMS
+EMS Repair
 Ecology Management
+Education
+Education & Training
+Education and Training
+Education and Training Services
 Education & Training Services
-Embedded antennas
+Embedded
 Embedded Climate
 Embedded Interconnect
 Embedded Power
+Embedded antennas
 Emerging Technologies
-EMS
-EMS Repair
 Enclosure Systems
+Energy
+Energy and Water
 Energy & Water
+Energy Products and Solutions
 Energy Products & Solutions
+Enterprise
+Enterprise Core and IT Operations
 Enterprise Core & IT Operations
 Events & Exhibitions
 Express, Courier and Parcel
+Feeder
 Feeder Systems
+Fiber
+Fiber solutions
 Fiber solutions services
+Field and Site
+Field & Site
+Field & Site Infrastructure Maintenance
 Field and Site Infrastructure Maintenance
 Filter Modules
+Finance
+Finance Consultancy
 Finance Consultancy Services
+Fleet
 Fleet Cars
 Fleet Fuel
 Fleet Management Systems
+Food
+Beverages
+Food and Beverages
 Food & Beverages
+Fuel
 Fuel Management
 Ground Transportation
+HR
+HR Recruitment Services
+Healthcare
 Healthcare Services
 Hotels
-HR Recruitment Services
+IT
+IT Accessories
+IT Consultancy Services
+IT Line Consultants
+In-Building
+In Building
 In-Building Solutions
+Independent Repair
 Independent Repair Suppliers
 Infrastructure SW
+Installation
 Installation Material and Tools
 Installation Services Access
 Installation Services Core
 Integrated Facility Management
 Interconnect
 International Freight
-IT Accessories
-IT Consultancy Services
-IT Line Consultants
 Law Firm Services
+Lease
+Rental
+Lease and Rental
 Lease & Rental
 Licenses & Fees
+MW Antennas
+Management
 Management Consultancy Services
 MarCom Agency Services
+Market
 Market Research
+Media
+Advertising
 Media/Advertising
+Memberships
+Membership organizations
 Memberships/ Membership organizations
 Memories
+Mounting
 Mounting Support
-MW Antennas
+Network
 Network Appliances
+Network Design
 Network Design, "Line of Sight" and Site Survey
 Network Functions & Applications
 Network Optimization & Tuning
 Network Synchronization
+OEM Repair
 OEM Repair & Spares
+OEM Repair and Spares
+Office
 Office Furniture
 Office Supplies
+Optical
 Optical Transceivers
 Optics
+PCB
 Packaging
 Passive Fiber Solutions
 Patent Consultancy Services
 Payroll Services
-PCB
 Pension Services
 Physical and Personal Security
 Platform SW
@@ -108,43 +160,63 @@ Positioning & Synchronization
 Power
 Print and Distribution
 Production Equipment including service and accessories
+R&D 
 R&D External Workforce
 RCL
+RF
+RF Components
+Real Estate
 Real Estate Construction & Contractors
 Real Estate Consultants
 Real Estate Rental and Lease
 Relocation and Expatriate Services
 Remote Site Management
+Rental
 Rental, Site Consumables & Construction
-RF Components
+SI Services
 Security Applications
+Server
 Server & Storage
+Service Delivery
 Service Delivery Tools
-"Service Delivery Tools Internal
-(EB Enabled)"
+Service Delivery Tools Internal
 Service Delivery Tools Internal (EB Enabled)
 Service Delivery Tools Projects
 Sheet Metal
-SI Services
+Shelters
+Site
 Site Acquisition Services
 Site Cable Assemblies
 Site Energy Systems
 Site Engineering Services
+Small
 Small Cells
 Small Mechanics
 Sponsorships
 Standard LLD
 Subscription/ Publishers
+Publishers
 Taxes
+Temporary
 Temporary Administrative and Office resources
 Temporary Blue Collar Services
+Test
+Test and Measurement
 Test & Measurement Equipment
 Test House
 Total Staff Compensation Services
+Towers
 Towers and Masts
+Travel
+Travel Management 
 Travel Management Services
+Unified Comm
+Unified Comm and WAN
 Unified Comm & WAN
 Universities
 Vehicle Leasing or Renting (Long Term)
+Walk-in housing
 Walk-in housing/Shelters
 Workspace & Collaboration
+Workspace
+Workspace and Collaboration

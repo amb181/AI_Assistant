@@ -4,8 +4,6 @@
     - slot{"category_name": "batteries"}
     - slot{"market_area": "mela"}
     - action_request_category_manager
-    - followup{"name": "category_lookup_for_category_manager"}
-    - category_lookup_for_category_manager
     - slot{"category_name": "Batteries"}
     - followup{"name": "category_category_manager_form"}
     - category_category_manager_form
@@ -21,8 +19,6 @@
 * request_category_manager{"category_name": "batteries"}
     - slot{"category_name": "batteries"}
     - action_request_category_manager
-    - followup{"name": "category_lookup_for_category_manager"}
-    - category_lookup_for_category_manager
     - slot{"category_name": "Batteries"}
     - followup{"name": "category_category_manager_form"}
     - category_category_manager_form
@@ -44,8 +40,6 @@
 * request_another_supplier{"category_name": "arp"}
     - slot{"category_name": "arp"}
     - action_request_category_manager
-    - followup{"name": "category_lookup_for_category_manager"}
-    - category_lookup_for_category_manager
     - slot{"category_name": "ARP"}
     - followup{"name": "category_category_manager_form"}
     - category_category_manager_form

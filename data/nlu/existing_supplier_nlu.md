@@ -206,3 +206,5 @@
 - what is the mus id supplir [juniper](supplier_name)
 - is [One2Many](supplier_name) an ericsson supplier
 - Do we have a supplier called [One2](supplier_name)
+- is [american express](supplier_name) a supplier for ericcson?
+- is [TECHNOLOGY INDUSTRY GROUP](supplier_name) a supplier for ericcson?

@@ -4,14 +4,8 @@
     - supplier_lookup_for_contract
 * inform{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
     - slot{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
-    - supplier_contract_form
-    - form{"name": "supplier_contract_form"}
-    - slot{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
-    - slot{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
     - slot{"requested_slot": "market_area"}
 * form: market_area{"market_area": "mana"}
-    - slot{"market_area": "mana"}
-    - form: supplier_contract_form
     - slot{"market_area": "mana"}
     - form: followup{"name": "action_supplier_contract_lookup"}
     - form{"name": null}
@@ -25,11 +19,6 @@
     - supplier_lookup_for_contract
 * inform{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
     - slot{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
-    - supplier_contract_form
-    - form{"name": "supplier_contract_form"}
-    - slot{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
-    - slot{"market_area": "mana"}
-    - slot{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
     - form: followup{"name": "action_supplier_contract_lookup"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -39,15 +28,10 @@
 * request_supplier_contract{"supplier_name": "amatel"}
     - slot{"supplier_name": "amatel"}
     - supplier_lookup_for_contract
-    - slot{"supplier_name": "AMATEL INC"}
-    - followup{"name": "supplier_contract_form"}
-    - supplier_contract_form
-    - form{"name": "supplier_contract_form"}
+* inform{"supplier_name": "AMATEL INC"}
     - slot{"supplier_name": "AMATEL INC"}
     - slot{"requested_slot": "market_area"}
 * form: market_area{"market_area": "mana"}
-    - slot{"market_area": "mana"}
-    - form: supplier_contract_form
     - slot{"market_area": "mana"}
     - form: followup{"name": "action_supplier_contract_lookup"}
     - form{"name": null}
@@ -59,12 +43,9 @@
     - slot{"market_area": "mana"}
     - slot{"supplier_name": "amatel"}
     - supplier_lookup_for_contract
+* inform{"supplier_name": "AMATEL INC"}
     - slot{"supplier_name": "AMATEL INC"}
-    - followup{"name": "supplier_contract_form"}
-    - supplier_contract_form
-    - form{"name": "supplier_contract_form"}
     - slot{"supplier_name": "AMATEL INC"}
-    - slot{"market_area": "mana"}
     - form: followup{"name": "action_supplier_contract_lookup"}
     - form{"name": null}
     - slot{"requested_slot": null}

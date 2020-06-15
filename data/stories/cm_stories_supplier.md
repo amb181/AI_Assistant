@@ -3,8 +3,6 @@
 * request_category_manager{"supplier_name": "fusion"}
     - slot{"supplier_name": "fusion"}
     - action_request_category_manager
-    - followup{"name": "supplier_lookup_for_category_manager"}
-    - supplier_lookup_for_category_manager
 * inform{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
     - slot{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
     - supplier_category_manager_form
@@ -26,8 +24,6 @@
     - slot{"market_area": "mela"}
     - slot{"supplier_name": "fusion"}
     - action_request_category_manager
-    - followup{"name": "supplier_lookup_for_category_manager"}
-    - supplier_lookup_for_category_manager
 * inform{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
     - slot{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
     - supplier_category_manager_form
@@ -44,8 +40,6 @@
 * request_another_supplier{"supplier_name": "amatel"}
     - slot{"supplier_name": "amatel"}
     - action_request_category_manager
-    - followup{"name": "supplier_lookup_for_category_manager"}
-    - supplier_lookup_for_category_manager
 * inform{"supplier_name": "AMATEL INC"}
     - slot{"supplier_name": "AMATEL INC"}
     - followup{"name": "supplier_category_manager_form"}
