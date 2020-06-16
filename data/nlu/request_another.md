@@ -1,4 +1,4 @@
-## intent:request_another_supplier
+## intent:request_another
 - What about [ACA TMETRIX INC](supplier_name) for [all market areas](market_area) in [2019](date)
 - What about [RAYMOND EMC ENCLOSURES LTD](supplier_name) for [mana](market_area)
 - What about [CREOWAVE FILTERS OY](supplier_name) in [mela](market_area)
@@ -289,7 +289,6 @@
 - and for [fusion](supplier_name) in [mana](market_area)?
 
 
-## intent:request_another_date
 - What about [this year](date)
 - What about [2020](date)
 - What about [last year](date)
@@ -307,7 +306,6 @@
 - and [last year](date)?
 
 
-## intent:market_area
 - [MANA]{"entity": "market_area", "value": "MANA"}
 - [MELA]{"entity": "market_area", "value": "MELA"}
 - [MMEA]{"entity": "market_area", "value": "MMEA"}

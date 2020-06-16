@@ -5,7 +5,7 @@
 * inform{"category_name": "Batteries"}
     - slot{"category_name": "Batteries"}
     - slot{"requested_slot": "market_area"}
-* market_area{"market_area": "mana"}
+* form: market_area{"market_area": "mana"}
     - slot{"market_area": "mana"}
     - category_spend_form
     - slot{"requested_slot": "date"}
@@ -62,6 +62,15 @@
     - form{"name": null}
     - slot{"requested_slot": null}
     - action_category_spend_lookup
+* request_another{"category_name": "memories"}
+    - slot{"category_name": "memories"}
+    - action_request_another
+* request_another{"category_name": "towers"}
+    - slot{"category_name": "towers"}
+    - action_request_another
+* request_another{"category_name": "small cells"}
+    - slot{"category_name": "small cells"}
+    - action_request_another
 
 
 ## ask graph by month

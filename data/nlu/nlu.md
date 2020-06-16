@@ -96,6 +96,11 @@
 - per market area
 - per MA
 
+## intent:askgraph_by_category
+- show me by category
+- can i see by category
+- can you show me by category
+
 ## intent:chart_type
 - [pie](chart_type)
 - [radar](chart_type)

@@ -8,7 +8,7 @@ import requests ,re, pymysql, datetime, time, threading, logging
 logger = logging.getLogger(__name__)
 
 
-class RequestCategoryManager(Action):
+class RequestSpend(Action):
     def name(self):
         return 'action_request_spend'
    

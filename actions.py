@@ -6,52 +6,13 @@ from typing import Any, Text, Dict, List, Union, Optional
 from rasa_sdk import Action, Tracker
 from rasa_sdk.forms import FormAction
 from rasa_sdk.events import SlotSet, FollowupAction, UserUttered, ActionExecuted, EventType, UserUtteranceReverted, ConversationPaused
-from rasa_sdk.executor import CollectingDispatcher
-from scripts import request_wolframalpha, request_supplier_spend
-from scripts import request_category_spend, request_category_cm, request_supplier_cm, request_supplier_contract 
-from scripts import request_supplier_onboarding, request_wigslookup, request_supplier_existing, request_dowjones, request_classifier_cm, request_classifier_spend
+from rasa_sdk.executor import CollectingDispatcher 
+from scripts import request_wolframalpha, request_category_spend, request_supplier_spend, request_classifier_spend, request_another
+from scripts import request_category_cm, request_supplier_cm, request_supplier_contract 
+from scripts import request_supplier_onboarding, request_wigslookup, request_supplier_existing, request_dowjones, request_classifier_cm
 
 import requests ,re, pymysql, datetime, time, threading, logging
 logger = logging.getLogger(__name__)
-
-request_wolframalpha.Wolfram()
-request_supplier_spend.Supplier_Lookup()
-request_supplier_spend.SupplierSpendForm()
-request_supplier_spend.Supplier_SpendLookup()
-request_supplier_spend.Supplier_SpendGraph()
-request_supplier_spend.Supplier_SpendGraph_ByMonth()
-request_supplier_spend.Supplier_SpendGraph_ByCompany()
-request_supplier_spend.Supplier_SpendGraph_ByCustomer()
-request_supplier_spend.Supplier_SpendGraph_ByBusinessUnit()
-request_supplier_spend.Supplier_SpendGraph_ByMarketArea()
-request_category_spend.Category_Lookup()
-request_category_spend.CategorySpendForm()
-request_category_spend.Category_SpendLookup()
-request_category_spend.Category_SpendGraph()
-request_category_spend.Category_SpendGraph_ByMonth()
-request_category_spend.Category_SpendGraph_BySupplier()
-request_category_spend.Category_SpendGraph_ByCompany()
-request_category_spend.Category_SpendGraph_ByCustomer()
-request_category_spend.Category_SpendGraph_ByBusinessUnit()
-request_category_spend.Category_SpendGraph_ByMarketArea()
-request_category_cm.CategoryCategoryManagerForm()
-request_category_cm.Category_Lookup_for_Category_Manager()
-request_category_cm.Category_CategoryManagerLookup()
-request_supplier_cm.SupplierCategoryManagerForm()
-request_supplier_cm.Supplier_Lookup_for_Category_Manager()
-request_supplier_cm.Supplier_CategoryManagerLookup()
-request_supplier_contract.SupplierContractForm()
-request_supplier_contract.Supplier_Lookup_For_Contract()
-request_supplier_contract.Supplier_ContractLookup()
-request_wigslookup.Sourcing_WigLookup()
-request_supplier_onboarding.Supplier_OnboardingStatus()
-request_dowjones.Supplier_DowJonesCheck()
-request_dowjones.Supplier_DowJonesCheck_Details()
-request_supplier_existing.SupplierExistingForm()
-request_supplier_existing.Supplier_Lookup_for_Existing()
-request_supplier_existing.Supplier_Lookup_Existing()
-request_classifier_cm.RequestCategoryManager()
-request_classifier_spend.RequestCategoryManager()
 
 
 

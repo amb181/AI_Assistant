@@ -20,11 +20,6 @@
     - action_request_category_manager
 * inform{"supplier_name": "AMERICAN EXPRESS"}
     - slot{"supplier_name": "AMERICAN EXPRESS"}
-    - supplier_category_manager_form
-    - form{"name": "supplier_category_manager_form"}
-    - slot{"supplier_name": "AMERICAN EXPRESS"}
-    - slot{"market_area": "mela"}
-    - slot{"supplier_name": "AMERICAN EXPRESS"}
     - form: followup{"name": "action_supplier_category_manager_lookup"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -45,45 +40,22 @@
     - form{"name": null}
     - slot{"requested_slot": null}
     - action_supplier_spend_lookup
-* request_another_supplier{"category_name": "arp"}
+* request_another{"category_name": "arp"}
     - slot{"category_name": "arp"}
-    - action_request_spend
-* inform{"category_name": "ARP"}
-    - slot{"category_name": "ARP"}
-    - slot{"supplier_name": null}
-    - form: followup{"name": "action_category_spend_lookup"}
-    - form{"name": null}
-    - slot{"requested_slot": null}
-    - action_category_spend_lookup
-* request_another_date{"date": "last year"}
+    - action_request_another
+* request_another{"date": "last year"}
     - slot{"date": "last year"}
-    - action_supplier_spend_lookup
+    - action_request_another
 * request_category_manager
     - action_request_category_manager
-    - slot{"category_name": "ARP"}
-    - followup{"name": "category_category_manager_form"}
-    - category_category_manager_form
-    - form{"name": "category_category_manager_form"}
-    - slot{"category_name": "ARP"}
-    - slot{"market_area": "mana"}
     - form: followup{"name": "action_category_category_manager_lookup"}
     - form{"name": null}
     - slot{"requested_slot": null}
     - action_category_category_manager_lookup
-* request_another_supplier{"supplier_name": "amatel", "market_area": "mela"}
+* request_another{"supplier_name": "amatel", "market_area": "mela"}
     - slot{"market_area": "mela"}
     - slot{"supplier_name": "amatel"}
-    - action_request_category_manager
-    - slot{"supplier_name": "AMATEL INC"}
-    - followup{"name": "supplier_category_manager_form"}
-    - supplier_category_manager_form
-    - form{"name": "supplier_category_manager_form"}
-    - slot{"supplier_name": "AMATEL INC"}
-    - slot{"market_area": "mela"}
-    - form: followup{"name": "action_supplier_category_manager_lookup"}
-    - form{"name": null}
-    - slot{"requested_slot": null}
-    - action_supplier_category_manager_lookup
+    - action_request_another
 
 
 ## supplier category manager | later supplier spend | later another marker with date
@@ -93,11 +65,6 @@
     - slot{"supplier_name": "american express"}
     - action_request_category_manager
 * inform{"supplier_name": "AMERICAN EXPRESS"}
-    - slot{"supplier_name": "AMERICAN EXPRESS"}
-    - supplier_category_manager_form
-    - form{"name": "supplier_category_manager_form"}
-    - slot{"supplier_name": "AMERICAN EXPRESS"}
-    - slot{"market_area": "mela"}
     - slot{"supplier_name": "AMERICAN EXPRESS"}
     - form: followup{"name": "action_supplier_category_manager_lookup"}
     - form{"name": null}
@@ -114,10 +81,10 @@
     - form{"name": null}
     - slot{"requested_slot": null}
     - action_supplier_spend_lookup
-* form: request_another_date{"date": "last year", "market_area": "mana"}
+* form: request_another{"date": "last year", "market_area": "mana"}
     - slot{"date": "last year"}
     - slot{"market_area": "mana"}
-    - action_supplier_spend_lookup
+    - action_request_another
 * askgraph_by_month
     - action_supplier_spend_graph_by_month
 
@@ -129,11 +96,6 @@
     - slot{"category_name": "server"}
     - action_request_category_manager
 * inform{"category_name": "Server & Storage"}
-    - slot{"category_name": "Server & Storage"}
-    - category_category_manager_form
-    - form{"name": "category_category_manager_form"}
-    - slot{"category_name": "Server & Storage"}
-    - slot{"market_area": "mela"}
     - slot{"category_name": "Server & Storage"}
     - form: followup{"name": "action_category_category_manager_lookup"}
     - form{"name": null}
@@ -150,25 +112,20 @@
     - form{"name": null}
     - slot{"requested_slot": null}
     - action_category_spend_lookup
-* form: request_another_date{"date": "last year", "market_area": "mana"}
+* form: request_another{"date": "last year", "market_area": "mana"}
     - slot{"date": "last year"}
     - slot{"market_area": "mana"}
-    - action_category_spend_lookup
+    - action_request_another
 * askgraph_by_month
     - action_category_spend_graph_by_month
 
-## category category manager | later supplier spend | later another marker with date
+## category category manager | later supplier spend
 
 * request_category_manager{"category_name": "server", "market_area": "mela"}
     - slot{"market_area": "mela"}
     - slot{"category_name": "server"}
     - action_request_category_manager
 * inform{"category_name": "Server & Storage"}
-    - slot{"category_name": "Server & Storage"}
-    - category_category_manager_form
-    - form{"name": "category_category_manager_form"}
-    - slot{"category_name": "Server & Storage"}
-    - slot{"market_area": "mela"}
     - slot{"category_name": "Server & Storage"}
     - form: followup{"name": "action_category_category_manager_lookup"}
     - form{"name": null}
@@ -180,7 +137,7 @@
 * inform{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
     - slot{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
     - slot{"requested_slot": "market_area"}
-* market_area{"market_area": "mana"}
+* form: market_area{"market_area": "mana"}
     - slot{"market_area": "mana"}
     - slot{"requested_slot": "date"}
 * form: date{"date": "last year"}

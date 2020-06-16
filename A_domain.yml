@@ -1,4 +1,4 @@
-﻿actions:
+actions:
 - action_category_category_manager_lookup
 - action_category_manager_lookup
 - action_category_spend_graph
@@ -12,9 +12,9 @@
 - action_default_ask_affirmation
 - action_default_fallback
 - action_existing_supplier_lookup
+- action_request_another
 - action_request_category_manager
 - action_request_spend
-- action_request_another
 - action_sourcing_supplier_justification_form
 - action_sourcing_wigs
 - action_supplier_category_manager_lookup
@@ -23,6 +23,7 @@
 - action_supplier_dowjones_check_details
 - action_supplier_onboarding_status
 - action_supplier_spend_graph
+- action_supplier_spend_graph_by_category
 - action_supplier_spend_graph_by_businessunit
 - action_supplier_spend_graph_by_company
 - action_supplier_spend_graph_by_customer
@@ -36,12 +37,12 @@
 - supplier_lookup_for_category_manager
 - supplier_lookup_for_contract
 - supplier_lookup_for_existing_supplier
-- utter_ask_name
 - utter_ask_country
 - utter_ask_date
 - utter_ask_dow_jones_details
 - utter_ask_location
 - utter_ask_market_area
+- utter_ask_name
 - utter_ask_supplier_name
 - utter_ask_to_graph
 - utter_ask_whatspossible
@@ -160,19 +161,24 @@ forms:
 - supplier_existing_form
 - supplier_spend_form
 intents:
-- options_spend
 - inform
-- help_with_spend_nlu
-- date
+- market_area
 - request_spend:
     use_entities:
     - supplier_name
     - category_name
+- request_another_supplier:
+    use_entities: []
+- options_spend
+- help_with_spend_nlu
+- date
 - out_of_scope:
     triggers: respond_out_of_scope
     use_entities: []
 - chart_type
+- request_another_market_area
 - askgraph
+- askgraph_by_category
 - askgraph_by_month
 - askgraph_by_supplier
 - askgraph_by_company
@@ -186,8 +192,6 @@ intents:
 - request_supplier_spend:
     use_entities: []
 - request_category_spend:
-    use_entities: []
-- request_another:
     use_entities: []
 - ask_whatspossible
 - smalltalk_agent_acquaintance
@@ -275,6 +279,7 @@ intents:
 - smalltalk_user_wants_to_see_agent_again
 - smalltalk_user_wants_to_talk
 - smalltalk_user_will_be_back
+- request_another_date
 - get_started
 - bot_challenge
 - wolframalpha_whatis
@@ -292,8 +297,6 @@ intents:
 - request_sourcing_wigs
 - request_supplier_justification_form
 responses:
-  utter_ask_name:
-  - text: Ok, please provide a name
   utter_ask_country:
   - text: Ok, for which country?
   utter_ask_date:
@@ -355,6 +358,8 @@ responses:
     - payload: ALL Market Areas
       title: ALL Market Areas
     text: Sure, for what Market Area?
+  utter_ask_name:
+  - text: Ok, please provide a name
   utter_ask_supplier_name:
   - text: Sure, for which supplier?
   utter_ask_to_graph:

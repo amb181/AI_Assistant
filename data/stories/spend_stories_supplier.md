@@ -5,7 +5,7 @@
 * inform{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
     - slot{"supplier_name": "FUSION TECHNICAL SOLUTIONS LLC"}
     - slot{"requested_slot": "market_area"}
-* market_area{"market_area": "mana"}
+* form: market_area{"market_area": "mana"}
     - slot{"market_area": "mana"}
     - supplier_spend_form
     - slot{"requested_slot": "date"}
@@ -62,6 +62,15 @@
     - form{"name": null}
     - slot{"requested_slot": null}
     - action_supplier_spend_lookup
+* request_another{"supplier_name": "american express"}
+    - slot{"supplier_name": "american express"}
+    - action_request_another
+* request_another{"supplier_name": "iweb"}
+    - slot{"supplier_name": "iweb"}
+    - action_request_another
+* request_another{"supplier_name": "oracle"}
+    - slot{"supplier_name": "oracle"}
+    - action_request_another
 
 
 ## ask graph by month

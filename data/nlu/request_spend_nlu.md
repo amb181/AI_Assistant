@@ -658,7 +658,9 @@
 - What is the spend for [moai](market_area)?
 
 - what is the spend?
-- Can you help me with spend
-- Can you show me spend
+- can you show me the spend?
+- whats the spend?
+- can you help me the spend?
+- show me spend
 - and the spend
 - How much do we spend with them

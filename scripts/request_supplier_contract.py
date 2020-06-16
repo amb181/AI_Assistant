@@ -127,7 +127,7 @@ class Supplier_ContractLookup(Action):
             effectivedate = 0
             db = pymysql.connect('localhost', 'ebromic', 'Ericsson1', 'ai')
             cursor = db.cursor()
-            sql = "SELECT SupplierName, MasterAgreementID, MasterAgreementName, EffectiveDate, MarketArea FROM `global_clm_list` WHERE SupplierName LIKE '%s' AND MarketArea LIKE '%s' AND Status = 'Valid' ORDER BY EffectiveDate;" % (
+            sql = "SELECT SupplierName, MasterAgreementID, MasterAgreementName, EffectiveDate, MarketArea FROM `global_clm_list` WHERE SupplierName = '%s' AND MarketArea LIKE '%s' AND Status = 'Valid' ORDER BY EffectiveDate;" % (
                 '%' + suppliernamecontractlookup + '%', '%' + market_area_lookup + '%')
             print(sql)
             try:

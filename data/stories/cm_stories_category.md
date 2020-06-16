@@ -37,14 +37,9 @@
 
 <!-- REQUEST ANOTHER FOR CATEGORY -->
 ## cm_category_story_3
-* request_another_supplier{"category_name": "arp"}
+* request_another{"category_name": "arp"}
     - slot{"category_name": "arp"}
-    - action_request_category_manager
-    - slot{"category_name": "ARP"}
-    - followup{"name": "category_category_manager_form"}
-    - category_category_manager_form
-    - form{"name": "category_category_manager_form"}
-    - slot{"category_name": "ARP"}
+    - action_request_another
     - slot{"requested_slot": "market_area"}
 * form: market_area{"market_area": "mana"}
     - slot{"market_area": "mana"}
@@ -56,4 +51,3 @@
     - action_category_category_manager_lookup
 * request_spend
     - action_request_spend
-    - followup{"name": "category_lookup"}

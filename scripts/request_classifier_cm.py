@@ -8,24 +8,6 @@ import requests ,re, pymysql, datetime, time, threading, logging
 logger = logging.getLogger(__name__)
 
 
-#class RequestCategoryManager(Action):
-#   def name(self):
-#        return 'action_request_category_manager'
-#    
-#    def run(self, dispatcher, tracker, domain):
-#        message = str(tracker.latest_message)
-#        print("/_______{}________/".format(message))
-#        supplier  = tracker.get_slot('supplier_name')
-#        category = tracker.get_slot('category_name')
-#        if (re.search(r'\b'+ re.escape('supplier_name') + r'\b', message, re.MULTILINE)):
-#            print("{} is a supplier".format(supplier))
-#            return [FollowupAction('supplier_lookup_for_category_manager')]
-#        else:
-#            print("{} is a category".format(category))
-#            return [FollowupAction('category_lookup_for_category_manager')]
-
-
-
 class RequestCategoryManager(Action):
     def name(self):
         return 'action_request_category_manager'

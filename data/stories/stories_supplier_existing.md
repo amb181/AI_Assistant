@@ -53,3 +53,6 @@
     - form{"name": null}
     - slot{"requested_slot": null}
     - action_existing_supplier_lookup
+* request_another{"supplier_name": "fusion"}
+    - slot{"supplier_name": "fusion"}
+    - action_request_another
