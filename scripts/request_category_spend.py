@@ -83,14 +83,12 @@ class Category_Lookup(Action):
                 elif len(results) > 1:
                     for row in results:
                         # if a multiple suppliers are found, display buttons of all possible supplier matches back to user then trigger spend form
-                        suppliername = row[0]
+                        categoryname = row[0]
                         print(categoryname)
                         payload = "/inform{\"category_name\":\"" + categoryname + "\"}"
                         print(payload)
-                        buttons.append(
-                            {"title": "{}".format(categoryname.title()), "payload": payload})
-                        message = "I found {} categories that also match that name, which one are you inquiring about?".format(
-                            len(buttons))
+                        buttons.append({"title": "{}".format(categoryname.title()), "payload": payload})
+                        message = "I found {} categories that also match that name, which one are you inquiring about?".format(len(buttons))
                 else:
                     response = "I couldn't find any categories that match that name"
                     dispatcher.utter_message(response)
@@ -288,9 +286,10 @@ class Category_SpendGraph_ByMonth(Action):
         musid = 0
         db = pymysql.connect('localhost', 'ebromic', 'Ericsson1', 'ai')
         cursor = db.cursor()
-        sql = "SELECT MONTH(InvoiceClearingDate) as Month, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory LIKE '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY MONTH;" % (
-        categorynamecnlookup, str(date_lookup_start), str(date_lookup_end), '%' + market_area_lookup + '%')
-        # sql = "SELECT DISTINCT MONTH(InvoiceClearingDate) as Month, SUM(USD) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory = '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY MONTH(InvoiceClearingDate);" % (categorynamecnlookup, date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
+        #sql = "SELECT MONTH(InvoiceClearingDate) as Month, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory LIKE '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY MONTH;" % (
+        #categorynamecnlookup, str(date_lookup_start), str(date_lookup_end), '%' + market_area_lookup + '%')
+        sql = "SELECT MONTH(InvoiceClearingDate) as Month, Round(SUM(USD), 2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory = '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY MONTH;" % (
+            categorynamecnlookup, date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
         print(sql)
         try:
             cursor.execute(sql)
@@ -404,7 +403,8 @@ class Category_SpendGraph_BySupplier(Action):
         cursor = db.cursor()
         #sql = "SELECT DISTINCT Vendor as Supplier, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory LIKE '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') GROUP BY Supplier;" % (
         #'%' + categorynamecnlookup + '%', date_lookup_start, date_lookup_end)
-        sql = "SELECT Vendor as Supplier, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory LIKE '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY Vendor;" % ('%' + categorynamecnlookup + '%', date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
+        sql = "SELECT Vendor as Supplier, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory = '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY Vendor;" % (
+            categorynamecnlookup, date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
         print(sql)
         try:
             cursor.execute(sql)
@@ -506,7 +506,8 @@ class Category_SpendGraph_ByCompany(Action):
         cursor = db.cursor()
         #sql = "SELECT DISTINCT Company as Company, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory LIKE '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') GROUP BY Supplier;" % (
         #'%' + categorynamecnlookup + '%', date_lookup_start, date_lookup_end)
-        sql = "SELECT Company as Company, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory LIKE '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY Company;" % ('%' + categorynamecnlookup + '%', date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
+        sql = "SELECT Company as Company, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory = '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY Company;" % (
+            categorynamecnlookup, date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
         print(sql)
         try:
             cursor.execute(sql)
@@ -608,7 +609,8 @@ class Category_SpendGraph_ByCustomer(Action):
         cursor = db.cursor()
         #sql = "SELECT DISTINCT CustomerUnitName as Customer, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory LIKE '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') GROUP BY Customer;" % (
         #'%' + categorynamecnlookup + '%', date_lookup_start, date_lookup_end)
-        sql = "SELECT CustomerUnitName as Customer, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory LIKE '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY CustomerUnitName;" % ('%' + categorynamecnlookup + '%', date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
+        sql = "SELECT CustomerUnitName as Customer, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory = '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY CustomerUnitName;" % (
+            categorynamecnlookup, date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
         print(sql)
         try:
             cursor.execute(sql)
@@ -710,7 +712,8 @@ class Category_SpendGraph_ByBusinessUnit(Action):
         cursor = db.cursor()
         #sql = "SELECT DISTINCT CustomerUnitName as Customer, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory LIKE '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') GROUP BY Customer;" % (
         #'%' + categorynamecnlookup + '%', date_lookup_start, date_lookup_end)
-        sql = "SELECT BusinessUnitCode as BusinessUnit, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory LIKE '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY BusinessUnitCode;" % ('%' + categorynamecnlookup + '%', date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
+        sql = "SELECT BusinessUnitCode as BusinessUnit, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory = '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY BusinessUnitCode;" % (
+            categorynamecnlookup, date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
         print(sql)
         try:
             cursor.execute(sql)
@@ -812,7 +815,8 @@ class Category_SpendGraph_ByMarketArea(Action):
         cursor = db.cursor()
         #sql = "SELECT DISTINCT MarketArea as MarketArea, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory LIKE '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') GROUP BY MarketArea;" % (
         #'%' + categorynamecnlookup + '%', date_lookup_start, date_lookup_end)
-        sql = "SELECT MarketArea as MarketArea, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory LIKE '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY MarketArea;" % ('%' + categorynamecnlookup + '%', date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
+        sql = "SELECT MarketArea as MarketArea, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE VendorSpendCategory = '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY MarketArea;" % (
+            categorynamecnlookup, date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
         print(sql)
         try:
             cursor.execute(sql)

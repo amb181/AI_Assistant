@@ -49,9 +49,6 @@ class Supplier_Lookup_for_Category_Manager(Action):
     def run(self, dispatcher, tracker, domain):
         suppliername = tracker.get_slot('supplier_name')
         market_area_lookup = tracker.get_slot('market_area')
-        print("SUPPLIER SPEND")
-        print(suppliername)
-        print(market_area_lookup)
         if not suppliername:
             response = "Please enter a supplier or a category"
             #response = "I don't recognize this supplier name"
@@ -84,10 +81,8 @@ class Supplier_Lookup_for_Category_Manager(Action):
                         print(suppliernamecmlookup)
                         payload = "/inform{\"supplier_name\":\"" + suppliernamecmlookup + "\"}"
                         print(payload)
-                        buttons.append(
-                            {"title": "{}".format(suppliernamecmlookup.title()), "payload": payload})
-                        message = "I found {} suppliers that also match that name, which one are you inquiring about?".format(
-len(buttons))
+                        buttons.append({"title": "{}".format(suppliernamecmlookup.title()), "payload": payload})
+                        message = "I found {} suppliers that also match that name, which one are you inquiring about?".format(len(buttons))
                 else:
                     response = "I couldn't find any suppliers that match that name"
                     dispatcher.utter_message(response)
@@ -109,7 +104,6 @@ class Supplier_CategoryManagerLookup(Action):
         suppliernamecmlookup = tracker.get_slot('supplier_name')
         if not suppliernamecmlookup:
             suppliernamecmlookup = tracker.latest_message['entities'][0]['value']
-            #return FollowupAction('supplier_lookup')
         else:
             suppliernamecmlookup = tracker.get_slot('supplier_name')
         market_area_lookup = tracker.get_slot('market_area')
@@ -123,8 +117,8 @@ class Supplier_CategoryManagerLookup(Action):
                 db = pymysql.connect('localhost', 'ebromic', 'Ericsson1', 'ai')
                 cursor = db.cursor()
                 #Search for MANA
-                sql = "SELECT DISTINCT VendorName, VendorSpendCategory, MANACategoryOwner, ManagedGloballyorinMANA FROM `ab_vendor_to_category_manager` WHERE VendorName LIKE '%s' AND ManagedGloballyorinMANA LIKE 'MANA' AND CalendarYear >= YEAR(CURRENT_DATE())-5 ORDER BY MANACategoryOwner;" % (
-                    '%' + suppliernamecmlookup + '%')
+                sql = "SELECT DISTINCT VendorName, VendorSpendCategory, MANACategoryOwner, ManagedGloballyorinMANA FROM `ab_vendor_to_category_manager` WHERE VendorName = '%s' AND ManagedGloballyorinMANA LIKE 'MANA' AND CalendarYear >= YEAR(CURRENT_DATE())-5 ORDER BY MANACategoryOwner;" % (
+                    suppliernamecmlookup)
                 try:
                     cursor.execute(sql)
                     results = cursor.fetchall()
@@ -141,8 +135,8 @@ class Supplier_CategoryManagerLookup(Action):
                     print("Error fetching data.")
 
                 #Search all markets but MANA
-                sql = "SELECT DISTINCT VendorName, VendorSpendCategory, CategoryApproverforSRT, MarketArea FROM `ab_vendor_to_category_manager_global` WHERE VendorName LIKE '%s' AND MarketArea <> 'MANA' AND CalendarYear >= YEAR(CURRENT_DATE())-5 ORDER BY MarketArea;" % (
-                    '%' + suppliernamecmlookup + '%')
+                sql = "SELECT DISTINCT VendorName, VendorSpendCategory, CategoryApproverforSRT, MarketArea FROM `ab_vendor_to_category_manager_global` WHERE VendorName = '%s' AND MarketArea <> 'MANA' AND CalendarYear >= YEAR(CURRENT_DATE())-5 ORDER BY MarketArea;" % (
+                    suppliernamecmlookup)
                 print(sql)
                 try:
                     cursor.execute(sql)
@@ -171,11 +165,9 @@ class Supplier_CategoryManagerLookup(Action):
                 db = pymysql.connect('localhost', 'ebromic', 'Ericsson1', 'ai')
                 cursor = db.cursor()
                 if market_area_lookup == "MANA" or market_area_lookup == "mana":
-                    sql = "SELECT DISTINCT VendorName, VendorSpendCategory, MANACategoryOwner, ManagedGloballyorinMANA FROM `ab_vendor_to_category_manager` WHERE VendorName LIKE '%s' AND ManagedGloballyorinMANA LIKE '%s' AND CalendarYear >= YEAR(CURRENT_DATE())-5 ORDER BY MANACategoryOwner;" % (
-                        '%' + suppliernamecmlookup + '%', '%' + market_area_lookup + '%')
+                    sql = "SELECT DISTINCT VendorName, VendorSpendCategory, MANACategoryOwner, ManagedGloballyorinMANA FROM `ab_vendor_to_category_manager` WHERE VendorName = '%s' AND ManagedGloballyorinMANA LIKE '%s' AND CalendarYear >= YEAR(CURRENT_DATE())-5 ORDER BY MANACategoryOwner;" % (suppliernamecmlookup, '%' + market_area_lookup + '%')
                 else:
-                    sql = "SELECT DISTINCT VendorName, VendorSpendCategory, CategoryApproverforSRT, MarketArea FROM `ab_vendor_to_category_manager_global` WHERE VendorName LIKE '%s' AND MarketArea LIKE '%s' AND CalendarYear >= YEAR(CURRENT_DATE())-5 ORDER BY MarketArea;" % (
-                        '%' + suppliernamecmlookup + '%', '%' + market_area_lookup + '%')
+                    sql = "SELECT DISTINCT VendorName, VendorSpendCategory, CategoryApproverforSRT, MarketArea FROM `ab_vendor_to_category_manager_global` WHERE VendorName = '%s' AND MarketArea LIKE '%s' AND CalendarYear >= YEAR(CURRENT_DATE())-5 ORDER BY MarketArea;" % (suppliernamecmlookup, '%' + market_area_lookup + '%')
                 print(sql)
                 try:
                     cursor.execute(sql)

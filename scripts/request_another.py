@@ -26,10 +26,10 @@ class RequestAnother(Action):
                     return [FollowupAction('action_request_category_manager')]
                     break
                 elif 'contract' in e['name']:
-                    return [FollowupAction('action_supplier_contract_lookup')]
+                    return [FollowupAction('supplier_contract_form')]
                     break
                 elif 'existing' in e['name']:
-                    return [FollowupAction('action_existing_supplier_lookup')]
+                    return [FollowupAction('supplier_existing_form')]
                     break
             # else:
             #     return [FollowupAction('wolfram_alpha')]

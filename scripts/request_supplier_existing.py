@@ -121,8 +121,8 @@ class Supplier_Lookup_Existing(Action):
             musid = 0
             db = pymysql.connect('localhost', 'ebromic', 'Ericsson1', 'ai')
             cursor = db.cursor()
-            sql = "SELECT Vendor, MUS_ID, MarketArea FROM `ab_hana_sami_spend` WHERE Vendor LIKE '%s' AND MarketArea LIKE '%s' ORDER BY InvoiceClearingDate DESC LIMIT 1;" % (
-                        '%' + suppliernameexisting + '%', '%' + market_area_lookup + '%')
+            sql = "SELECT Vendor, MUS_ID, MarketArea FROM `ab_hana_sami_spend` WHERE Vendor = '%s' AND MarketArea LIKE '%s' ORDER BY InvoiceClearingDate DESC LIMIT 1;" % (
+                        suppliernameexisting, '%' + market_area_lookup + '%')
             print(sql)
             try:
                 cursor.execute(sql)

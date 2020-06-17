@@ -279,8 +279,8 @@ class Supplier_SpendGraph_ByMonth(Action):
         musid = 0
         db = pymysql.connect('localhost', 'ebromic', 'Ericsson1', 'ai')
         cursor = db.cursor()
-        sql = "SELECT MONTH(InvoiceClearingDate) as Month, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE Vendor LIKE '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY MONTH;" % (suppliernamesplookup, date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
-        #sql = "SELECT DISTINCT MONTH(InvoiceClearingDate) as Month, SUM(USD) AS Spend FROM `ab_hana_sami_spend` WHERE Vendor = '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY MONTH(InvoiceClearingDate);" % (suppliernamesplookup, date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
+        #sql = "SELECT MONTH(InvoiceClearingDate) as Month, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE Vendor LIKE '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY MONTH;" % (suppliernamesplookup, date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
+        sql = "SELECT DISTINCT MONTH(InvoiceClearingDate) as Month, SUM(USD) AS Spend FROM `ab_hana_sami_spend` WHERE Vendor = '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY MONTH;" % (suppliernamesplookup, date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
         print(sql)
         try:
             cursor.execute(sql)

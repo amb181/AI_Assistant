@@ -71,6 +71,12 @@
 * request_another{"category_name": "small cells"}
     - slot{"category_name": "small cells"}
     - action_request_another
+* request_another{"category_name": "batteries"}
+    - slot{"category_name": "batteries"}
+    - action_request_another
+* request_another{"category_name": "memories"}
+    - slot{"category_name": "memories"}
+    - action_request_another
 
 
 ## ask graph by month

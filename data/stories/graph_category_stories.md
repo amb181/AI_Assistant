@@ -28,3 +28,7 @@
     - action_supplier_spend_lookup
 * askgraph_by_category
     - action_supplier_spend_graph_by_category
+
+## ask graph for category
+* askgraph_by_category
+    - action_supplier_spend_graph_by_category

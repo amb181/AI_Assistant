@@ -71,6 +71,12 @@
 * request_another{"supplier_name": "oracle"}
     - slot{"supplier_name": "oracle"}
     - action_request_another
+* request_another{"supplier_name": "amatel"}
+    - slot{"supplier_name": "amatel"}
+    - action_request_another
+* request_another{"supplier_name": "qualcomm"}
+    - slot{"supplier_name": "qualcomm"}
+    - action_request_another
 
 
 ## ask graph by month

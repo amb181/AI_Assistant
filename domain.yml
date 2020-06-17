@@ -23,6 +23,7 @@
 - action_supplier_dowjones_check_details
 - action_supplier_onboarding_status
 - action_supplier_spend_graph
+- action_supplier_spend_graph_by_category
 - action_supplier_spend_graph_by_businessunit
 - action_supplier_spend_graph_by_company
 - action_supplier_spend_graph_by_customer
@@ -174,6 +175,7 @@ intents:
 - chart_type
 - askgraph
 - askgraph_by_month
+- askgraph_by_category
 - askgraph_by_supplier
 - askgraph_by_company
 - askgraph_by_customer

@@ -49,8 +49,6 @@ class Supplier_Lookup_For_Contract(Action):
     def run(self, dispatcher, tracker, domain):
         suppliername = tracker.get_slot('supplier_name')
         market_area_lookup = tracker.get_slot('market_area')
-        print("SUPPLIER CONTRACTS")
-        print(suppliername)
         print(market_area_lookup)
         if not suppliername:
             response = "I don't recognize this supplier name"
@@ -108,6 +106,7 @@ class Supplier_ContractLookup(Action):
         else:
             suppliernamecontractlookup = tracker.get_slot('supplier_name')
         market_area_lookup = tracker.get_slot('market_area')
+        market_area_lookup = market_area_lookup.upper()
         if not market_area_lookup:
             response = "I didn't catch the market area"
             dispatcher.utter_message(response)
@@ -128,22 +127,22 @@ class Supplier_ContractLookup(Action):
             db = pymysql.connect('localhost', 'ebromic', 'Ericsson1', 'ai')
             cursor = db.cursor()
             sql = "SELECT SupplierName, MasterAgreementID, MasterAgreementName, EffectiveDate, MarketArea FROM `global_clm_list` WHERE SupplierName = '%s' AND MarketArea LIKE '%s' AND Status = 'Valid' ORDER BY EffectiveDate;" % (
-                '%' + suppliernamecontractlookup + '%', '%' + market_area_lookup + '%')
+                suppliernamecontractlookup, '%' + market_area_lookup + '%')
             print(sql)
             try:
                 cursor.execute(sql)
-                results = cursor.fetchall()
-                for row in results:
-                    suppliernamecontractlookup = row[0]
-                    contractid = row[1]
-                    contractname = row[2]
-                    effectivedate = row[3]
-                    marketarea = row[4]
-
-                if contractid == 0:
+                if cursor.rowcount == 0:
                     response = """I couldn't find an agreement for supplier {} in {}.""".format(
-                        suppliernamecontractlookup, market_area_lookup)
-                else:
+                        "<b>"+suppliernamecontractlookup+"</b>", "<b>"+market_area_lookup+"</b>")
+                else:    
+                    results = cursor.fetchall()
+                    for row in results:
+                        suppliernamecontractlookup = row[0]
+                        contractid = row[1]
+                        contractname = row[2]
+                        effectivedate = row[3]
+                        marketarea = row[4]
+
                     effectivedate = str(effectivedate)
                     response = "I found an agreement with the name {} for supplier {} that has been in effect since {} in {}.".format(
                         "<b>"+contractname+"</b>", "<b>"+suppliernamecontractlookup+"</b>", "<b>"+effectivedate+"</b>", "<b>"+marketarea+"</b>")
