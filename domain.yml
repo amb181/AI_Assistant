@@ -7,6 +7,7 @@
 - action_category_spend_graph_by_customer
 - action_category_spend_graph_by_marketarea
 - action_category_spend_graph_by_month
+- action_category_spend_graph_by_quarter
 - action_category_spend_graph_by_supplier
 - action_category_spend_lookup
 - action_default_ask_affirmation
@@ -29,6 +30,7 @@
 - action_supplier_spend_graph_by_customer
 - action_supplier_spend_graph_by_marketarea
 - action_supplier_spend_graph_by_month
+- action_supplier_spend_graph_by_quarter
 - action_supplier_spend_lookup
 - category_lookup
 - category_lookup_for_category_manager
@@ -40,6 +42,10 @@
 - utter_ask_name
 - utter_ask_country
 - utter_ask_date
+- utter_ask_month
+- utter_ask_months
+- utter_ask_quarter
+- utter_ask_Q_M
 - utter_ask_dow_jones_details
 - utter_ask_location
 - utter_ask_market_area
@@ -149,6 +155,7 @@ entities:
 - dow_jones_details
 - location
 - market_area
+- month
 - options_spend
 - supplier_name
 - time
@@ -165,6 +172,7 @@ intents:
 - inform
 - help_with_spend_nlu
 - date
+- month
 - request_spend:
     use_entities:
     - supplier_name
@@ -181,6 +189,7 @@ intents:
 - askgraph_by_customer
 - askgraph_by_businessunit
 - askgraph_by_marketarea
+- askgraph_by_quarter
 - request_supplier_existing:
     use_entities: []
 - request_supplier_contract:
@@ -293,7 +302,24 @@ intents:
 - request_supplier_onboarding_status
 - request_sourcing_wigs
 - request_supplier_justification_form
+- request_q_m
+- request_month_info
+- request_quarter_info
 responses:
+  utter_ask_month:
+  - buttons:
+    - payload: '/request_spend{"month":"None"}'
+      title: "No"
+    - payload: '/request_q_m'
+      title: "Yes"
+    text: Would you like to specify a month or quarter?
+  utter_ask_Q_M:
+  - buttons:
+    - title: "Quarter"
+      payload: '/request_quarter_info'
+    - title: "Month"
+      payload: '/request_month_info'
+    text: Month or quarter?
   utter_ask_name:
   - text: Ok, please provide a name
   utter_ask_country:
@@ -304,17 +330,59 @@ responses:
       title: This Year
     - payload: last year
       title: Last Year
-    - payload: all years
-      title: ALL Years
-    text: Sure, for what time period?
+    - payload: '/request_spend{"month":"None","date":"all years"}'
+      title: All Years. Filter by month will not be applied.
+    text: Sure, for what year? You can also type a year number.
   - buttons:
     - payload: this year
       title: This Year
     - payload: last year
       title: Last Year
-    - payload: all years
-      title: ALL Years
-    text: Ok, for what date range?
+    - payload: '/request_spend{"month":"None","date":"all years"}'
+      title: All Years. Filter by month will not be applied
+    text: OK, for what year? You can also type a year number.
+  utter_ask_months:
+  - buttons:
+    - payload: '/request_spend{"month":"January"}'
+      title: January
+    - payload: '/request_spend{"month":"February"}'
+      title: February
+    - payload: '/request_spend{"month":"March"}'
+      title: March
+    - payload: '/request_spend{"month":"April"}'
+      title: April
+    - payload: '/request_spend{"month":"May"}'
+      title: May
+    - payload: '/request_spend{"month":"June"}'
+      title: June
+    - payload: '/request_spend{"month":"July"}'
+      title: July
+    - payload: '/request_spend{"month":"August"}'
+      title: August
+    - payload: '/request_spend{"month":"September"}'
+      title: September
+    - payload: '/request_spend{"month":"October"}'
+      title: October
+    - payload: '/request_spend{"month":"November"}'
+      title: November
+    - payload: '/request_spend{"month":"December"}'
+      title: December
+    - payload: '/request_spend{"month":"None"}'
+      title: Show me for whole year
+    text: Select one option
+  utter_ask_quarter:
+  - buttons:
+    - payload: '/request_spend{"month":"q1"}'
+      title: 1st Quater
+    - payload: '/request_spend{"month":"q2"}'
+      title: 2nd Quater
+    - payload: '/request_spend{"month":"q2"}'
+      title: 3rd Quater
+    - payload: '/request_spend{"month":"q4"}'
+      title: 4th Quater
+    - payload: '/request_spend{"month":"None"}'
+      title: Show me for whole year
+    text: Select one option
   utter_ask_dow_jones_details:
   - buttons:
     - payload: Yes
@@ -375,12 +443,13 @@ responses:
       title: Polar Area
     text: What kind of chart do you need?
   utter_ask_whatspossible:
-  - text: "You can ask me:\n\nSpend for a supplier<br>  - Show me by month<br>  -\
-      \ Show me by company<br>  - Show me by customer<br>  - Show me by business unit<br>\
-      \  - Show me by market area<br>\n\nSpend for a category<br>  - Show me by month<br>\
-      \  - Show me by company<br>  - Show me by customer<br>  - Show me by business\
+  - text: "You can ask me:\n\nSpend for a supplier<br>  - Show me by month<br>  - Show me by quarter<br>  -\
+      \ Show me by category<br>  - Show me by customer<br>  - Show me by business unit<br>\
+      \  - Show me by market area<br>\n\nSpend for a category<br>  - Show me by month<br>  - Show me by quarter<br>\
+      \  - Show me by supplier<br>  - Show me by customer<br>  - Show me by business\
       \ unit<br>  - Show me by market area<br>\n\nWhere the Sourcing goals are\n\n\
-      Who the category manager is for a supplier or category\n\nThe weather\n\nMath"
+      Who the category manager is for a supplier or category\n\nCheck if a company is supplier for Ericsson\
+      \n\nCheck if there is a contract with a specific supplier\n\nThe weather\n\nMath"
   utter_ask_when:
   - text: During which time?
   utter_default:
@@ -788,6 +857,8 @@ slots:
   location:
     type: unfeaturized
   market_area:
+    type: unfeaturized
+  month:
     type: unfeaturized
   options_spend:
     type: unfeaturized

@@ -46,6 +46,43 @@
 - [Last Year]{"entity": "date", "value": "last year"}
 - [ALL Years]{"entity": "date", "value": "all years"}
 
+## intent:month
+- [January](month)
+- [February](month)
+- [March](month)
+- [April](month)
+- [May](month)
+- [June](month)
+- [July](month)
+- [August](month)
+- [September](month)
+- [October]{(month)
+- [November](month)
+- [December](month)
+- [Jan]{"entity": "month", "value": "january"}
+- [Feb]{"entity": "month", "value": "february"}
+- [Mar]{"entity": "month", "value": "march"}
+- [Apr]{"entity": "month", "value": "april"}
+- [Jun]{"entity": "month", "value": "june"}
+- [Jul]{"entity": "month", "value": "july"}
+- [Aug]{"entity": "month", "value": "august"}
+- [Sep]{"entity": "month", "value": "september"}
+- [Oct]{"entity": "month", "value": "october"}
+- [Nov]{"entity": "month", "value": "november"}
+- [Dec]{"entity": "month", "value": "december"}
+- [last month](month)
+- [this month](month)
+- [1st quarter]{"entity": "month", "value": "q1"}
+- [2nd quarter]{"entity": "month", "value": "q2"}
+- [3rd quarter]{"entity": "month", "value": "q3"}
+- [4th quarter]{"entity": "month", "value": "q4"}
+- [Q1](month)
+- [q2](month)
+- [Q3](month)
+- [q4](month)
+- [this quarter](month)
+- [last quarter](month)
+
 ## intent:askgraph
 - show me the graph
 - can i see a graph
@@ -58,6 +95,12 @@
 - can i see by month
 - can you show me by month
 - per month
+
+## intent:askgraph_by_quarter
+- show me by quarter
+- can i see by quarter
+- can you show me by quarter
+- per quarter
 
 ## intent:askgraph_by_supplier
 - show me by supplier

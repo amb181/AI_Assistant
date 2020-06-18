@@ -326,3 +326,19 @@
 - what about [mnea](market_area)?
 - what about [moai](market_area)?
 - what about [mxot](market_area)?
+
+- what about [2nd Quarter]{"entity": "month", "value": "q2"}
+- what about [q1](month)
+- what about [May](month)
+- what about [August](month)
+- what about [Nov]{"entity": "month", "value": "november"}
+- how about [3rd Quarter]{"entity": "month", "value": "q3"}
+- how about [q4](month)
+- how about [November](month)
+- how about [January](month)
+- how about [Sep]{"entity": "month", "value": "september"}
+- and for [last quarter](month)
+- and for [q3](month)
+- and for [May](month)
+- and for [last month](month)
+- and for [Aug]{"entity": "month", "value": "august"}

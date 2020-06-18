@@ -7,6 +7,13 @@
     - action_request_spend
 * inform{"supplier_name": "AMERICAN EXPRESS"}
     - slot{"supplier_name": "AMERICAN EXPRESS"}
+	- slot{"requested_slot": "month"}
+* request_q_m
+    - utter_ask_Q_M
+* request_month_info
+    - utter_ask_months
+* form: request_spend{"month": "May"}
+    - slot{"month": "May"}
     - form: followup{"name": "action_supplier_spend_lookup"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -79,6 +86,9 @@
 * request_another{"date": "last year"}
     - slot{"date": "this year"}
     - action_request_another
+* request_another{"month": "q2"}
+    - slot{"month": "q2"}
+    - action_request_another
 
 ## interactive_story_2
 * request_spend{"supplier_name": "iweb", "market_area": "mela", "date": "this year"}
@@ -88,6 +98,13 @@
     - action_request_spend
 * inform{"supplier_name": "IWEB TECHNOLOGIES INC"}
     - slot{"supplier_name": "IWEB TECHNOLOGIES INC"}
+	- slot{"requested_slot": "month"}
+* request_q_m
+    - utter_ask_Q_M
+* request_month_info
+    - utter_ask_months
+* form: request_spend{"month": "May"}
+    - slot{"month": "May"}
     - form: followup{"name": "action_supplier_spend_lookup"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -125,6 +142,9 @@
 * request_another{"date": "this year"}
     - slot{"date": "this year"}
     - action_request_another
+* request_another{"month": "January"}
+    - slot{"month": "January"}
+    - action_request_another
 * request_another{"supplier_name": "fusion", "date": "last year"}
     - slot{"date": "last year"}
     - slot{"supplier_name": "fusion"}
@@ -138,6 +158,13 @@
     - action_request_spend
 * inform{"category_name": "Civil Work Services"}
     - slot{"category_name": "Civil Work Services"}
+	- slot{"requested_slot": "month"}
+* request_q_m
+    - utter_ask_Q_M
+* request_month_info
+    - utter_ask_months
+* form: request_spend{"month": "May"}
+    - slot{"month": "May"}
     - form: followup{"name": "action_category_spend_lookup"}
     - form{"name": null}
     - slot{"requested_slot": null}

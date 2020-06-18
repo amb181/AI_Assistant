@@ -656,6 +656,10 @@
 - What was the spend for [2019](date)?
 - What is the spend for [mela](market_area)?
 - What is the spend for [moai](market_area)?
+- What is the spend for [this month](month)?
+- What is the spend for [January](month)?
+- What was the spend [last quarter](month)?
+- What was the spend for [May](month)?
 
 - what is the spend?
 - can you show me the spend?
@@ -664,3 +668,26 @@
 - show me spend
 - and the spend
 - How much do we spend with them
+
+
+- How much money have we spent with category [Amphenol](supplier_name) in [This Year](date) during [q1](month)
+- What is the spend with [wipro](supplier_name) in [MELA]{"entity": "market_area", "value": "MELA"} for [All Years](date) in [q2](month)
+- What is the spend for category [fusion](supplier_name) in [MELA]{"entity": "market_area", "value": "MELA"} for [This Year](date) in [march](month)
+- How much spend do we have with category [Adex](supplier_name) in [MELA]{"entity": "market_area", "value": "MELA"} during [last month](month)
+- How much money have we spent with category [REDAPT INC](supplier_name) in [MELA]{"entity": "market_area", "value": "MELA"} during [this month](month)
+- What is the spend with [Ironbo](supplier_name) in [MELA]{"entity": "market_area", "value": "MELA"} for [This Year](date) in [January](month)
+- What is the spend with [JUNIPER NETWORKS CANADA INC](supplier_name) in [MANA]{"entity": "market_area", "value": "MANA"} for [2020](date) in [February](month)
+- What is the spend with [MACNO TELECOM INC](supplier_name) in [MOAI]{"entity": "market_area", "value": "MOAI"} in [2019](date) in [Sep]{"entity": "month", "value": "september"}
+- What is the spend with [AEROFLEX LIMITED](supplier_name) in [MMEA]{"entity": "market_area", "value": "MMEA"} for [Last Year](date) in [Dec]{"entity": "month", "value": "december"}
+- What is the spend with [BELL DISTRIBUTION INC](supplier_name) in [MELA]{"entity": "market_area", "value": "MELA"} for [Last Year](date) during {"entity": "month", "value": "q4"}
+
+- How much money have we spent with category [Sponsorships](category_name) in [This Year](date) during [q1](month)
+- What is the spend with [PCB](category_name) in [MELA]{"entity": "market_area", "value": "MELA"} for [All Years](date) in [q2](month)
+- What is the spend for category [Memories](category_name) in [MELA]{"entity": "market_area", "value": "MELA"} for [This Year](date) in [march](month)
+- How much spend do we have with category [Banking](category_name) in [MELA]{"entity": "market_area", "value": "MELA"} during [last month](month)
+- How much money have we spent with category [Power](category_name) in [MELA]{"entity": "market_area", "value": "MELA"} during [this month](month)
+- What is the spend with [Pension Services](category_name) in [MELA]{"entity": "market_area", "value": "MELA"} for [This Year](date) in [January](month)
+- What is the spend with [Workspace & Collaboration](category_name) in [MANA]{"entity": "market_area", "value": "MANA"} for [2020](date) in [February](month)
+- What is the spend with [Test House](category_name) in [MOAI]{"entity": "market_area", "value": "MOAI"} in [2019](date) in [Sep]{"entity": "month", "value": "september"}
+- What is the spend with [Sheet Metal](category_name) in [MMEA]{"entity": "market_area", "value": "MMEA"} for [Last Year](date) in [Dec]{"entity": "month", "value": "december"}
+- What is the spend with [Vehicle Leasing or Renting](category_name) in [MELA]{"entity": "market_area", "value": "MELA"} for [Last Year](date) during {"entity": "month", "value": "q4"}

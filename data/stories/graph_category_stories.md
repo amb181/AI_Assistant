@@ -22,6 +22,13 @@
     - slot{"date": "all years"}
     - form: supplier_spend_form
     - slot{"date": "all years"}
+	- slot{"requested_slot": "month"}
+* request_q_m
+    - utter_ask_Q_M
+* request_month_info
+    - utter_ask_months
+* form: request_spend{"month": "May"}
+    - slot{"month": "May"}
     - form: followup{"name": "action_supplier_spend_lookup"}
     - form{"name": null}
     - slot{"requested_slot": null}

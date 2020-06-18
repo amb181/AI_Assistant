@@ -206,8 +206,8 @@
 - Do we have a contract for [insight](supplier_name)
 - Do we have a contract for [taxware](supplier_name)
 - [Adex](supplier_name) MSA
-- what is the [2019]{"entity": "date", "value": "last year"} agreement with [oracle](supplier_name)
-- I need the agreement with [GME](supplier_name) in [2019]{"entity": "date", "value": "last year"}
+- what is the [2019](date) agreement with [oracle](supplier_name)
+- I need the agreement with [GME](supplier_name) in [2019](date)
 - What is our agreement with [Mobilaris](supplier_name)
 - what is the contract for [centerline](supplier_name)
 - What is the agreement with [Centerline Communications](supplier_name)
@@ -216,7 +216,7 @@
 - MSA for [apex](supplier_name)
 - is [Apex](supplier_name) under an agreement
 - is [panalpina](supplier_name) on contract
-- can you help me find the contractr with [Amphenol](supplier_name) [last year]{"entity": "date", "value": "last year"}
+- can you help me find the contractr with [Amphenol](supplier_name) [last year]date
 - can you help me find the agreement for [Amphenol](supplier_name)
 - is [Amphenol Connexus](supplier_name) on contract
 - Can you help me with an agreement
