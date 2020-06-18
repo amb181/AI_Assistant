@@ -68,9 +68,16 @@
 * request_another{"category_name": "towers"}
     - slot{"category_name": "towers"}
     - action_request_another
-* request_another{"category_name": "small cells"}
-    - slot{"category_name": "small cells"}
+* request_another{"category_name": "antennas"}
+    - slot{"category_name": "antennas"}
     - action_request_another
+* inform{"category_name": "Base Station Antennas"}
+    - slot{"category_name": "Base Station Antennas"}
+    - category_spend_form
+    - form: followup{"name": "action_category_spend_lookup"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - action_category_spend_lookup
 * request_another{"category_name": "batteries"}
     - slot{"category_name": "batteries"}
     - action_request_another

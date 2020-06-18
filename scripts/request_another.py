@@ -13,9 +13,11 @@ class RequestAnother(Action):
         return 'action_request_another'
    
     def run(self, dispatcher, tracker, domain):
-        last_working_with = str(tracker.latest_message['intent']['name'])
-        print("/_______{}________/".format(last_working_with))
-
+        last_intent = str(tracker.latest_message['intent']['name'])
+        print("/_______{}________/".format(last_intent))
+        last_working_with = str(tracker.latest_message['entities'][0]['entity'])
+        print("/{}/".format(last_working_with))
+        
         for e in reversed(tracker.events):
             if e['event'] == "action":
                 print (e['name'])
@@ -26,10 +28,16 @@ class RequestAnother(Action):
                     return [FollowupAction('action_request_category_manager')]
                     break
                 elif 'contract' in e['name']:
-                    return [FollowupAction('supplier_contract_form')]
+                    if 'supplier_name' in last_working_with:
+                        return [FollowupAction('supplier_lookup_for_contract')]
+                    else:
+                        return [FollowupAction('supplier_contract_form')]
                     break
                 elif 'existing' in e['name']:
-                    return [FollowupAction('supplier_existing_form')]
+                    if 'supplier_name' in last_working_with:
+                        return [FollowupAction('supplier_lookup_for_contract')]
+                    else:
+                        return [FollowupAction('supplier_existing_form')]
                     break
             # else:
             #     return [FollowupAction('wolfram_alpha')]

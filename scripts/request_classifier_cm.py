@@ -33,12 +33,12 @@ class RequestCategoryManager(Action):
         else:
             last_working_with = str(tracker.latest_message['entities'][0]['entity'])
         print("/_______{}________/".format(last_working_with))
-        if (re.search('supplier', last_working_with)):
+        if 'supplier_name' in last_working_with:
             supplier = tracker.get_slot('supplier_name')
             print("{} is a supplier".format(supplier))
             return [SlotSet("category_name", None), FollowupAction('supplier_lookup_for_category_manager')]
             
-        elif (re.search('category', last_working_with)):
+        elif 'category_name' in last_working_with:
             category = tracker.get_slot('category_name')
             print("{} is a category".format(category))
             return [SlotSet("supplier_name", None), FollowupAction('category_lookup_for_category_manager')]
@@ -46,6 +46,6 @@ class RequestCategoryManager(Action):
             supplier = tracker.get_slot('supplier_name')
             category = tracker.get_slot('category_name')
             if (supplier != None):
-                return [SlotSet("category_name", None), FollowupAction('supplier_lookup_for_category_manager')]
+                return [SlotSet("category_name", None), FollowupAction('supplier_category_manager_form')]
             elif (category != None):
-                return [SlotSet("supplier_name", None), FollowupAction('category_lookup_for_category_manager')]
+                return [SlotSet("supplier_name", None), FollowupAction('category_category_manager_form')]

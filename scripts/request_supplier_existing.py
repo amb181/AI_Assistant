@@ -104,12 +104,13 @@ class Supplier_Lookup_Existing(Action):
         else:
             suppliernameexisting = tracker.get_slot('supplier_name')
         market_area_lookup = tracker.get_slot('market_area')
+        market_area_lookup = market_area_lookup.upper()
         if not market_area_lookup:
             response = "I didn't catch the market area"
             dispatcher.utter_message(response)
         else:
             market_area_lookup = market_area_lookup
-        if market_area_lookup == "all market areas" or market_area_lookup == "ALL Market Areas":
+        if market_area_lookup == "ALL MARKET AREAS":
             market_area_lookup = ""
         else:
             market_area_lookup = market_area_lookup

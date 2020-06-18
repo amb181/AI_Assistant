@@ -114,9 +114,12 @@
 * request_another{"supplier_name": "amatel"}
     - slot{"supplier_name": "amatel"}
     - action_request_another
+    - supplier_contract_form
 * request_another{"supplier_name": "iweb"}
     - slot{"supplier_name": "iweb"}
     - action_request_another
+    - supplier_contract_form
 * request_another{"supplier_name": "fusion"}
     - slot{"supplier_name": "fusion"}
     - action_request_another
+    - supplier_contract_form

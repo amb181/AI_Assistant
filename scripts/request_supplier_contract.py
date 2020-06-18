@@ -79,10 +79,8 @@ class Supplier_Lookup_For_Contract(Action):
                         print(suppliernamecontractlookup)
                         payload = "/inform{\"supplier_name\":\"" + suppliernamecontractlookup + "\"}"
                         print(payload)
-                        buttons.append(
-                            {"title": "{}".format(suppliernamecontractlookup.title()), "payload": payload})
-                        message = "I found {} suppliers that also match that name, which one are you inquiring about?".format(
-                            len(buttons))
+                        buttons.append({"title": "{}".format(suppliernamecontractlookup.title()), "payload": payload})
+                        message = "I found {} suppliers that also match that name, which one are you inquiring about?".format(len(buttons))
                 else:
                     response = "I couldn't find any suppliers that match that name"
                     dispatcher.utter_message(response)
@@ -112,7 +110,7 @@ class Supplier_ContractLookup(Action):
             dispatcher.utter_message(response)
         else:
             market_area_lookup = market_area_lookup
-        if market_area_lookup == "all market areas" or market_area_lookup == "ALL Market Areas":
+        if market_area_lookup == "ALL MARKET AREAS":
             market_area_lookup = ""
         else:
             market_area_lookup = market_area_lookup
@@ -142,7 +140,6 @@ class Supplier_ContractLookup(Action):
                         contractname = row[2]
                         effectivedate = row[3]
                         marketarea = row[4]
-
                     effectivedate = str(effectivedate)
                     response = "I found an agreement with the name {} for supplier {} that has been in effect since {} in {}.".format(
                         "<b>"+contractname+"</b>", "<b>"+suppliernamecontractlookup+"</b>", "<b>"+effectivedate+"</b>", "<b>"+marketarea+"</b>")
