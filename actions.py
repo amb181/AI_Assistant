@@ -77,8 +77,8 @@ class ActionDefaultAskAffirmation(Action):
         # buttons.append({'title': 'I feel lucky',
         #                   'payload': '/wolframalpha_whatis'})
 
-        buttons.append({'title': 'Something else',
-                        'payload': '/utter_default'})
+        # buttons.append({'title': 'Something else',
+        #                 'payload': '/utter_default'})
 
         dispatcher.utter_button_message(message_title, buttons=buttons)
 

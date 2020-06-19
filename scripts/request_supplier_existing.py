@@ -70,9 +70,9 @@ class Supplier_Lookup_for_Existing(Action):
                         message = ''
                         print(suppliername)
                         return SlotSet('supplier_name', suppliername), FollowupAction('supplier_existing_form')
-                elif len(results) > 1:
+                elif len(results) > 1 and len(results) < 15:
                     for row in results:
-                        # if a multiple suppliers are found, display buttons of all possible supplier matches back to user then trigger spend form
+                        # if multiple suppliers are found, display buttons of all possible supplier matches back to user then trigger spend form
                         suppliername = row[0]
                         print(suppliername)
                         payload = "/inform{\"supplier_name\":\"" + suppliername + "\"}"
@@ -80,6 +80,9 @@ class Supplier_Lookup_for_Existing(Action):
                         buttons.append(
                             {"title": "{}".format(suppliername.title()), "payload": payload})
                         message = "I found {} suppliers that also match that name, which one are you inquiring about?".format(len(buttons))
+                elif len(results) > 14:
+                    response = "There are too many suppliers that match that name, please be more specific"
+                    dispatcher.utter_message(response)
                 else:
                     response = "I couldn't find any suppliers that match that name"
                     dispatcher.utter_message(response)

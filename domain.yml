@@ -54,7 +54,6 @@
 - utter_ask_whatspossible
 - utter_ask_when
 - utter_default
-- utter_easter_egg
 - utter_getting_started
 - utter_help_with_spend
 - utter_iamabot
@@ -376,7 +375,7 @@ responses:
       title: 1st Quater
     - payload: '/request_spend{"month":"q2"}'
       title: 2nd Quater
-    - payload: '/request_spend{"month":"q2"}'
+    - payload: '/request_spend{"month":"q3"}'
       title: 3rd Quater
     - payload: '/request_spend{"month":"q4"}'
       title: 4th Quater
@@ -460,8 +459,6 @@ responses:
   - text: I'm afraid I didn't get what you just said. Could you rephrase that?
   - text: I didn't quite get that, could you rephrase your message?
   - text: Could you rephrase your message? I didn't get it, I'm sorry.
-  utter_easter_egg:
-  - text: Ring-ding-ding-ding-dingeringeding!
   utter_getting_started:
   - text: Hi! How can I help?
   utter_help_with_spend:
@@ -657,10 +654,11 @@ responses:
   - text: It's cool.
   - text: That's all right. I forgive you.
   utter_smalltalk_dialog_what_do_you_mean:
-  - text: Sorry if I understood you incorrectly.
-  - text: I'm still learning. I may misinterpret things from time to time.
-  - text: Maybe I misunderstood what you said.
-  - text: Sorry, looks like I misunderstood what you said.
+  - text: Sorry if I understood you incorrectly. Can you ask again?
+  - text: I'm still learning. I may misinterpret things from time to time. Ask again please.
+  - text: Maybe I misunderstood what you said. Could you rephrase?
+  - text: Sorry, looks like I misunderstood what you said. Ask again please.
+  - text: Say what?
   utter_smalltalk_dialog_wrong:
   - text: Sorry if I understood you incorrectly.
   - text: I'm still learning. I may misinterpret things from time to time.

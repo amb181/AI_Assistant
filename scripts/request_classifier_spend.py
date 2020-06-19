@@ -45,7 +45,13 @@ class RequestSpend(Action):
         else:
             supplier = tracker.get_slot('supplier_name')
             category = tracker.get_slot('category_name')
-            if (supplier != None):
-                return [SlotSet("category_name", None), FollowupAction('supplier_spend_form')]
-            elif (category != None):
-                return [SlotSet("supplier_name", None), FollowupAction('category_lookup')]
+            if 'date' in last_working_with:
+                if (supplier != None):
+                    return [SlotSet("category_name", None), SlotSet("month", None), FollowupAction('supplier_spend_form')]
+                elif (category != None):
+                    return [SlotSet("supplier_name", None), SlotSet("month", None), FollowupAction('category_spend_form')]
+            else: 
+                if (supplier != None):
+                    return [SlotSet("category_name", None), FollowupAction('supplier_spend_form')]
+                elif (category != None):
+                    return [SlotSet("supplier_name", None), FollowupAction('category_spend_form')]

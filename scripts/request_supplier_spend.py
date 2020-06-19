@@ -82,9 +82,9 @@ class Supplier_Lookup(Action):
                         message = ''
                         print(suppliername)
                         return SlotSet('supplier_name', suppliername),FollowupAction('supplier_spend_form')
-                elif len(results) > 1:
+                elif len(results) > 1 and len(results) < 15:
                     for row in results:
-                        # if a multiple suppliers are found, display buttons of all possible supplier matches back to user then trigger spend form
+                        # if multiple suppliers are found, display buttons of all possible supplier matches back to user then trigger spend form
                         suppliername = row[0]
                         print(suppliername)
                         payload = "/inform{\"supplier_name\":\"" + suppliername + "\"}"
@@ -92,6 +92,9 @@ class Supplier_Lookup(Action):
                         buttons.append(
                             {"title": "{}".format(suppliername.title()), "payload": payload})
                         message = "I found {} suppliers that also match that name, which one are you inquiring about?".format(len(buttons))
+                elif len(results) > 14:
+                    response = "There are too many suppliers that match that name, please be more specific"
+                    dispatcher.utter_message(response)                
                 else:
                     response = "I couldn't find any suppliers that match that name"
                     dispatcher.utter_message(response)
@@ -1428,6 +1431,107 @@ class Supplier_SpendGraph_ByMarketArea(Action):
 
         data = {
             "title": ['Supplier Spend by Market Area'],
+            # These labels appear in the legend and in the tooltips when hovering different arcs
+            "labels": rescol1,
+            "backgroundColor": [
+                '#36a2eb',
+                '#ffcd56',
+                '#ff6384',
+                '#009688',
+                '#c45850',
+                '#F0F8FF',
+                '#FAEBD7',
+                '#7FFFD4',
+                '#8A2BE2',
+                '#D2691E',
+                '#36a2eb',
+                '#ffcd56'
+            ],
+            "chartsData": rescol2,
+            "chartType": Lflag,
+            "displayLegend": ['true']
+        }
+        dispatcher.utter_custom_json({"payload": "chart", "data": data})
+        return []
+
+class Supplier_SpendGraph_ByCategory(Action):
+    def name(self):
+        return 'action_supplier_spend_graph_by_category'
+
+    def run(self, dispatcher, tracker, domain, **kwargs):
+        import requests
+        import simplejson
+        import numpy as np
+        from decimal import Decimal
+
+        suppliernamesplookup = tracker.get_slot('supplier_name')
+        market_area_lookup = tracker.get_slot('market_area')
+        if market_area_lookup == "all market areas" or market_area_lookup == "ALL Market Areas":
+            market_area_lookup = ""
+        else:
+            market_area_lookup = market_area_lookup
+        date_lookup = tracker.get_slot('date')
+        now = datetime.datetime.now()
+        last_year = now.year - 1
+        if date_lookup.lower() == "this year":
+            date_lookup_start = str(now.year) + "-01-01"
+            date_lookup_end = str(now.year) + "-12-31"
+            date_lookup_name = str(now.year)
+        elif date_lookup.lower() == "last year":
+            date_lookup_start = str(last_year) + "-01-01"
+            date_lookup_end = str(last_year) + "-12-31"
+            date_lookup_name = str(last_year)
+        elif date_lookup.lower() == "all years":
+            date_lookup_start = "1900-01-01"
+            date_lookup_end = str(now.year) + "-12-31"
+            date_lookup_name = "All Years"
+        elif int(date_lookup) > now.year:
+            response = "We cannot lookup for data in the future... yet, it's only possible to provide data up to " + str(now.year)
+            dispatcher.utter_message(response)
+            return None
+        else:
+            date_lookup_start = str(date_lookup) + "-01-01"
+            date_lookup_end = str(date_lookup) + "-12-31"
+            date_lookup_name = str(date_lookup)
+        print(suppliernamesplookup)
+        spend = 0
+        musid = 0
+        db = pymysql.connect('localhost', 'ebromic', 'Ericsson1', 'ai')
+        cursor = db.cursor()
+        #sql = "SELECT DISTINCT MarketArea as MarketArea, Round( SUM(USD),2) AS Spend FROM `ab_hana_sami_spend` WHERE Vendor LIKE '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') GROUP BY MarketArea;" % (
+        #'%' + suppliernamesplookup + '%', date_lookup_start, date_lookup_end)
+        sql = "SELECT VendorSpendCategory, SUM(USD) AS Spend FROM `ab_hana_sami_spend` WHERE Vendor = '%s' AND (InvoiceClearingDate BETWEEN '%s' and '%s') AND MarketArea LIKE '%s' GROUP BY VendorSpendCategory;" % (suppliernamesplookup, date_lookup_start, date_lookup_end, '%' + market_area_lookup + '%')
+        print(sql)
+        try:
+            cursor.execute(sql)
+            results = list(cursor)
+            Supplier_SpendLookup.run.thisValue = results
+        except:
+            print("Error fetching data.")
+        finally:
+            db.close()
+
+        malen = np.array(Supplier_SpendLookup.run.thisValue)
+        Lflag = "bar"
+
+        # extract with numpy the columms from the matrix
+        coulum1 = malen[:, 0]
+        coulum2 = malen[:, 1]
+        # convert the individual strings into list
+        col1 = coulum1.tolist()
+        col2 = coulum2.tolist()
+        # prepare to convert into  json readable strings
+        result1 = simplejson.dumps(col1)
+        result2 = simplejson.dumps(col2)
+        # Convert file into Json readeable string
+        rescol1 = simplejson.loads(result1)
+        rescol2 = simplejson.loads(result2)
+        print (result1)
+        print (result2)
+        print (Lflag)
+
+        data = {
+            "title": ['Supplier Spend by Category'],
             # These labels appear in the legend and in the tooltips when hovering different arcs
             "labels": rescol1,
             "backgroundColor": [

@@ -74,7 +74,7 @@ class Category_Lookup_for_Category_Manager(Action):
                         message = ''
                         print(categorynamecmlookup)
                         return SlotSet('category_name', categorynamecmlookup), FollowupAction('category_category_manager_form')
-                elif len(results) > 1:
+                elif len(results) > 1 and len(results) < 15:
                     for row in results:
                         # if a multiple categories are found, display buttons of all possible category matches back to user then trigger spend form
                         categorynamecmlookup = row[0]
@@ -83,6 +83,9 @@ class Category_Lookup_for_Category_Manager(Action):
                         print(payload)
                         buttons.append({"title": "{}".format(categorynamecmlookup.title()), "payload": payload})
                         message = "I found {} categories that also match that name, which one are you inquiring about?".format(len(buttons))
+                elif len(results) > 14:
+                    response = "There are too many categories that match that name, please be more specific"
+                    dispatcher.utter_message(response)  
                 else:
                     response = "I couldn't find any categories that match that name"
                     dispatcher.utter_message(response)
@@ -168,14 +171,18 @@ class Category_CategoryManagerLookup(Action):
                 print(sql)
                 try:
                     cursor.execute(sql)
-                    results = cursor.fetchall()
-                    for row in results:
-                        categorynamecmlookup = row[0]
-                        categorymanager = row[1]
-                        categorymarketarea = row[2]
+                    if cursor.rowcount == 0:
+                        response = """I couldn't find a Category Manager for {} in {}.""".format(
+                            "<b>"+categorynamecmlookup+"</b>", "<b>"+market_area_lookup+"</b>")
+                    else:
+                        results = cursor.fetchall()
+                        for row in results:
+                            categorynamecmlookup = row[0]
+                            categorymanager = row[1]
+                            categorymarketarea = row[2]
                         response = """The Category Manager responsible for {} is {} in {}.""".format(
                             "<b>"+categorynamecmlookup+"</b>", "<b>"+categorymanager+"</b>", "<b>"+categorymarketarea+"</b>")
-                        dispatcher.utter_message(response)
+                    dispatcher.utter_message(response)
                 except:
                     print("Error fetching data.")
                 finally:

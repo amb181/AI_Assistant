@@ -56,7 +56,7 @@
 - [July](month)
 - [August](month)
 - [September](month)
-- [October]{(month)
+- [October](month)
 - [November](month)
 - [December](month)
 - [Jan]{"entity": "month", "value": "january"}

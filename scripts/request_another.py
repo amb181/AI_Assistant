@@ -35,7 +35,7 @@ class RequestAnother(Action):
                     break
                 elif 'existing' in e['name']:
                     if 'supplier_name' in last_working_with:
-                        return [FollowupAction('supplier_lookup_for_contract')]
+                        return [FollowupAction('supplier_lookup_for_existing_supplier')]
                     else:
                         return [FollowupAction('supplier_existing_form')]
                     break

@@ -8,15 +8,17 @@ $(document).ready(function () {
 	$('.modal').modal();
 
 	//enable this if u have configured the bot to start the conversation. 
-	// showBotTyping();
-	// $("#userInput").prop('disabled', true);
+	 //showBotTyping();
+	 //$("#userInput").prop('disabled', true);
 
 	//global variables
 	action_name = "utter_getting_started";
-	user_id = "Oneismo";
+	//insert session ID variable here    
+    var myPhpValue = $("#myPhpValue").val();
+	user_id = myPhpValue;
 
 	//if you want the bot to start the conversation
-	//action_trigger();
+    //action_trigger();
 
 })
 
@@ -24,15 +26,15 @@ $(document).ready(function () {
 function restartConversation() {
 	$("#userInput").prop('disabled', true);
 	//destroy the existing chart
+	
 	$('.collapsible').remove();
-
 	if (typeof chatChart !== 'undefined') { chatChart.destroy(); }
-
 	$(".chart-container").remove();
 	if (typeof modalChart !== 'undefined') { modalChart.destroy(); }
 	$(".chats").html("");
 	$(".usrInput").val("");
 	send("/restart");
+	chatChart.destroy();
 }
 
 // ========================== let the bot start the conversation ========================
@@ -40,7 +42,7 @@ function action_trigger() {
 
 	// send an event to the bot, so that bot can start the conversation by greeting the user
 	$.ajax({
-		url: `http://localhost:5005/conversations/${user_id}/execute`,
+		url: `https://70.37.80.74/rasa/conversations/${user_id}/execute`,
 		type: "POST",
 		contentType: "application/json",
 		data: JSON.stringify({ "name": action_name, "policy": "MappingPolicy", "confidence": "0.98" }),
@@ -140,7 +142,7 @@ function scrollToBottomOfResults() {
 function send(message) {
 
 	$.ajax({
-		url: "http://localhost:5005/webhooks/rest/webhook",
+		url: "https://70.37.80.74/rasa/webhooks/rest/webhook",
 		type: "POST",
 		contentType: "application/json",
 		data: JSON.stringify({ message: message, sender: user_id }),
@@ -189,6 +191,7 @@ function setBotResponse(response) {
 
 			$(BotResponse).appendTo(".chats").hide().fadeIn(1000);
 			scrollToBottomOfResults();
+            $(".usrInput").focus();
 		}
 		else {
 
@@ -268,6 +271,7 @@ function setBotResponse(response) {
 				}
 			}
 			scrollToBottomOfResults();
+            $(".usrInput").focus();
 		}
 	}, 500);
 }
@@ -276,6 +280,7 @@ function setBotResponse(response) {
 $("#profile_div").click(function () {
 	$(".profile_div").toggle();
 	$(".widget").toggle();
+    $(".usrInput").focus();
 });
 
 //====================================== Suggestions ===========================================
@@ -326,6 +331,7 @@ $("#close").click(function () {
 	$(".profile_div").toggle();
 	$(".widget").toggle();
 	scrollToBottomOfResults();
+    $(".usrInput").focus();
 });
 
 //====================================== Cards Carousel =========================================
@@ -349,6 +355,7 @@ function showCardsCarousel(cardsToAdd) {
 
 
 	scrollToBottomOfResults();
+    $(".usrInput").focus();
 
 	const card = document.querySelector("#paginated_cards");
 	const card_scroller = card.querySelector(".cards_scroller");
@@ -494,6 +501,7 @@ function showBotTyping() {
 	$(botTyping).appendTo(".chats");
 	$('.botTyping').show();
 	scrollToBottomOfResults();
+    $(".usrInput").focus();
 }
 
 function hideBotTyping() {
@@ -522,6 +530,7 @@ function createCollapsible(data) {
 	// initialize the collapsible
 	$('.collapsible').collapsible();
 	scrollToBottomOfResults();
+    $(".usrInput").focus();
 }
 
 
@@ -569,7 +578,26 @@ function createChart(title, labels, backgroundColor, chartsData, chartType, disp
 				boxWidth: 5,
 				fontSize: 10
 			}
-		}
+		},
+		scales: {
+        	yAxes: [{
+          		ticks: {
+            		beginAtZero: true,
+            			callback: function(value, index, values) {
+              				return value.toLocaleString("en-US",{style:"currency", currency:"USD"});
+            		}
+          		}
+       		}]
+      	},
+		tooltips: {
+            callbacks: {
+            	label: function(tooltipItem, data) {
+            		var label = data.datasets[tooltipItem.datasetIndex].label;
+					label = label + " " + tooltipItem.yLabel.toLocaleString("en-US",{style:"currency", currency:"USD"});
+            		return label;
+               	}
+            }
+        }
 	}
 
 	//draw the chart by passing the configuration
@@ -580,6 +608,7 @@ function createChart(title, labels, backgroundColor, chartsData, chartType, disp
 	});
 
 	scrollToBottomOfResults();
+    $(".usrInput").focus();
 }
 
 // on click of expand button, get the chart data from gloabl variable & render it to modal
@@ -623,6 +652,25 @@ function createChartinModal(title, labels, backgroundColor, chartsData, chartTyp
 			display: displayLegend,
 			position: "right"
 		},
+		scales: {
+        	yAxes: [{
+          		ticks: {
+            		beginAtZero: true,
+            			callback: function(value, index, values) {
+              				return value.toLocaleString("en-US",{style:"currency", currency:"USD"});
+            		}
+          		}
+       		}]
+      	},
+		tooltips: {
+            callbacks: {
+            	label: function(tooltipItem, data) {
+            		var label = data.datasets[tooltipItem.datasetIndex].label;
+					label = label + " " + tooltipItem.yLabel.toLocaleString("en-US",{style:"currency", currency:"USD"});
+            		return label;
+               	}
+            }
+        }
 
 	}
 

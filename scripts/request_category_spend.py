@@ -76,20 +76,23 @@ class Category_Lookup(Action):
                 results = cursor.fetchall()
                 if len(results) == 1:
                     for row in results:
-                        # if a single supplier is found, set slot supplier_name_form and trigger spend form
+                        # if a single category is found, set slot supplier_name_form and trigger spend form
                         categoryname = row[0]
                         message = ''
                         print(categoryname)
                         return SlotSet('category_name', categoryname), FollowupAction('category_spend_form')
-                elif len(results) > 1:
+                elif len(results) > 1 and len(results) < 15:
                     for row in results:
-                        # if a multiple suppliers are found, display buttons of all possible supplier matches back to user then trigger spend form
+                        # if multiple categories are found, display buttons of all possible supplier matches back to user then trigger spend form
                         categoryname = row[0]
                         print(categoryname)
                         payload = "/inform{\"category_name\":\"" + categoryname + "\"}"
                         print(payload)
                         buttons.append({"title": "{}".format(categoryname.title()), "payload": payload})
                         message = "I found {} categories that also match that name, which one are you inquiring about?".format(len(buttons))
+                elif len(results) > 14:
+                    response = "There are too many categories that match that name, please be more specific"
+                    dispatcher.utter_message(response)
                 else:
                     response = "I couldn't find any categories that match that name"
                     dispatcher.utter_message(response)

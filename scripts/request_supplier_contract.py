@@ -72,17 +72,20 @@ class Supplier_Lookup_For_Contract(Action):
                         print(suppliernamecontractlookup)
                         return SlotSet('supplier_name', suppliernamecontractlookup), SlotSet('category_name', None),FollowupAction(
                             'supplier_contract_form')
-                elif len(results) > 1:
+                elif len(results) > 1 and len(results) < 15:
                     for row in results:
-                        # if a multiple suppliers are found, display buttons of all possible supplier matches back to user then trigger spend form
+                        # if multiple suppliers are found, display buttons of all possible supplier matches back to user then trigger spend form
                         suppliernamecontractlookup = row[0]
                         print(suppliernamecontractlookup)
                         payload = "/inform{\"supplier_name\":\"" + suppliernamecontractlookup + "\"}"
                         print(payload)
                         buttons.append({"title": "{}".format(suppliernamecontractlookup.title()), "payload": payload})
                         message = "I found {} suppliers that also match that name, which one are you inquiring about?".format(len(buttons))
+                elif len(results) > 14:
+                    response = "There are too many suppliers that match that name, please be more specific"
+                    dispatcher.utter_message(response)
                 else:
-                    response = "I couldn't find any suppliers that match that name"
+                    response = "I couldn't find any contract with {} in {}".format("<b>"+suppliername+"</b>", "<b>"+market_area_lookup+"</b>")
                     dispatcher.utter_message(response)
                 dispatcher.utter_button_message(message, buttons)
                 return []

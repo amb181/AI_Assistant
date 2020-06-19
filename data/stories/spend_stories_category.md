@@ -1,9 +1,9 @@
 ## interactive_story_1
-* request_spend{"category_name": "batteries"}
-    - slot{"category_name": "batteries"}
+* request_spend{"category_name": "antennas"}
+    - slot{"category_name": "antennas"}
     - action_request_spend
-* inform{"category_name": "Batteries"}
-    - slot{"category_name": "Batteries"}
+* inform{"category_name": "Base Station Antennas"}
+    - slot{"category_name": "Base Station Antennas"}
     - slot{"requested_slot": "market_area"}
 * form: market_area{"market_area": "mana"}
     - slot{"market_area": "mana"}
@@ -71,21 +71,15 @@
     - action_category_spend_lookup
 
 ## interactive_story_4
-* request_spend{"category_name": "batteries", "market_area": "mana", "date": "last year"}
+* request_spend{"category_name": "batteries", "market_area": "mana", "date": "last year", "month": "2nd Quarter"}
     - slot{"category_name": "batteries"}
     - slot{"date": "last year"}
     - slot{"market_area": "mana"}
+    - slot{"month": "q2"}
     - action_request_spend
 * inform{"category_name": "Batteries"}
     - slot{"category_name": "Batteries"}
     - category_spend_form
-	- slot{"requested_slot": "month"}
-* request_q_m
-    - utter_ask_Q_M
-* request_month_info
-    - utter_ask_months
-* form: request_spend{"month": "November"}
-    - slot{"month": "November"}
     - form: followup{"name": "action_category_spend_lookup"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -93,27 +87,30 @@
 * request_another{"category_name": "memories"}
     - slot{"category_name": "memories"}
     - action_request_another
-* request_another{"category_name": "towers"}
-    - slot{"category_name": "towers"}
+* request_another{"category_name": "travel"}
+    - slot{"category_name": "travel"}
     - action_request_another
 * request_another{"category_name": "small cells"}
     - slot{"category_name": "small cells"}
     - action_request_another
-* request_another{"category_name": "batteries"}
-    - slot{"category_name": "batteries"}
+* request_another{"category_name": "antennas"}
+    - slot{"category_name": "antennas"}
     - action_request_another
 * request_another{"category_name": "memories"}
     - slot{"category_name": "memories"}
     - action_request_another
+* askgraph_by_quarter
+    - action_category_spend_graph_by_quarter
 
 ## interactive_story_5
-* request_spend{"category_name": "ARP", "market_area": "MOAI", "month": "May"}
-    - slot{"category_name": "ARP"}
+* request_spend{"category_name": "arp", "market_area": "MOAI", "month": "May"}
+    - slot{"category_name": "arp"}
     - slot{"month": "May"}
     - slot{"market_area": "MOAI"}
     - action_request_spend
     - followup{"name": "category_lookup"}
     - category_lookup
+* inform{"category_name": "ARP"}
     - slot{"category_name": "ARP"}
     - followup{"name": "category_spend_form"}
     - category_spend_form
@@ -122,7 +119,7 @@
     - slot{"market_area": "MOAI"}
     - slot{"month": "May"}
     - slot{"requested_slot": "date"}
-* form: date{"date": "this yearr"}
+* form: date{"date": "this year"}
     - slot{"date": "this year"}
     - form: category_spend_form
     - slot{"date": "this year"}
@@ -130,8 +127,12 @@
     - form{"name": null}
     - slot{"requested_slot": null}
     - action_category_spend_lookup
+* askgraph_by_month
+    - action_category_spend_graph_by_month
 * askgraph_by_businessunit
     - action_category_spend_graph_by_businessunit
+* askgraph_by_marketarea
+    - action_category_spend_graph_by_marketarea
 
 ## ask graph by month
 * request_spend{"category_name": "physical security", "market_area": "mana", "date": "last year", "month": "February"}

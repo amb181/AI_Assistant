@@ -74,15 +74,18 @@ class Supplier_Lookup_for_Category_Manager(Action):
                         message = ''
                         print(suppliernamecmlookup)
                         return SlotSet('supplier_name', suppliernamecmlookup), FollowupAction('supplier_category_manager_form')
-                elif len(results) > 1:
+                elif len(results) > 1 and len(results) < 15:
                     for row in results:
-                        # if a multiple suppliers are found, display buttons of all possible supplier matches back to user then trigger spend form
+                         # if multiple suppliers are found, display buttons of all possible supplier matches back to user then trigger spend form
                         suppliernamecmlookup = row[0]
                         print(suppliernamecmlookup)
                         payload = "/inform{\"supplier_name\":\"" + suppliernamecmlookup + "\"}"
                         print(payload)
                         buttons.append({"title": "{}".format(suppliernamecmlookup.title()), "payload": payload})
                         message = "I found {} suppliers that also match that name, which one are you inquiring about?".format(len(buttons))
+                elif len(results) > 14:
+                    response = "There are too many suppliers that match that name, please be more specific"
+                    dispatcher.utter_message(response)  
                 else:
                     response = "I couldn't find any suppliers that match that name"
                     dispatcher.utter_message(response)
@@ -171,22 +174,20 @@ class Supplier_CategoryManagerLookup(Action):
                 print(sql)
                 try:
                     cursor.execute(sql)
-                    results = cursor.fetchall()
-                    for row in results:
-                        suppliernamecmlookup = row[0]
-                        category = row[1]
-                        categorymanager = row[2]
-                        categorymarketarea = row[3]
+                    if cursor.rowcount == 0:
+                        response = """I couldn't find a Category Manager for {} in {}.""".format(
+                            "<b>"+suppliernamecmlookup+"</b>", "<b>"+market_area_lookup+"</b>")
+                    else:
+                        results = cursor.fetchall()
+                        for row in results:
+                            suppliernamecmlookup = row[0]
+                            category = row[1]
+                            categorymanager = row[2]
+                            categorymarketarea = row[3]
                         response = "The Category Manager responsible for category {} with {} is {} in {}.".format(
                             "<b>"+category+"</b>", "<b>"+suppliernamecmlookup+"</b>", "<b>"+categorymanager+"</b>", "<b>"+categorymarketarea+"</b>")
-                        print(response)
-                        dispatcher.utter_message(response)
+                    dispatcher.utter_message(response)
                 except:
                     print("Error fetching data.")
                 finally:
                     db.close()
-            #output sentence format
-            #response = """The Category Manager responsible for supplier {} is {} in {}.""".format(suppliernamecmlookup, categorymanager, market_area_lookup)
-            #dispatcher.utter_message(response)
-            #return [AllSlotsReset()]
-            #return[SlotSet("supplier_name", None)]

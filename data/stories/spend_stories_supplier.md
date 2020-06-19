@@ -99,6 +99,8 @@
 * request_another{"supplier_name": "qualcomm"}
     - slot{"supplier_name": "qualcomm"}
     - action_request_another
+* askgraph_by_quarter
+    - action_supplier_spend_graph_by_quarter
 
 ## interactive_story_5
 * request_spend{"supplier_name": "fusion", "market_area": "MOAI", "month": "May"}
@@ -117,7 +119,7 @@
     - slot{"market_area": "MOAI"}
     - slot{"month": "May"}
     - slot{"requested_slot": "date"}
-* form: date{"date": "this yearr"}
+* form: date{"date": "this year"}
     - slot{"date": "this year"}
     - form: supplier_spend_form
     - slot{"date": "this year"}
@@ -125,8 +127,12 @@
     - form{"name": null}
     - slot{"requested_slot": null}
     - action_supplier_spend_lookup
-* askgraph_by_businessunit
-    - action_supplier_spend_graph_by_businessunit
+* askgraph_by_category
+    - action_supplier_spend_graph_by_category
+* askgraph_by_month
+    - action_supplier_spend_graph_by_month
+* askgraph_by_marketarea
+    - action_supplier_spend_graph_by_marketarea
 
 ## ask graph by month
 * request_spend{"supplier_name": "infinite", "market_area": "mela", "date": "this year", "month": "February"}
